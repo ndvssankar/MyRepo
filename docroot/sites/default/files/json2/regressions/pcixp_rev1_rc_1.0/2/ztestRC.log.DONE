@@ -1,0 +1,1542 @@
+ 
+
+ Time = @[60460] The value of din at Address = 5800  of reg_set ( EP -> RC ) = 00000001 
+ 
+
+ Time = @[60884] The value of din at Address = 5800  of reg_set ( RC -> EP ) = 00000001 
+
+
+WRITE
+
+
+[60884] Preparing the 32 bit MEM Packet Header hdw0: 40000004  hdw1: 000000ff hdw2: 12345000 
+
+[60884] Loading RC TX MEM at addr 003 Data 0dad72e7 
+
+[60884] Loading RC TX MEM at addr 004 Data c749ccec 
+
+[60884] Loading RC TX MEM at addr 005 Data b7834294 
+
+[60884] Loading RC TX MEM at addr 006 Data 7e467ecf 
+
+[60964] RC TX BEGIN, PKT WITH DATA FROM MEM rc_tx_pkt_index 0 
+[61020] RC TX END, PKT WITH DATA FROM MEM rc_tx_pkt_index 0 
+[61028] RC  Initializing rc_tx_pkt_len_array burst index 0 => hlen 3 dlen 4 hlen+dlen 7
+[61028] RC  BURST DATA 0dad72e7 at ADDR 0002  src_or_data+i 003
+[61028] RC  BURST DATA c749ccec at ADDR 0003  src_or_data+i 004
+[61028] RC  BURST DATA b7834294 at ADDR 0004  src_or_data+i 005
+[61028] RC  BURST DATA 7e467ecf at ADDR 0005  src_or_data+i 006
+[61036] Preparing the 32 bit MEM Packet Header hdw0: 40000008  hdw1: 000000ff hdw2: 12345000 
+
+[61036] Loading RC TX MEM at addr 00a Data a43185b3 
+
+[61036] Loading RC TX MEM at addr 00b Data 5ddb6eb8 
+
+[61036] Loading RC TX MEM at addr 00c Data fb1438b3 
+
+[61036] Loading RC TX MEM at addr 00d Data 89bc512c 
+
+[61036] Loading RC TX MEM at addr 00e Data 3226f170 
+
+[61036] Loading RC TX MEM at addr 00f Data 564c0724 
+
+[61036] Loading RC TX MEM at addr 010 Data bf3baf4c 
+
+[61036] Loading RC TX MEM at addr 011 Data 3107150d 
+
+[61100] RC TX BEGIN, PKT WITH DATA FROM MEM rc_tx_pkt_index 1 
+[61188] RC TX END, PKT WITH DATA FROM MEM rc_tx_pkt_index 1 
+[61196] RC  Initializing rc_tx_pkt_len_array burst index 1 => hlen 3 dlen 8 hlen+dlen b
+[61196] RC  BURST DATA a43185b3 at ADDR 0009  src_or_data+i 00a
+[61196] RC  BURST DATA 5ddb6eb8 at ADDR 000a  src_or_data+i 00b
+[61196] RC  BURST DATA fb1438b3 at ADDR 000b  src_or_data+i 00c
+[61196] RC  BURST DATA 89bc512c at ADDR 000c  src_or_data+i 00d
+[61196] RC  BURST DATA 3226f170 at ADDR 000d  src_or_data+i 00e
+[61196] RC  BURST DATA 564c0724 at ADDR 000e  src_or_data+i 00f
+[61196] RC  BURST DATA bf3baf4c at ADDR 000f  src_or_data+i 010
+[61196] RC  BURST DATA 3107150d at ADDR 0010  src_or_data+i 011
+[61204] Preparing the 32 bit MEM Packet Header hdw0: 4000000c  hdw1: 000000ff hdw2: 12345000 
+
+[61204] Loading RC TX MEM at addr 015 Data e929aeda 
+
+[61204] Loading RC TX MEM at addr 016 Data fd41aeeb 
+
+[61204] Loading RC TX MEM at addr 017 Data eb34856f 
+
+[61204] Loading RC TX MEM at addr 018 Data dd8cf419 
+
+[61204] Loading RC TX MEM at addr 019 Data 54d83502 
+
+[61204] Loading RC TX MEM at addr 01a Data 8c904c86 
+
+[61204] Loading RC TX MEM at addr 01b Data 6d56c75e 
+
+[61204] Loading RC TX MEM at addr 01c Data 50d35a24 
+
+[61204] Loading RC TX MEM at addr 01d Data 5776e25c 
+
+[61204] Loading RC TX MEM at addr 01e Data 6682057a 
+
+[61204] Loading RC TX MEM at addr 01f Data 5d1ef3e0 
+
+[61204] Loading RC TX MEM at addr 020 Data 195887a8 
+
+[61268] RC TX BEGIN, PKT WITH DATA FROM MEM rc_tx_pkt_index 2 
+[61388] RC TX END, PKT WITH DATA FROM MEM rc_tx_pkt_index 2 
+[61396] RC  Initializing rc_tx_pkt_len_array burst index 2 => hlen 3 dlen c hlen+dlen f
+[61396] RC  BURST DATA e929aeda at ADDR 0014  src_or_data+i 015
+[61396] RC  BURST DATA fd41aeeb at ADDR 0015  src_or_data+i 016
+[61396] RC  BURST DATA eb34856f at ADDR 0016  src_or_data+i 017
+[61396] RC  BURST DATA dd8cf419 at ADDR 0017  src_or_data+i 018
+[61396] RC  BURST DATA 54d83502 at ADDR 0018  src_or_data+i 019
+[61396] RC  BURST DATA 8c904c86 at ADDR 0019  src_or_data+i 01a
+[61396] RC  BURST DATA 6d56c75e at ADDR 001a  src_or_data+i 01b
+[61396] RC  BURST DATA 50d35a24 at ADDR 001b  src_or_data+i 01c
+[61396] RC  BURST DATA 5776e25c at ADDR 001c  src_or_data+i 01d
+[61396] RC  BURST DATA 6682057a at ADDR 001d  src_or_data+i 01e
+[61396] RC  BURST DATA 5d1ef3e0 at ADDR 001e  src_or_data+i 01f
+[61396] RC  BURST DATA 195887a8 at ADDR 001f  src_or_data+i 020
+[61404] Preparing the 32 bit MEM Packet Header hdw0: 40000010  hdw1: 000000ff hdw2: 12345000 
+
+[61404] Loading RC TX MEM at addr 024 Data 26ee273c 
+
+[61404] Loading RC TX MEM at addr 025 Data 1864fa98 
+
+[61404] Loading RC TX MEM at addr 026 Data da90bbaa 
+
+[61404] Loading RC TX MEM at addr 027 Data 5cdb3a1e 
+
+[61404] Loading RC TX MEM at addr 028 Data 1ecd9f02 
+
+[61404] Loading RC TX MEM at addr 029 Data 42c5de47 
+
+[61404] Loading RC TX MEM at addr 02a Data 4c09db66 
+
+[61404] Loading RC TX MEM at addr 02b Data ca89001b 
+
+[61404] Loading RC TX MEM at addr 02c Data d7912671 
+
+[61404] Loading RC TX MEM at addr 02d Data f510fdc7 
+
+[61404] Loading RC TX MEM at addr 02e Data 1d36d142 
+
+[61404] Loading RC TX MEM at addr 02f Data 2c1702fd 
+
+[61404] Loading RC TX MEM at addr 030 Data 65a49257 
+
+[61404] Loading RC TX MEM at addr 031 Data 4aeac3bd 
+
+[61404] Loading RC TX MEM at addr 032 Data 90cccbc1 
+
+[61404] Loading RC TX MEM at addr 033 Data 82d5a57a 
+
+[61468] RC TX BEGIN, PKT WITH DATA FROM MEM rc_tx_pkt_index 3 
+[61620] RC TX END, PKT WITH DATA FROM MEM rc_tx_pkt_index 3 
+[61628] RC  Initializing rc_tx_pkt_len_array burst index 3 => hlen 3 dlen 10 hlen+dlen 13
+[61628] RC  BURST DATA 26ee273c at ADDR 0023  src_or_data+i 024
+[61628] RC  BURST DATA 1864fa98 at ADDR 0024  src_or_data+i 025
+[61628] RC  BURST DATA da90bbaa at ADDR 0025  src_or_data+i 026
+[61628] RC  BURST DATA 5cdb3a1e at ADDR 0026  src_or_data+i 027
+[61628] RC  BURST DATA 1ecd9f02 at ADDR 0027  src_or_data+i 028
+[61628] RC  BURST DATA 42c5de47 at ADDR 0028  src_or_data+i 029
+[61628] RC  BURST DATA 4c09db66 at ADDR 0029  src_or_data+i 02a
+[61628] RC  BURST DATA ca89001b at ADDR 002a  src_or_data+i 02b
+[61628] RC  BURST DATA d7912671 at ADDR 002b  src_or_data+i 02c
+[61628] RC  BURST DATA f510fdc7 at ADDR 002c  src_or_data+i 02d
+[61628] RC  BURST DATA 1d36d142 at ADDR 002d  src_or_data+i 02e
+[61628] RC  BURST DATA 2c1702fd at ADDR 002e  src_or_data+i 02f
+[61628] RC  BURST DATA 65a49257 at ADDR 002f  src_or_data+i 030
+[61628] RC  BURST DATA 4aeac3bd at ADDR 0030  src_or_data+i 031
+[61628] RC  BURST DATA 90cccbc1 at ADDR 0031  src_or_data+i 032
+[61628] RC  BURST DATA 82d5a57a at ADDR 0032  src_or_data+i 033
+[61636] Preparing the 32 bit MEM Packet Header hdw0: 40000014  hdw1: 000000ff hdw2: 12345000 
+
+[61636] Loading RC TX MEM at addr 037 Data b946a265 
+
+[61636] Loading RC TX MEM at addr 038 Data 4ad79245 
+
+[61636] Loading RC TX MEM at addr 039 Data d59d288e 
+
+[61636] Loading RC TX MEM at addr 03a Data 47ea5add 
+
+[61636] Loading RC TX MEM at addr 03b Data ea221c93 
+
+[61636] Loading RC TX MEM at addr 03c Data 38c9f990 
+
+[61636] Loading RC TX MEM at addr 03d Data 8bd8276b 
+
+[61636] Loading RC TX MEM at addr 03e Data 19d9dcf8 
+
+[61636] Loading RC TX MEM at addr 03f Data 5df89633 
+
+[61636] Loading RC TX MEM at addr 040 Data e12874a8 
+
+[61636] Loading RC TX MEM at addr 041 Data 3e40e30a 
+
+[61636] Loading RC TX MEM at addr 042 Data 669ad727 
+
+[61636] Loading RC TX MEM at addr 043 Data 46de2e51 
+
+[61636] Loading RC TX MEM at addr 044 Data 761cf14f 
+
+[61636] Loading RC TX MEM at addr 045 Data 515ac06a 
+
+[61636] Loading RC TX MEM at addr 046 Data c20fac47 
+
+[61636] Loading RC TX MEM at addr 047 Data 1864c8a7 
+
+[61636] Loading RC TX MEM at addr 048 Data edf2efc8 
+
+[61636] Loading RC TX MEM at addr 049 Data a1f8eb89 
+
+[61636] Loading RC TX MEM at addr 04a Data 1e82ed22 
+
+[61700] RC TX BEGIN, PKT WITH DATA FROM MEM rc_tx_pkt_index 4 
+[61884] RC TX END, PKT WITH DATA FROM MEM rc_tx_pkt_index 4 
+[61888] EP  RECEIVE PKT BEGIN  ep_rx_pkt_index 0
+[61892] RC  Initializing rc_tx_pkt_len_array burst index 4 => hlen 3 dlen 14 hlen+dlen 17
+[61892] RC  BURST DATA b946a265 at ADDR 0036  src_or_data+i 037
+[61892] RC  BURST DATA 4ad79245 at ADDR 0037  src_or_data+i 038
+[61892] RC  BURST DATA d59d288e at ADDR 0038  src_or_data+i 039
+[61892] RC  BURST DATA 47ea5add at ADDR 0039  src_or_data+i 03a
+[61892] RC  BURST DATA ea221c93 at ADDR 003a  src_or_data+i 03b
+[61892] RC  BURST DATA 38c9f990 at ADDR 003b  src_or_data+i 03c
+[61892] RC  BURST DATA 8bd8276b at ADDR 003c  src_or_data+i 03d
+[61892] RC  BURST DATA 19d9dcf8 at ADDR 003d  src_or_data+i 03e
+[61892] RC  BURST DATA 5df89633 at ADDR 003e  src_or_data+i 03f
+[61892] RC  BURST DATA e12874a8 at ADDR 003f  src_or_data+i 040
+[61892] RC  BURST DATA 3e40e30a at ADDR 0040  src_or_data+i 041
+[61892] RC  BURST DATA 669ad727 at ADDR 0041  src_or_data+i 042
+[61892] RC  BURST DATA 46de2e51 at ADDR 0042  src_or_data+i 043
+[61892] RC  BURST DATA 761cf14f at ADDR 0043  src_or_data+i 044
+[61892] RC  BURST DATA 515ac06a at ADDR 0044  src_or_data+i 045
+[61892] RC  BURST DATA c20fac47 at ADDR 0045  src_or_data+i 046
+[61892] RC  BURST DATA 1864c8a7 at ADDR 0046  src_or_data+i 047
+[61892] RC  BURST DATA edf2efc8 at ADDR 0047  src_or_data+i 048
+[61892] RC  BURST DATA a1f8eb89 at ADDR 0048  src_or_data+i 049
+[61892] RC  BURST DATA 1e82ed22 at ADDR 0049  src_or_data+i 04a
+61893: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x40000004 @Addr = 0x000
+[61900] Preparing the 32 bit MEM Packet Header hdw0: 40000018  hdw1: 000000ff hdw2: 12345000 
+
+[61900] Loading RC TX MEM at addr 04e Data aec24428 
+
+[61900] Loading RC TX MEM at addr 04f Data 05d92469 
+
+[61900] Loading RC TX MEM at addr 050 Data fc5934b5 
+
+[61900] Loading RC TX MEM at addr 051 Data 97b7890b 
+
+[61900] Loading RC TX MEM at addr 052 Data 64699953 
+
+[61900] Loading RC TX MEM at addr 053 Data 40543e65 
+
+[61900] Loading RC TX MEM at addr 054 Data acfc6d15 
+
+[61900] Loading RC TX MEM at addr 055 Data 8d3f0e8f 
+
+[61900] Loading RC TX MEM at addr 056 Data 54635dbb 
+
+[61900] Loading RC TX MEM at addr 057 Data fd54860b 
+
+[61900] Loading RC TX MEM at addr 058 Data 324a77ad 
+
+[61900] Loading RC TX MEM at addr 059 Data d229fe32 
+
+[61900] Loading RC TX MEM at addr 05a Data 0a4fc910 
+
+[61900] Loading RC TX MEM at addr 05b Data 39d039a9 
+
+[61900] Loading RC TX MEM at addr 05c Data 1dd7d911 
+
+[61900] Loading RC TX MEM at addr 05d Data 2043ecee 
+
+[61900] Loading RC TX MEM at addr 05e Data 3934a3c0 
+
+[61900] Loading RC TX MEM at addr 05f Data 7168d272 
+
+[61900] Loading RC TX MEM at addr 060 Data f346dce3 
+
+[61900] Loading RC TX MEM at addr 061 Data 5092310d 
+
+[61900] Loading RC TX MEM at addr 062 Data aa114320 
+
+[61900] Loading RC TX MEM at addr 063 Data cdbb27dd 
+
+[61900] Loading RC TX MEM at addr 064 Data 93669305 
+
+[61900] Loading RC TX MEM at addr 065 Data f8a0220f 
+
+61901: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x000000ff @Addr = 0x001
+61909: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x12345000 @Addr = 0x002
+61917: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x0dad72e7 @Addr = 0x003
+61925: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0xc749ccec @Addr = 0x004
+61933: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0xb7834294 @Addr = 0x005
+[61936] EP  RECEIVE PKT END  ep_rx_pkt_index 0
+61941: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x7e467ecf @Addr = 0x006
+[61944] INFO:  RC -> EP Packet 0 Data Compare Start! EP MEM SADR : 00000000 EP PKTLEN 00000007 
+
+[61944] RC -> EP Packet 000 Data Compare passed! 
+
+[61964] RC TX BEGIN, PKT WITH DATA FROM MEM rc_tx_pkt_index 5 
+[62180] RC TX END, PKT WITH DATA FROM MEM rc_tx_pkt_index 5 
+[62188] RC  Initializing rc_tx_pkt_len_array burst index 5 => hlen 3 dlen 18 hlen+dlen 1b
+[62188] RC  BURST DATA aec24428 at ADDR 004d  src_or_data+i 04e
+[62188] RC  BURST DATA 05d92469 at ADDR 004e  src_or_data+i 04f
+[62188] RC  BURST DATA fc5934b5 at ADDR 004f  src_or_data+i 050
+[62188] RC  BURST DATA 97b7890b at ADDR 0050  src_or_data+i 051
+[62188] RC  BURST DATA 64699953 at ADDR 0051  src_or_data+i 052
+[62188] RC  BURST DATA 40543e65 at ADDR 0052  src_or_data+i 053
+[62188] RC  BURST DATA acfc6d15 at ADDR 0053  src_or_data+i 054
+[62188] RC  BURST DATA 8d3f0e8f at ADDR 0054  src_or_data+i 055
+[62188] RC  BURST DATA 54635dbb at ADDR 0055  src_or_data+i 056
+[62188] RC  BURST DATA fd54860b at ADDR 0056  src_or_data+i 057
+[62188] RC  BURST DATA 324a77ad at ADDR 0057  src_or_data+i 058
+[62188] RC  BURST DATA d229fe32 at ADDR 0058  src_or_data+i 059
+[62188] RC  BURST DATA 0a4fc910 at ADDR 0059  src_or_data+i 05a
+[62188] RC  BURST DATA 39d039a9 at ADDR 005a  src_or_data+i 05b
+[62188] RC  BURST DATA 1dd7d911 at ADDR 005b  src_or_data+i 05c
+[62188] RC  BURST DATA 2043ecee at ADDR 005c  src_or_data+i 05d
+[62188] RC  BURST DATA 3934a3c0 at ADDR 005d  src_or_data+i 05e
+[62188] RC  BURST DATA 7168d272 at ADDR 005e  src_or_data+i 05f
+[62188] RC  BURST DATA f346dce3 at ADDR 005f  src_or_data+i 060
+[62188] RC  BURST DATA 5092310d at ADDR 0060  src_or_data+i 061
+[62188] RC  BURST DATA aa114320 at ADDR 0061  src_or_data+i 062
+[62188] RC  BURST DATA cdbb27dd at ADDR 0062  src_or_data+i 063
+[62188] RC  BURST DATA 93669305 at ADDR 0063  src_or_data+i 064
+[62188] RC  BURST DATA f8a0220f at ADDR 0064  src_or_data+i 065
+[62196] Preparing the 32 bit MEM Packet Header hdw0: 4000001c  hdw1: 000000ff hdw2: 12345000 
+
+[62196] Loading RC TX MEM at addr 069 Data 6759e46e 
+
+[62196] Loading RC TX MEM at addr 06a Data 07a9ff14 
+
+[62196] Loading RC TX MEM at addr 06b Data 2b5cf6d4 
+
+[62196] Loading RC TX MEM at addr 06c Data 3e16b2b5 
+
+[62196] Loading RC TX MEM at addr 06d Data 5d22dcd0 
+
+[62196] Loading RC TX MEM at addr 06e Data f8262767 
+
+[62196] Loading RC TX MEM at addr 06f Data e0b7dec0 
+
+[62196] Loading RC TX MEM at addr 070 Data 555908cd 
+
+[62196] Loading RC TX MEM at addr 071 Data 9c5ee131 
+
+[62196] Loading RC TX MEM at addr 072 Data 4b1230e3 
+
+[62196] Loading RC TX MEM at addr 073 Data cc04389f 
+
+[62196] Loading RC TX MEM at addr 074 Data a46bb4be 
+
+[62196] Loading RC TX MEM at addr 075 Data 74eb44b9 
+
+[62196] Loading RC TX MEM at addr 076 Data 513f7fe6 
+
+[62196] Loading RC TX MEM at addr 077 Data 77d509bb 
+
+[62196] Loading RC TX MEM at addr 078 Data d0cc4f9b 
+
+[62196] Loading RC TX MEM at addr 079 Data 24aeb611 
+
+[62196] Loading RC TX MEM at addr 07a Data 3c935bcd 
+
+[62196] Loading RC TX MEM at addr 07b Data bf4e06e4 
+
+[62196] Loading RC TX MEM at addr 07c Data f97218a9 
+
+[62196] Loading RC TX MEM at addr 07d Data 90e7af31 
+
+[62196] Loading RC TX MEM at addr 07e Data 106d40de 
+
+[62196] Loading RC TX MEM at addr 07f Data 0b6b8069 
+
+[62196] Loading RC TX MEM at addr 080 Data 6fcee77d 
+
+[62196] Loading RC TX MEM at addr 081 Data fb58762c 
+
+[62196] Loading RC TX MEM at addr 082 Data 479e7ad3 
+
+[62196] Loading RC TX MEM at addr 083 Data 257aafba 
+
+[62196] Loading RC TX MEM at addr 084 Data dfc5eadf 
+
+[62260] RC TX BEGIN, PKT WITH DATA FROM MEM rc_tx_pkt_index 6 
+[62508] RC TX END, PKT WITH DATA FROM MEM rc_tx_pkt_index 6 
+[62516] RC  Initializing rc_tx_pkt_len_array burst index 6 => hlen 3 dlen 1c hlen+dlen 1f
+[62516] RC  BURST DATA 6759e46e at ADDR 0068  src_or_data+i 069
+[62516] RC  BURST DATA 07a9ff14 at ADDR 0069  src_or_data+i 06a
+[62516] RC  BURST DATA 2b5cf6d4 at ADDR 006a  src_or_data+i 06b
+[62516] RC  BURST DATA 3e16b2b5 at ADDR 006b  src_or_data+i 06c
+[62516] RC  BURST DATA 5d22dcd0 at ADDR 006c  src_or_data+i 06d
+[62516] RC  BURST DATA f8262767 at ADDR 006d  src_or_data+i 06e
+[62516] RC  BURST DATA e0b7dec0 at ADDR 006e  src_or_data+i 06f
+[62516] RC  BURST DATA 555908cd at ADDR 006f  src_or_data+i 070
+[62516] RC  BURST DATA 9c5ee131 at ADDR 0070  src_or_data+i 071
+[62516] RC  BURST DATA 4b1230e3 at ADDR 0071  src_or_data+i 072
+[62516] RC  BURST DATA cc04389f at ADDR 0072  src_or_data+i 073
+[62516] RC  BURST DATA a46bb4be at ADDR 0073  src_or_data+i 074
+[62516] RC  BURST DATA 74eb44b9 at ADDR 0074  src_or_data+i 075
+[62516] RC  BURST DATA 513f7fe6 at ADDR 0075  src_or_data+i 076
+[62516] RC  BURST DATA 77d509bb at ADDR 0076  src_or_data+i 077
+[62516] RC  BURST DATA d0cc4f9b at ADDR 0077  src_or_data+i 078
+[62516] RC  BURST DATA 24aeb611 at ADDR 0078  src_or_data+i 079
+[62516] RC  BURST DATA 3c935bcd at ADDR 0079  src_or_data+i 07a
+[62516] RC  BURST DATA bf4e06e4 at ADDR 007a  src_or_data+i 07b
+[62516] RC  BURST DATA f97218a9 at ADDR 007b  src_or_data+i 07c
+[62516] RC  BURST DATA 90e7af31 at ADDR 007c  src_or_data+i 07d
+[62516] RC  BURST DATA 106d40de at ADDR 007d  src_or_data+i 07e
+[62516] RC  BURST DATA 0b6b8069 at ADDR 007e  src_or_data+i 07f
+[62516] RC  BURST DATA 6fcee77d at ADDR 007f  src_or_data+i 080
+[62516] RC  BURST DATA fb58762c at ADDR 0080  src_or_data+i 081
+[62516] RC  BURST DATA 479e7ad3 at ADDR 0081  src_or_data+i 082
+[62516] RC  BURST DATA 257aafba at ADDR 0082  src_or_data+i 083
+[62516] RC  BURST DATA dfc5eadf at ADDR 0083  src_or_data+i 084
+[62524] Preparing the 32 bit MEM Packet Header hdw0: 40000020  hdw1: 000000ff hdw2: 12345000 
+
+[62524] Loading RC TX MEM at addr 088 Data 8a8a1c92 
+
+[62524] Loading RC TX MEM at addr 089 Data 1888b922 
+
+[62524] Loading RC TX MEM at addr 08a Data 54090b59 
+
+[62524] Loading RC TX MEM at addr 08b Data b5c5da4d 
+
+[62524] Loading RC TX MEM at addr 08c Data 91bf2bb2 
+
+[62524] Loading RC TX MEM at addr 08d Data 70d1f56f 
+
+[62524] Loading RC TX MEM at addr 08e Data 1b8637bc 
+
+[62524] Loading RC TX MEM at addr 08f Data ec2fc168 
+
+[62524] Loading RC TX MEM at addr 090 Data 5c82a194 
+
+[62524] Loading RC TX MEM at addr 091 Data 4770b377 
+
+[62524] Loading RC TX MEM at addr 092 Data 0d173f65 
+
+[62524] Loading RC TX MEM at addr 093 Data dc3187bc 
+
+[62524] Loading RC TX MEM at addr 094 Data 7c6e24ad 
+
+[62524] Loading RC TX MEM at addr 095 Data c64084b9 
+
+[62524] Loading RC TX MEM at addr 096 Data 374ac7ec 
+
+[62524] Loading RC TX MEM at addr 097 Data 3ddcb49d 
+
+[62524] Loading RC TX MEM at addr 098 Data 01588bbd 
+
+[62524] Loading RC TX MEM at addr 099 Data 3fb51189 
+
+[62524] Loading RC TX MEM at addr 09a Data f96ab7f8 
+
+[62524] Loading RC TX MEM at addr 09b Data 425f8cd0 
+
+[62524] Loading RC TX MEM at addr 09c Data 3d263cb0 
+
+[62524] Loading RC TX MEM at addr 09d Data 13d4cbd0 
+
+[62524] Loading RC TX MEM at addr 09e Data ffaf7496 
+
+[62524] Loading RC TX MEM at addr 09f Data 4e37cf26 
+
+[62524] Loading RC TX MEM at addr 0a0 Data c90edbe7 
+
+[62524] Loading RC TX MEM at addr 0a1 Data f958f019 
+
+[62524] Loading RC TX MEM at addr 0a2 Data 5e13d0e4 
+
+[62524] Loading RC TX MEM at addr 0a3 Data 56839f95 
+
+[62524] Loading RC TX MEM at addr 0a4 Data 26e3fe6f 
+
+[62524] Loading RC TX MEM at addr 0a5 Data 05c33ea7 
+
+[62524] Loading RC TX MEM at addr 0a6 Data 611cb20d 
+
+[62524] Loading RC TX MEM at addr 0a7 Data 175848be 
+
+[62588] RC TX BEGIN, PKT WITH DATA FROM MEM rc_tx_pkt_index 7 
+[62868] RC TX END, PKT WITH DATA FROM MEM rc_tx_pkt_index 7 
+[62876] RC  Initializing rc_tx_pkt_len_array burst index 7 => hlen 3 dlen 20 hlen+dlen 23
+[62876] RC  BURST DATA 8a8a1c92 at ADDR 0087  src_or_data+i 088
+[62876] RC  BURST DATA 1888b922 at ADDR 0088  src_or_data+i 089
+[62876] RC  BURST DATA 54090b59 at ADDR 0089  src_or_data+i 08a
+[62876] RC  BURST DATA b5c5da4d at ADDR 008a  src_or_data+i 08b
+[62876] RC  BURST DATA 91bf2bb2 at ADDR 008b  src_or_data+i 08c
+[62876] RC  BURST DATA 70d1f56f at ADDR 008c  src_or_data+i 08d
+[62876] RC  BURST DATA 1b8637bc at ADDR 008d  src_or_data+i 08e
+[62876] RC  BURST DATA ec2fc168 at ADDR 008e  src_or_data+i 08f
+[62876] RC  BURST DATA 5c82a194 at ADDR 008f  src_or_data+i 090
+[62876] RC  BURST DATA 4770b377 at ADDR 0090  src_or_data+i 091
+[62876] RC  BURST DATA 0d173f65 at ADDR 0091  src_or_data+i 092
+[62876] RC  BURST DATA dc3187bc at ADDR 0092  src_or_data+i 093
+[62876] RC  BURST DATA 7c6e24ad at ADDR 0093  src_or_data+i 094
+[62876] RC  BURST DATA c64084b9 at ADDR 0094  src_or_data+i 095
+[62876] RC  BURST DATA 374ac7ec at ADDR 0095  src_or_data+i 096
+[62876] RC  BURST DATA 3ddcb49d at ADDR 0096  src_or_data+i 097
+[62876] RC  BURST DATA 01588bbd at ADDR 0097  src_or_data+i 098
+[62876] RC  BURST DATA 3fb51189 at ADDR 0098  src_or_data+i 099
+[62876] RC  BURST DATA f96ab7f8 at ADDR 0099  src_or_data+i 09a
+[62876] RC  BURST DATA 425f8cd0 at ADDR 009a  src_or_data+i 09b
+[62876] RC  BURST DATA 3d263cb0 at ADDR 009b  src_or_data+i 09c
+[62876] RC  BURST DATA 13d4cbd0 at ADDR 009c  src_or_data+i 09d
+[62876] RC  BURST DATA ffaf7496 at ADDR 009d  src_or_data+i 09e
+[62876] RC  BURST DATA 4e37cf26 at ADDR 009e  src_or_data+i 09f
+[62876] RC  BURST DATA c90edbe7 at ADDR 009f  src_or_data+i 0a0
+[62876] RC  BURST DATA f958f019 at ADDR 00a0  src_or_data+i 0a1
+[62876] RC  BURST DATA 5e13d0e4 at ADDR 00a1  src_or_data+i 0a2
+[62876] RC  BURST DATA 56839f95 at ADDR 00a2  src_or_data+i 0a3
+[62876] RC  BURST DATA 26e3fe6f at ADDR 00a3  src_or_data+i 0a4
+[62876] RC  BURST DATA 05c33ea7 at ADDR 00a4  src_or_data+i 0a5
+[62876] RC  BURST DATA 611cb20d at ADDR 00a5  src_or_data+i 0a6
+[62876] RC  BURST DATA 175848be at ADDR 00a6  src_or_data+i 0a7
+[62884] Preparing the 32 bit MEM Packet Header hdw0: 40000024  hdw1: 000000ff hdw2: 12345000 
+
+[62884] Loading RC TX MEM at addr 0ab Data 1f135fc2 
+
+[62884] Loading RC TX MEM at addr 0ac Data 05d77dc2 
+
+[62884] Loading RC TX MEM at addr 0ad Data 7f25d410 
+
+[62884] Loading RC TX MEM at addr 0ae Data 20612691 
+
+[62884] Loading RC TX MEM at addr 0af Data 6e2acb8a 
+
+[62884] Loading RC TX MEM at addr 0b0 Data 38716d86 
+
+[62884] Loading RC TX MEM at addr 0b1 Data 55c633c6 
+
+[62884] Loading RC TX MEM at addr 0b2 Data 8fa1036b 
+
+[62884] Loading RC TX MEM at addr 0b3 Data b67ae165 
+
+[62884] Loading RC TX MEM at addr 0b4 Data 85f6c024 
+
+[62884] Loading RC TX MEM at addr 0b5 Data 1c8dcf4a 
+
+[62884] Loading RC TX MEM at addr 0b6 Data f5014ae2 
+
+[62884] Loading RC TX MEM at addr 0b7 Data bf891ddb 
+
+[62884] Loading RC TX MEM at addr 0b8 Data 67e76e7f 
+
+[62884] Loading RC TX MEM at addr 0b9 Data f9fa8f17 
+
+[62884] Loading RC TX MEM at addr 0ba Data 7dc3d962 
+
+[62884] Loading RC TX MEM at addr 0bb Data d7b437f0 
+
+[62884] Loading RC TX MEM at addr 0bc Data 1df57f3b 
+
+[62884] Loading RC TX MEM at addr 0bd Data a22a0c04 
+
+[62884] Loading RC TX MEM at addr 0be Data dcd5f6bf 
+
+[62884] Loading RC TX MEM at addr 0bf Data a6d59bd6 
+
+[62884] Loading RC TX MEM at addr 0c0 Data 0431a6e3 
+
+[62884] Loading RC TX MEM at addr 0c1 Data 8d26d4f5 
+
+[62884] Loading RC TX MEM at addr 0c2 Data 6efd7fa7 
+
+[62884] Loading RC TX MEM at addr 0c3 Data c5c65aaa 
+
+[62884] Loading RC TX MEM at addr 0c4 Data 7e0ed7dc 
+
+[62884] Loading RC TX MEM at addr 0c5 Data 68a583d5 
+
+[62884] Loading RC TX MEM at addr 0c6 Data dcdd889e 
+
+[62884] Loading RC TX MEM at addr 0c7 Data 0a6af804 
+
+[62884] Loading RC TX MEM at addr 0c8 Data a1fdfc67 
+
+[62884] Loading RC TX MEM at addr 0c9 Data a235db9b 
+
+[62884] Loading RC TX MEM at addr 0ca Data f583185e 
+
+[62884] Loading RC TX MEM at addr 0cb Data 34e77554 
+
+[62884] Loading RC TX MEM at addr 0cc Data e28d411e 
+
+[62884] Loading RC TX MEM at addr 0cd Data 09334917 
+
+[62884] Loading RC TX MEM at addr 0ce Data 83e3b0a3 
+
+[62948] RC TX BEGIN, PKT WITH DATA FROM MEM rc_tx_pkt_index 8 
+[62976] EP  RECEIVE PKT BEGIN  ep_rx_pkt_index 1
+62981: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x40000008 @Addr = 0x007
+62989: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x000000ff @Addr = 0x008
+62997: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x12345000 @Addr = 0x009
+63005: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0xa43185b3 @Addr = 0x00a
+63013: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x5ddb6eb8 @Addr = 0x00b
+63021: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0xfb1438b3 @Addr = 0x00c
+63029: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x89bc512c @Addr = 0x00d
+63037: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x3226f170 @Addr = 0x00e
+63045: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x564c0724 @Addr = 0x00f
+63053: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0xbf3baf4c @Addr = 0x010
+[63056] EP  RECEIVE PKT END  ep_rx_pkt_index 1
+63061: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x3107150d @Addr = 0x011
+[63064] INFO:  RC -> EP Packet 1 Data Compare Start! EP MEM SADR : 00000007 EP PKTLEN 0000000b 
+
+[63064] RC -> EP Packet 001 Data Compare passed! 
+
+[63260] RC TX END, PKT WITH DATA FROM MEM rc_tx_pkt_index 8 
+[63268] RC  Initializing rc_tx_pkt_len_array burst index 8 => hlen 3 dlen 24 hlen+dlen 27
+[63268] RC  BURST DATA 1f135fc2 at ADDR 00aa  src_or_data+i 0ab
+[63268] RC  BURST DATA 05d77dc2 at ADDR 00ab  src_or_data+i 0ac
+[63268] RC  BURST DATA 7f25d410 at ADDR 00ac  src_or_data+i 0ad
+[63268] RC  BURST DATA 20612691 at ADDR 00ad  src_or_data+i 0ae
+[63268] RC  BURST DATA 6e2acb8a at ADDR 00ae  src_or_data+i 0af
+[63268] RC  BURST DATA 38716d86 at ADDR 00af  src_or_data+i 0b0
+[63268] RC  BURST DATA 55c633c6 at ADDR 00b0  src_or_data+i 0b1
+[63268] RC  BURST DATA 8fa1036b at ADDR 00b1  src_or_data+i 0b2
+[63268] RC  BURST DATA b67ae165 at ADDR 00b2  src_or_data+i 0b3
+[63268] RC  BURST DATA 85f6c024 at ADDR 00b3  src_or_data+i 0b4
+[63268] RC  BURST DATA 1c8dcf4a at ADDR 00b4  src_or_data+i 0b5
+[63268] RC  BURST DATA f5014ae2 at ADDR 00b5  src_or_data+i 0b6
+[63268] RC  BURST DATA bf891ddb at ADDR 00b6  src_or_data+i 0b7
+[63268] RC  BURST DATA 67e76e7f at ADDR 00b7  src_or_data+i 0b8
+[63268] RC  BURST DATA f9fa8f17 at ADDR 00b8  src_or_data+i 0b9
+[63268] RC  BURST DATA 7dc3d962 at ADDR 00b9  src_or_data+i 0ba
+[63268] RC  BURST DATA d7b437f0 at ADDR 00ba  src_or_data+i 0bb
+[63268] RC  BURST DATA 1df57f3b at ADDR 00bb  src_or_data+i 0bc
+[63268] RC  BURST DATA a22a0c04 at ADDR 00bc  src_or_data+i 0bd
+[63268] RC  BURST DATA dcd5f6bf at ADDR 00bd  src_or_data+i 0be
+[63268] RC  BURST DATA a6d59bd6 at ADDR 00be  src_or_data+i 0bf
+[63268] RC  BURST DATA 0431a6e3 at ADDR 00bf  src_or_data+i 0c0
+[63268] RC  BURST DATA 8d26d4f5 at ADDR 00c0  src_or_data+i 0c1
+[63268] RC  BURST DATA 6efd7fa7 at ADDR 00c1  src_or_data+i 0c2
+[63268] RC  BURST DATA c5c65aaa at ADDR 00c2  src_or_data+i 0c3
+[63268] RC  BURST DATA 7e0ed7dc at ADDR 00c3  src_or_data+i 0c4
+[63268] RC  BURST DATA 68a583d5 at ADDR 00c4  src_or_data+i 0c5
+[63268] RC  BURST DATA dcdd889e at ADDR 00c5  src_or_data+i 0c6
+[63268] RC  BURST DATA 0a6af804 at ADDR 00c6  src_or_data+i 0c7
+[63268] RC  BURST DATA a1fdfc67 at ADDR 00c7  src_or_data+i 0c8
+[63268] RC  BURST DATA a235db9b at ADDR 00c8  src_or_data+i 0c9
+[63268] RC  BURST DATA f583185e at ADDR 00c9  src_or_data+i 0ca
+[63268] RC  BURST DATA 34e77554 at ADDR 00ca  src_or_data+i 0cb
+[63268] RC  BURST DATA e28d411e at ADDR 00cb  src_or_data+i 0cc
+[63268] RC  BURST DATA 09334917 at ADDR 00cc  src_or_data+i 0cd
+[63268] RC  BURST DATA 83e3b0a3 at ADDR 00cd  src_or_data+i 0ce
+
+
+WRITE+READ
+
+
+[63276] Preparing the 32 bit MEM Packet Header hdw0: 00000004  hdw1: 000000ff hdw2: 12345000 
+
+[63340] RC TX BEGIN, PKT WITH DIRECT DATA rc_tx_pkt_index 9 
+[63364] RC TX END, PKT WITH DIRECT DATA rc_tx_pkt_index 9 
+[63372] RC  Initializing rc_tx_pkt_len_array single index 9 => hlen 3 dlen 0 hlen+dlen 3
+[63372] RC  Loading RC Tx Mem  index 9 addr cf hdw0 4 
+[63372] RC  Loading RC Tx Mem  index 9 addr d0 hdw1 ff 
+[63372] RC  Loading RC Tx Mem  index 9 addr d1 hdw2 12345000 
+[63380] Preparing the CPL  Packet Header hdw0: 4a000004 hdw1: 01000010 hdw2: 00000000 
+
+[63380] Loading RC TX MEM at addr 0ab Data 1f135fc2 to EP TX MEM addr 003 
+
+[63380] Loading RC TX MEM at addr 0ac Data 05d77dc2 to EP TX MEM addr 004 
+
+[63380] Loading RC TX MEM at addr 0ad Data 7f25d410 to EP TX MEM addr 005 
+
+[63380] Loading RC TX MEM at addr 0ae Data 20612691 to EP TX MEM addr 006 
+
+[63380] EP  Initializing ep_tx_pkt_len_array burst index 0 => hlen 3 dlen 4 hlen+dlen 7
+[63380] EP  BURST DATA 1f135fc2 at ADDR 0003  sep_or_data+i 003
+[63380] EP  BURST DATA 05d77dc2 at ADDR 0004  sep_or_data+i 004
+[63380] EP  BURST DATA 7f25d410 at ADDR 0005  sep_or_data+i 005
+[63380] EP  BURST DATA 20612691 at ADDR 0006  sep_or_data+i 006
+[64096] EP  RECEIVE PKT BEGIN  ep_rx_pkt_index 2
+64101: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x4000000c @Addr = 0x012
+64109: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x000000ff @Addr = 0x013
+64117: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x12345000 @Addr = 0x014
+64125: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0xe929aeda @Addr = 0x015
+64133: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0xfd41aeeb @Addr = 0x016
+64141: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0xeb34856f @Addr = 0x017
+64149: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0xdd8cf419 @Addr = 0x018
+64157: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x54d83502 @Addr = 0x019
+64165: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x8c904c86 @Addr = 0x01a
+64173: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x6d56c75e @Addr = 0x01b
+64181: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x50d35a24 @Addr = 0x01c
+64189: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x5776e25c @Addr = 0x01d
+64197: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x6682057a @Addr = 0x01e
+64205: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x5d1ef3e0 @Addr = 0x01f
+[64208] EP  RECEIVE PKT END  ep_rx_pkt_index 2
+64213: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x195887a8 @Addr = 0x020
+[64216] INFO:  RC -> EP Packet 2 Data Compare Start! EP MEM SADR : 00000012 EP PKTLEN 0000000f 
+
+[64216] RC -> EP Packet 002 Data Compare passed! 
+
+[65248] EP  RECEIVE PKT BEGIN  ep_rx_pkt_index 3
+65253: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x40000010 @Addr = 0x021
+65261: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x000000ff @Addr = 0x022
+65269: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x12345000 @Addr = 0x023
+65277: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x26ee273c @Addr = 0x024
+65285: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x1864fa98 @Addr = 0x025
+65293: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0xda90bbaa @Addr = 0x026
+65301: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x5cdb3a1e @Addr = 0x027
+65309: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x1ecd9f02 @Addr = 0x028
+65317: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x42c5de47 @Addr = 0x029
+65325: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x4c09db66 @Addr = 0x02a
+65333: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0xca89001b @Addr = 0x02b
+65341: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0xd7912671 @Addr = 0x02c
+65349: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0xf510fdc7 @Addr = 0x02d
+65357: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x1d36d142 @Addr = 0x02e
+65365: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x2c1702fd @Addr = 0x02f
+65373: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x65a49257 @Addr = 0x030
+65381: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x4aeac3bd @Addr = 0x031
+65389: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x90cccbc1 @Addr = 0x032
+[65392] EP  RECEIVE PKT END  ep_rx_pkt_index 3
+65397: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x82d5a57a @Addr = 0x033
+[65400] INFO:  RC -> EP Packet 3 Data Compare Start! EP MEM SADR : 00000021 EP PKTLEN 00000013 
+
+[65400] RC -> EP Packet 003 Data Compare passed! 
+
+[71388] Preparing the 32 bit MEM Packet Header hdw0: 40000004  hdw1: 000000ff hdw2: 12345000 
+
+[71388] Loading RC TX MEM at addr 0d5 Data a0ef42f3 
+
+[71388] Loading RC TX MEM at addr 0d6 Data d83fc94a 
+
+[71388] Loading RC TX MEM at addr 0d7 Data bcef3fa9 
+
+[71388] Loading RC TX MEM at addr 0d8 Data 4523c4bb 
+
+[71452] RC TX BEGIN, PKT WITH DATA FROM MEM rc_tx_pkt_index a 
+[71508] RC TX END, PKT WITH DATA FROM MEM rc_tx_pkt_index a 
+[71516] RC  Initializing rc_tx_pkt_len_array burst index a => hlen 3 dlen 4 hlen+dlen 7
+[71516] RC  BURST DATA a0ef42f3 at ADDR 00d4  src_or_data+i 0d5
+[71516] RC  BURST DATA d83fc94a at ADDR 00d5  src_or_data+i 0d6
+[71516] RC  BURST DATA bcef3fa9 at ADDR 00d6  src_or_data+i 0d7
+[71516] RC  BURST DATA 4523c4bb at ADDR 00d7  src_or_data+i 0d8
+[79524] Preparing the 32 bit MEM Packet Header hdw0: 00000004  hdw1: 000000ff hdw2: 12345000 
+
+[79588] RC TX BEGIN, PKT WITH DIRECT DATA rc_tx_pkt_index b 
+[79612] RC TX END, PKT WITH DIRECT DATA rc_tx_pkt_index b 
+[79620] RC  Initializing rc_tx_pkt_len_array single index b => hlen 3 dlen 0 hlen+dlen 3
+[79620] RC  Loading RC Tx Mem  index b addr d9 hdw0 4 
+[79620] RC  Loading RC Tx Mem  index b addr da hdw1 ff 
+[79620] RC  Loading RC Tx Mem  index b addr db hdw2 12345000 
+[79628] Preparing the CPL  Packet Header hdw0: 4a000004 hdw1: 01000010 hdw2: 00000000 
+
+[79628] Loading RC TX MEM at addr 0d5 Data a0ef42f3 to EP TX MEM addr 00a 
+
+[79628] Loading RC TX MEM at addr 0d6 Data d83fc94a to EP TX MEM addr 00b 
+
+[79628] Loading RC TX MEM at addr 0d7 Data bcef3fa9 to EP TX MEM addr 00c 
+
+[79628] Loading RC TX MEM at addr 0d8 Data 4523c4bb to EP TX MEM addr 00d 
+
+[79628] EP  Initializing ep_tx_pkt_len_array burst index 1 => hlen 3 dlen 4 hlen+dlen 7
+[79628] EP  BURST DATA a0ef42f3 at ADDR 000a  sep_or_data+i 00a
+[79628] EP  BURST DATA d83fc94a at ADDR 000b  sep_or_data+i 00b
+[79628] EP  BURST DATA bcef3fa9 at ADDR 000c  sep_or_data+i 00c
+[79628] EP  BURST DATA 4523c4bb at ADDR 000d  sep_or_data+i 00d
+[79636] Preparing the 32 bit MEM Packet Header hdw0: 00000004  hdw1: 000000ff hdw2: 12345010 
+
+[79700] RC TX BEGIN, PKT WITH DIRECT DATA rc_tx_pkt_index c 
+[79724] RC TX END, PKT WITH DIRECT DATA rc_tx_pkt_index c 
+[79732] RC  Initializing rc_tx_pkt_len_array single index c => hlen 3 dlen 0 hlen+dlen 3
+[79732] RC  Loading RC Tx Mem  index c addr dc hdw0 4 
+[79732] RC  Loading RC Tx Mem  index c addr dd hdw1 ff 
+[79732] RC  Loading RC Tx Mem  index c addr de hdw2 12345010 
+[79740] Preparing the CPL  Packet Header hdw0: 4a000004 hdw1: 01000010 hdw2: 00000000 
+
+[79740] Loading RC TX MEM at addr 0af Data 6e2acb8a to EP TX MEM addr 011 
+
+[79740] Loading RC TX MEM at addr 0b0 Data 38716d86 to EP TX MEM addr 012 
+
+[79740] Loading RC TX MEM at addr 0b1 Data 55c633c6 to EP TX MEM addr 013 
+
+[79740] Loading RC TX MEM at addr 0b2 Data 8fa1036b to EP TX MEM addr 014 
+
+[79740] EP  Initializing ep_tx_pkt_len_array burst index 2 => hlen 3 dlen 4 hlen+dlen 7
+[79740] EP  BURST DATA 6e2acb8a at ADDR 0011  sep_or_data+i 011
+[79740] EP  BURST DATA 38716d86 at ADDR 0012  sep_or_data+i 012
+[79740] EP  BURST DATA 55c633c6 at ADDR 0013  sep_or_data+i 013
+[79740] EP  BURST DATA 8fa1036b at ADDR 0014  sep_or_data+i 014
+[87748] Preparing the 32 bit MEM Packet Header hdw0: 40000008  hdw1: 000000ff hdw2: 12345000 
+
+[87748] Loading RC TX MEM at addr 0e2 Data abd73a4b 
+
+[87748] Loading RC TX MEM at addr 0e3 Data 2a9bec90 
+
+[87748] Loading RC TX MEM at addr 0e4 Data a521d205 
+
+[87748] Loading RC TX MEM at addr 0e5 Data c86b9524 
+
+[87748] Loading RC TX MEM at addr 0e6 Data cfea622b 
+
+[87748] Loading RC TX MEM at addr 0e7 Data 4a802292 
+
+[87748] Loading RC TX MEM at addr 0e8 Data 1c1597d0 
+
+[87748] Loading RC TX MEM at addr 0e9 Data 0c95a128 
+
+[87812] RC TX BEGIN, PKT WITH DATA FROM MEM rc_tx_pkt_index d 
+[87900] RC TX END, PKT WITH DATA FROM MEM rc_tx_pkt_index d 
+[87908] RC  Initializing rc_tx_pkt_len_array burst index d => hlen 3 dlen 8 hlen+dlen b
+[87908] RC  BURST DATA abd73a4b at ADDR 00e1  src_or_data+i 0e2
+[87908] RC  BURST DATA 2a9bec90 at ADDR 00e2  src_or_data+i 0e3
+[87908] RC  BURST DATA a521d205 at ADDR 00e3  src_or_data+i 0e4
+[87908] RC  BURST DATA c86b9524 at ADDR 00e4  src_or_data+i 0e5
+[87908] RC  BURST DATA cfea622b at ADDR 00e5  src_or_data+i 0e6
+[87908] RC  BURST DATA 4a802292 at ADDR 00e6  src_or_data+i 0e7
+[87908] RC  BURST DATA 1c1597d0 at ADDR 00e7  src_or_data+i 0e8
+[87908] RC  BURST DATA 0c95a128 at ADDR 00e8  src_or_data+i 0e9
+[95916] Preparing the 32 bit MEM Packet Header hdw0: 00000008  hdw1: 000000ff hdw2: 12345000 
+
+[95980] RC TX BEGIN, PKT WITH DIRECT DATA rc_tx_pkt_index e 
+[96004] RC TX END, PKT WITH DIRECT DATA rc_tx_pkt_index e 
+[96012] RC  Initializing rc_tx_pkt_len_array single index e => hlen 3 dlen 0 hlen+dlen 3
+[96012] RC  Loading RC Tx Mem  index e addr ea hdw0 8 
+[96012] RC  Loading RC Tx Mem  index e addr eb hdw1 ff 
+[96012] RC  Loading RC Tx Mem  index e addr ec hdw2 12345000 
+[96020] Preparing the CPL  Packet Header hdw0: 4a000008 hdw1: 01000020 hdw2: 00000000 
+
+[96020] Loading RC TX MEM at addr 0e2 Data abd73a4b to EP TX MEM addr 018 
+
+[96020] Loading RC TX MEM at addr 0e3 Data 2a9bec90 to EP TX MEM addr 019 
+
+[96020] Loading RC TX MEM at addr 0e4 Data a521d205 to EP TX MEM addr 01a 
+
+[96020] Loading RC TX MEM at addr 0e5 Data c86b9524 to EP TX MEM addr 01b 
+
+[96020] Loading RC TX MEM at addr 0e6 Data cfea622b to EP TX MEM addr 01c 
+
+[96020] Loading RC TX MEM at addr 0e7 Data 4a802292 to EP TX MEM addr 01d 
+
+[96020] Loading RC TX MEM at addr 0e8 Data 1c1597d0 to EP TX MEM addr 01e 
+
+[96020] Loading RC TX MEM at addr 0e9 Data 0c95a128 to EP TX MEM addr 01f 
+
+[96020] EP  Initializing ep_tx_pkt_len_array burst index 3 => hlen 3 dlen 8 hlen+dlen b
+[96020] EP  BURST DATA abd73a4b at ADDR 0018  sep_or_data+i 018
+[96020] EP  BURST DATA 2a9bec90 at ADDR 0019  sep_or_data+i 019
+[96020] EP  BURST DATA a521d205 at ADDR 001a  sep_or_data+i 01a
+[96020] EP  BURST DATA c86b9524 at ADDR 001b  sep_or_data+i 01b
+[96020] EP  BURST DATA cfea622b at ADDR 001c  sep_or_data+i 01c
+[96020] EP  BURST DATA 4a802292 at ADDR 001d  sep_or_data+i 01d
+[96020] EP  BURST DATA 1c1597d0 at ADDR 001e  sep_or_data+i 01e
+[96020] EP  BURST DATA 0c95a128 at ADDR 001f  sep_or_data+i 01f
+[96028] Preparing the 32 bit MEM Packet Header hdw0: 00000004  hdw1: 000000ff hdw2: 12345020 
+
+[96092] RC TX BEGIN, PKT WITH DIRECT DATA rc_tx_pkt_index f 
+[96116] RC TX END, PKT WITH DIRECT DATA rc_tx_pkt_index f 
+[96124] RC  Initializing rc_tx_pkt_len_array single index f => hlen 3 dlen 0 hlen+dlen 3
+[96124] RC  Loading RC Tx Mem  index f addr ed hdw0 4 
+[96124] RC  Loading RC Tx Mem  index f addr ee hdw1 ff 
+[96124] RC  Loading RC Tx Mem  index f addr ef hdw2 12345020 
+[96132] Preparing the CPL  Packet Header hdw0: 4a000004 hdw1: 01000010 hdw2: 00000000 
+
+[96132] Loading RC TX MEM at addr 0b3 Data b67ae165 to EP TX MEM addr 023 
+
+[96132] Loading RC TX MEM at addr 0b4 Data 85f6c024 to EP TX MEM addr 024 
+
+[96132] Loading RC TX MEM at addr 0b5 Data 1c8dcf4a to EP TX MEM addr 025 
+
+[96132] Loading RC TX MEM at addr 0b6 Data f5014ae2 to EP TX MEM addr 026 
+
+[96132] EP  Initializing ep_tx_pkt_len_array burst index 4 => hlen 3 dlen 4 hlen+dlen 7
+[96132] EP  BURST DATA b67ae165 at ADDR 0023  sep_or_data+i 023
+[96132] EP  BURST DATA 85f6c024 at ADDR 0024  sep_or_data+i 024
+[96132] EP  BURST DATA 1c8dcf4a at ADDR 0025  sep_or_data+i 025
+[96132] EP  BURST DATA f5014ae2 at ADDR 0026  sep_or_data+i 026
+[104140] Preparing the 32 bit MEM Packet Header hdw0: 4000000c  hdw1: 000000ff hdw2: 12345000 
+
+[104140] Loading RC TX MEM at addr 0f3 Data 71bafe12 
+
+[104140] Loading RC TX MEM at addr 0f4 Data 96b0d337 
+
+[104140] Loading RC TX MEM at addr 0f5 Data 4398d1ec 
+
+[104140] Loading RC TX MEM at addr 0f6 Data 11712d51 
+
+[104140] Loading RC TX MEM at addr 0f7 Data 7e0db2dc 
+
+[104140] Loading RC TX MEM at addr 0f8 Data 63d705be 
+
+[104140] Loading RC TX MEM at addr 0f9 Data e3f1c04a 
+
+[104140] Loading RC TX MEM at addr 0fa Data d5086c87 
+
+[104140] Loading RC TX MEM at addr 0fb Data 5b78af49 
+
+[104140] Loading RC TX MEM at addr 0fc Data a7c399e5 
+
+[104140] Loading RC TX MEM at addr 0fd Data 95d752c8 
+
+[104140] Loading RC TX MEM at addr 0fe Data 7aae4fd0 
+
+[104204] RC TX BEGIN, PKT WITH DATA FROM MEM rc_tx_pkt_index 10 
+[104324] RC TX END, PKT WITH DATA FROM MEM rc_tx_pkt_index 10 
+[104332] RC  Initializing rc_tx_pkt_len_array burst index 10 => hlen 3 dlen c hlen+dlen f
+[104332] RC  BURST DATA 71bafe12 at ADDR 00f2  src_or_data+i 0f3
+[104332] RC  BURST DATA 96b0d337 at ADDR 00f3  src_or_data+i 0f4
+[104332] RC  BURST DATA 4398d1ec at ADDR 00f4  src_or_data+i 0f5
+[104332] RC  BURST DATA 11712d51 at ADDR 00f5  src_or_data+i 0f6
+[104332] RC  BURST DATA 7e0db2dc at ADDR 00f6  src_or_data+i 0f7
+[104332] RC  BURST DATA 63d705be at ADDR 00f7  src_or_data+i 0f8
+[104332] RC  BURST DATA e3f1c04a at ADDR 00f8  src_or_data+i 0f9
+[104332] RC  BURST DATA d5086c87 at ADDR 00f9  src_or_data+i 0fa
+[104332] RC  BURST DATA 5b78af49 at ADDR 00fa  src_or_data+i 0fb
+[104332] RC  BURST DATA a7c399e5 at ADDR 00fb  src_or_data+i 0fc
+[104332] RC  BURST DATA 95d752c8 at ADDR 00fc  src_or_data+i 0fd
+[104332] RC  BURST DATA 7aae4fd0 at ADDR 00fd  src_or_data+i 0fe
+[112340] Preparing the 32 bit MEM Packet Header hdw0: 0000000c  hdw1: 000000ff hdw2: 12345000 
+
+[112404] RC TX BEGIN, PKT WITH DIRECT DATA rc_tx_pkt_index 11 
+[112428] RC TX END, PKT WITH DIRECT DATA rc_tx_pkt_index 11 
+[112436] RC  Initializing rc_tx_pkt_len_array single index 11 => hlen 3 dlen 0 hlen+dlen 3
+[112436] RC  Loading RC Tx Mem  index 11 addr ff hdw0 c 
+[112436] RC  Loading RC Tx Mem  index 11 addr 100 hdw1 ff 
+[112436] RC  Loading RC Tx Mem  index 11 addr 101 hdw2 12345000 
+[112444] Preparing the CPL  Packet Header hdw0: 4a00000c hdw1: 01000030 hdw2: 00000000 
+
+[112444] Loading RC TX MEM at addr 0f3 Data 71bafe12 to EP TX MEM addr 02a 
+
+[112444] Loading RC TX MEM at addr 0f4 Data 96b0d337 to EP TX MEM addr 02b 
+
+[112444] Loading RC TX MEM at addr 0f5 Data 4398d1ec to EP TX MEM addr 02c 
+
+[112444] Loading RC TX MEM at addr 0f6 Data 11712d51 to EP TX MEM addr 02d 
+
+[112444] Loading RC TX MEM at addr 0f7 Data 7e0db2dc to EP TX MEM addr 02e 
+
+[112444] Loading RC TX MEM at addr 0f8 Data 63d705be to EP TX MEM addr 02f 
+
+[112444] Loading RC TX MEM at addr 0f9 Data e3f1c04a to EP TX MEM addr 030 
+
+[112444] Loading RC TX MEM at addr 0fa Data d5086c87 to EP TX MEM addr 031 
+
+[112444] Loading RC TX MEM at addr 0fb Data 5b78af49 to EP TX MEM addr 032 
+
+[112444] Loading RC TX MEM at addr 0fc Data a7c399e5 to EP TX MEM addr 033 
+
+[112444] Loading RC TX MEM at addr 0fd Data 95d752c8 to EP TX MEM addr 034 
+
+[112444] Loading RC TX MEM at addr 0fe Data 7aae4fd0 to EP TX MEM addr 035 
+
+[112444] EP  Initializing ep_tx_pkt_len_array burst index 5 => hlen 3 dlen c hlen+dlen f
+[112444] EP  BURST DATA 71bafe12 at ADDR 002a  sep_or_data+i 02a
+[112444] EP  BURST DATA 96b0d337 at ADDR 002b  sep_or_data+i 02b
+[112444] EP  BURST DATA 4398d1ec at ADDR 002c  sep_or_data+i 02c
+[112444] EP  BURST DATA 11712d51 at ADDR 002d  sep_or_data+i 02d
+[112444] EP  BURST DATA 7e0db2dc at ADDR 002e  sep_or_data+i 02e
+[112444] EP  BURST DATA 63d705be at ADDR 002f  sep_or_data+i 02f
+[112444] EP  BURST DATA e3f1c04a at ADDR 0030  sep_or_data+i 030
+[112444] EP  BURST DATA d5086c87 at ADDR 0031  sep_or_data+i 031
+[112444] EP  BURST DATA 5b78af49 at ADDR 0032  sep_or_data+i 032
+[112444] EP  BURST DATA a7c399e5 at ADDR 0033  sep_or_data+i 033
+[112444] EP  BURST DATA 95d752c8 at ADDR 0034  sep_or_data+i 034
+[112444] EP  BURST DATA 7aae4fd0 at ADDR 0035  sep_or_data+i 035
+[112452] Preparing the 32 bit MEM Packet Header hdw0: 00000004  hdw1: 000000ff hdw2: 12345030 
+
+[112516] RC TX BEGIN, PKT WITH DIRECT DATA rc_tx_pkt_index 12 
+[112540] RC TX END, PKT WITH DIRECT DATA rc_tx_pkt_index 12 
+[112548] RC  Initializing rc_tx_pkt_len_array single index 12 => hlen 3 dlen 0 hlen+dlen 3
+[112548] RC  Loading RC Tx Mem  index 12 addr 102 hdw0 4 
+[112548] RC  Loading RC Tx Mem  index 12 addr 103 hdw1 ff 
+[112548] RC  Loading RC Tx Mem  index 12 addr 104 hdw2 12345030 
+[112556] Preparing the CPL  Packet Header hdw0: 4a000004 hdw1: 01000010 hdw2: 00000000 
+
+[112556] Loading RC TX MEM at addr 0b7 Data bf891ddb to EP TX MEM addr 039 
+
+[112556] Loading RC TX MEM at addr 0b8 Data 67e76e7f to EP TX MEM addr 03a 
+
+[112556] Loading RC TX MEM at addr 0b9 Data f9fa8f17 to EP TX MEM addr 03b 
+
+[112556] Loading RC TX MEM at addr 0ba Data 7dc3d962 to EP TX MEM addr 03c 
+
+[112556] EP  Initializing ep_tx_pkt_len_array burst index 6 => hlen 3 dlen 4 hlen+dlen 7
+[112556] EP  BURST DATA bf891ddb at ADDR 0039  sep_or_data+i 039
+[112556] EP  BURST DATA 67e76e7f at ADDR 003a  sep_or_data+i 03a
+[112556] EP  BURST DATA f9fa8f17 at ADDR 003b  sep_or_data+i 03b
+[112556] EP  BURST DATA 7dc3d962 at ADDR 003c  sep_or_data+i 03c
+[120564] Preparing the 32 bit MEM Packet Header hdw0: 40000010  hdw1: 000000ff hdw2: 12345000 
+
+[120564] Loading RC TX MEM at addr 108 Data 2aba62b3 
+
+[120564] Loading RC TX MEM at addr 109 Data 5b7d1fd9 
+
+[120564] Loading RC TX MEM at addr 10a Data e7c254b7 
+
+[120564] Loading RC TX MEM at addr 10b Data 5545a048 
+
+[120564] Loading RC TX MEM at addr 10c Data a6d19792 
+
+[120564] Loading RC TX MEM at addr 10d Data 87754848 
+
+[120564] Loading RC TX MEM at addr 10e Data 4cfbfe17 
+
+[120564] Loading RC TX MEM at addr 10f Data 19c7c634 
+
+[120564] Loading RC TX MEM at addr 110 Data e84c988b 
+
+[120564] Loading RC TX MEM at addr 111 Data 7b6ad56c 
+
+[120564] Loading RC TX MEM at addr 112 Data 704795fd 
+
+[120564] Loading RC TX MEM at addr 113 Data 75850971 
+
+[120564] Loading RC TX MEM at addr 114 Data 0bd8b5b2 
+
+[120564] Loading RC TX MEM at addr 115 Data 31b72848 
+
+[120564] Loading RC TX MEM at addr 116 Data 56c9cdf3 
+
+[120564] Loading RC TX MEM at addr 117 Data 623c4c9d 
+
+[120628] RC TX BEGIN, PKT WITH DATA FROM MEM rc_tx_pkt_index 13 
+[120780] RC TX END, PKT WITH DATA FROM MEM rc_tx_pkt_index 13 
+[120788] RC  Initializing rc_tx_pkt_len_array burst index 13 => hlen 3 dlen 10 hlen+dlen 13
+[120788] RC  BURST DATA 2aba62b3 at ADDR 0107  src_or_data+i 108
+[120788] RC  BURST DATA 5b7d1fd9 at ADDR 0108  src_or_data+i 109
+[120788] RC  BURST DATA e7c254b7 at ADDR 0109  src_or_data+i 10a
+[120788] RC  BURST DATA 5545a048 at ADDR 010a  src_or_data+i 10b
+[120788] RC  BURST DATA a6d19792 at ADDR 010b  src_or_data+i 10c
+[120788] RC  BURST DATA 87754848 at ADDR 010c  src_or_data+i 10d
+[120788] RC  BURST DATA 4cfbfe17 at ADDR 010d  src_or_data+i 10e
+[120788] RC  BURST DATA 19c7c634 at ADDR 010e  src_or_data+i 10f
+[120788] RC  BURST DATA e84c988b at ADDR 010f  src_or_data+i 110
+[120788] RC  BURST DATA 7b6ad56c at ADDR 0110  src_or_data+i 111
+[120788] RC  BURST DATA 704795fd at ADDR 0111  src_or_data+i 112
+[120788] RC  BURST DATA 75850971 at ADDR 0112  src_or_data+i 113
+[120788] RC  BURST DATA 0bd8b5b2 at ADDR 0113  src_or_data+i 114
+[120788] RC  BURST DATA 31b72848 at ADDR 0114  src_or_data+i 115
+[120788] RC  BURST DATA 56c9cdf3 at ADDR 0115  src_or_data+i 116
+[120788] RC  BURST DATA 623c4c9d at ADDR 0116  src_or_data+i 117
+[128796] Preparing the 32 bit MEM Packet Header hdw0: 00000010  hdw1: 000000ff hdw2: 12345000 
+
+[128860] RC TX BEGIN, PKT WITH DIRECT DATA rc_tx_pkt_index 14 
+[128884] RC TX END, PKT WITH DIRECT DATA rc_tx_pkt_index 14 
+[128892] RC  Initializing rc_tx_pkt_len_array single index 14 => hlen 3 dlen 0 hlen+dlen 3
+[128892] RC  Loading RC Tx Mem  index 14 addr 118 hdw0 10 
+[128892] RC  Loading RC Tx Mem  index 14 addr 119 hdw1 ff 
+[128892] RC  Loading RC Tx Mem  index 14 addr 11a hdw2 12345000 
+[128900] Preparing the CPL  Packet Header hdw0: 4a000010 hdw1: 01000040 hdw2: 00000000 
+
+[128900] Loading RC TX MEM at addr 108 Data 2aba62b3 to EP TX MEM addr 040 
+
+[128900] Loading RC TX MEM at addr 109 Data 5b7d1fd9 to EP TX MEM addr 041 
+
+[128900] Loading RC TX MEM at addr 10a Data e7c254b7 to EP TX MEM addr 042 
+
+[128900] Loading RC TX MEM at addr 10b Data 5545a048 to EP TX MEM addr 043 
+
+[128900] Loading RC TX MEM at addr 10c Data a6d19792 to EP TX MEM addr 044 
+
+[128900] Loading RC TX MEM at addr 10d Data 87754848 to EP TX MEM addr 045 
+
+[128900] Loading RC TX MEM at addr 10e Data 4cfbfe17 to EP TX MEM addr 046 
+
+[128900] Loading RC TX MEM at addr 10f Data 19c7c634 to EP TX MEM addr 047 
+
+[128900] Loading RC TX MEM at addr 110 Data e84c988b to EP TX MEM addr 048 
+
+[128900] Loading RC TX MEM at addr 111 Data 7b6ad56c to EP TX MEM addr 049 
+
+[128900] Loading RC TX MEM at addr 112 Data 704795fd to EP TX MEM addr 04a 
+
+[128900] Loading RC TX MEM at addr 113 Data 75850971 to EP TX MEM addr 04b 
+
+[128900] Loading RC TX MEM at addr 114 Data 0bd8b5b2 to EP TX MEM addr 04c 
+
+[128900] Loading RC TX MEM at addr 115 Data 31b72848 to EP TX MEM addr 04d 
+
+[128900] Loading RC TX MEM at addr 116 Data 56c9cdf3 to EP TX MEM addr 04e 
+
+[128900] Loading RC TX MEM at addr 117 Data 623c4c9d to EP TX MEM addr 04f 
+
+[128900] EP  Initializing ep_tx_pkt_len_array burst index 7 => hlen 3 dlen 10 hlen+dlen 13
+[128900] EP  BURST DATA 2aba62b3 at ADDR 0040  sep_or_data+i 040
+[128900] EP  BURST DATA 5b7d1fd9 at ADDR 0041  sep_or_data+i 041
+[128900] EP  BURST DATA e7c254b7 at ADDR 0042  sep_or_data+i 042
+[128900] EP  BURST DATA 5545a048 at ADDR 0043  sep_or_data+i 043
+[128900] EP  BURST DATA a6d19792 at ADDR 0044  sep_or_data+i 044
+[128900] EP  BURST DATA 87754848 at ADDR 0045  sep_or_data+i 045
+[128900] EP  BURST DATA 4cfbfe17 at ADDR 0046  sep_or_data+i 046
+[128900] EP  BURST DATA 19c7c634 at ADDR 0047  sep_or_data+i 047
+[128900] EP  BURST DATA e84c988b at ADDR 0048  sep_or_data+i 048
+[128900] EP  BURST DATA 7b6ad56c at ADDR 0049  sep_or_data+i 049
+[128900] EP  BURST DATA 704795fd at ADDR 004a  sep_or_data+i 04a
+[128900] EP  BURST DATA 75850971 at ADDR 004b  sep_or_data+i 04b
+[128900] EP  BURST DATA 0bd8b5b2 at ADDR 004c  sep_or_data+i 04c
+[128900] EP  BURST DATA 31b72848 at ADDR 004d  sep_or_data+i 04d
+[128900] EP  BURST DATA 56c9cdf3 at ADDR 004e  sep_or_data+i 04e
+[128900] EP  BURST DATA 623c4c9d at ADDR 004f  sep_or_data+i 04f
+[128908] Preparing the 32 bit MEM Packet Header hdw0: 00000004  hdw1: 000000ff hdw2: 12345040 
+
+[128972] RC TX BEGIN, PKT WITH DIRECT DATA rc_tx_pkt_index 15 
+[128996] RC TX END, PKT WITH DIRECT DATA rc_tx_pkt_index 15 
+[129004] RC  Initializing rc_tx_pkt_len_array single index 15 => hlen 3 dlen 0 hlen+dlen 3
+[129004] RC  Loading RC Tx Mem  index 15 addr 11b hdw0 4 
+[129004] RC  Loading RC Tx Mem  index 15 addr 11c hdw1 ff 
+[129004] RC  Loading RC Tx Mem  index 15 addr 11d hdw2 12345040 
+[129012] Preparing the CPL  Packet Header hdw0: 4a000004 hdw1: 01000010 hdw2: 00000000 
+
+[129012] Loading RC TX MEM at addr 0bb Data d7b437f0 to EP TX MEM addr 053 
+
+[129012] Loading RC TX MEM at addr 0bc Data 1df57f3b to EP TX MEM addr 054 
+
+[129012] Loading RC TX MEM at addr 0bd Data a22a0c04 to EP TX MEM addr 055 
+
+[129012] Loading RC TX MEM at addr 0be Data dcd5f6bf to EP TX MEM addr 056 
+
+[129012] EP  Initializing ep_tx_pkt_len_array burst index 8 => hlen 3 dlen 4 hlen+dlen 7
+[129012] EP  BURST DATA d7b437f0 at ADDR 0053  sep_or_data+i 053
+[129012] EP  BURST DATA 1df57f3b at ADDR 0054  sep_or_data+i 054
+[129012] EP  BURST DATA a22a0c04 at ADDR 0055  sep_or_data+i 055
+[129012] EP  BURST DATA dcd5f6bf at ADDR 0056  sep_or_data+i 056
+[137020] Preparing the 32 bit MEM Packet Header hdw0: 40000014  hdw1: 000000ff hdw2: 12345000 
+
+[137020] Loading RC TX MEM at addr 121 Data 0215e768 
+
+[137020] Loading RC TX MEM at addr 122 Data 0f4a5cac 
+
+[137020] Loading RC TX MEM at addr 123 Data fe905f70 
+
+[137020] Loading RC TX MEM at addr 124 Data a6f1cd26 
+
+[137020] Loading RC TX MEM at addr 125 Data 88b598a6 
+
+[137020] Loading RC TX MEM at addr 126 Data d081f8b6 
+
+[137020] Loading RC TX MEM at addr 127 Data 5f51f851 
+
+[137020] Loading RC TX MEM at addr 128 Data 389efade 
+
+[137020] Loading RC TX MEM at addr 129 Data 0136207e 
+
+[137020] Loading RC TX MEM at addr 12a Data 30edf655 
+
+[137020] Loading RC TX MEM at addr 12b Data 5facce93 
+
+[137020] Loading RC TX MEM at addr 12c Data f2dacfeb 
+
+[137020] Loading RC TX MEM at addr 12d Data 8e245edb 
+
+[137020] Loading RC TX MEM at addr 12e Data 4cc90952 
+
+[137020] Loading RC TX MEM at addr 12f Data 528fc605 
+
+[137020] Loading RC TX MEM at addr 130 Data 3b08f695 
+
+[137020] Loading RC TX MEM at addr 131 Data 8b48cd10 
+
+[137020] Loading RC TX MEM at addr 132 Data 308df076 
+
+[137020] Loading RC TX MEM at addr 133 Data a5c20873 
+
+[137020] Loading RC TX MEM at addr 134 Data 0cdc1396 
+
+[137084] RC TX BEGIN, PKT WITH DATA FROM MEM rc_tx_pkt_index 16 
+[137268] RC TX END, PKT WITH DATA FROM MEM rc_tx_pkt_index 16 
+[137276] RC  Initializing rc_tx_pkt_len_array burst index 16 => hlen 3 dlen 14 hlen+dlen 17
+[137276] RC  BURST DATA 0215e768 at ADDR 0120  src_or_data+i 121
+[137276] RC  BURST DATA 0f4a5cac at ADDR 0121  src_or_data+i 122
+[137276] RC  BURST DATA fe905f70 at ADDR 0122  src_or_data+i 123
+[137276] RC  BURST DATA a6f1cd26 at ADDR 0123  src_or_data+i 124
+[137276] RC  BURST DATA 88b598a6 at ADDR 0124  src_or_data+i 125
+[137276] RC  BURST DATA d081f8b6 at ADDR 0125  src_or_data+i 126
+[137276] RC  BURST DATA 5f51f851 at ADDR 0126  src_or_data+i 127
+[137276] RC  BURST DATA 389efade at ADDR 0127  src_or_data+i 128
+[137276] RC  BURST DATA 0136207e at ADDR 0128  src_or_data+i 129
+[137276] RC  BURST DATA 30edf655 at ADDR 0129  src_or_data+i 12a
+[137276] RC  BURST DATA 5facce93 at ADDR 012a  src_or_data+i 12b
+[137276] RC  BURST DATA f2dacfeb at ADDR 012b  src_or_data+i 12c
+[137276] RC  BURST DATA 8e245edb at ADDR 012c  src_or_data+i 12d
+[137276] RC  BURST DATA 4cc90952 at ADDR 012d  src_or_data+i 12e
+[137276] RC  BURST DATA 528fc605 at ADDR 012e  src_or_data+i 12f
+[137276] RC  BURST DATA 3b08f695 at ADDR 012f  src_or_data+i 130
+[137276] RC  BURST DATA 8b48cd10 at ADDR 0130  src_or_data+i 131
+[137276] RC  BURST DATA 308df076 at ADDR 0131  src_or_data+i 132
+[137276] RC  BURST DATA a5c20873 at ADDR 0132  src_or_data+i 133
+[137276] RC  BURST DATA 0cdc1396 at ADDR 0133  src_or_data+i 134
+[145284] Preparing the 32 bit MEM Packet Header hdw0: 00000014  hdw1: 000000ff hdw2: 12345000 
+
+[145348] RC TX BEGIN, PKT WITH DIRECT DATA rc_tx_pkt_index 17 
+[145372] RC TX END, PKT WITH DIRECT DATA rc_tx_pkt_index 17 
+[145380] RC  Initializing rc_tx_pkt_len_array single index 17 => hlen 3 dlen 0 hlen+dlen 3
+[145380] RC  Loading RC Tx Mem  index 17 addr 135 hdw0 14 
+[145380] RC  Loading RC Tx Mem  index 17 addr 136 hdw1 ff 
+[145380] RC  Loading RC Tx Mem  index 17 addr 137 hdw2 12345000 
+[145388] Preparing the CPL  Packet Header hdw0: 4a000014 hdw1: 01000050 hdw2: 00000000 
+
+[145388] Loading RC TX MEM at addr 121 Data 0215e768 to EP TX MEM addr 05a 
+
+[145388] Loading RC TX MEM at addr 122 Data 0f4a5cac to EP TX MEM addr 05b 
+
+[145388] Loading RC TX MEM at addr 123 Data fe905f70 to EP TX MEM addr 05c 
+
+[145388] Loading RC TX MEM at addr 124 Data a6f1cd26 to EP TX MEM addr 05d 
+
+[145388] Loading RC TX MEM at addr 125 Data 88b598a6 to EP TX MEM addr 05e 
+
+[145388] Loading RC TX MEM at addr 126 Data d081f8b6 to EP TX MEM addr 05f 
+
+[145388] Loading RC TX MEM at addr 127 Data 5f51f851 to EP TX MEM addr 060 
+
+[145388] Loading RC TX MEM at addr 128 Data 389efade to EP TX MEM addr 061 
+
+[145388] Loading RC TX MEM at addr 129 Data 0136207e to EP TX MEM addr 062 
+
+[145388] Loading RC TX MEM at addr 12a Data 30edf655 to EP TX MEM addr 063 
+
+[145388] Loading RC TX MEM at addr 12b Data 5facce93 to EP TX MEM addr 064 
+
+[145388] Loading RC TX MEM at addr 12c Data f2dacfeb to EP TX MEM addr 065 
+
+[145388] Loading RC TX MEM at addr 12d Data 8e245edb to EP TX MEM addr 066 
+
+[145388] Loading RC TX MEM at addr 12e Data 4cc90952 to EP TX MEM addr 067 
+
+[145388] Loading RC TX MEM at addr 12f Data 528fc605 to EP TX MEM addr 068 
+
+[145388] Loading RC TX MEM at addr 130 Data 3b08f695 to EP TX MEM addr 069 
+
+[145388] Loading RC TX MEM at addr 131 Data 8b48cd10 to EP TX MEM addr 06a 
+
+[145388] Loading RC TX MEM at addr 132 Data 308df076 to EP TX MEM addr 06b 
+
+[145388] Loading RC TX MEM at addr 133 Data a5c20873 to EP TX MEM addr 06c 
+
+[145388] Loading RC TX MEM at addr 134 Data 0cdc1396 to EP TX MEM addr 06d 
+
+[145388] EP  Initializing ep_tx_pkt_len_array burst index 9 => hlen 3 dlen 14 hlen+dlen 17
+[145388] EP  BURST DATA 0215e768 at ADDR 005a  sep_or_data+i 05a
+[145388] EP  BURST DATA 0f4a5cac at ADDR 005b  sep_or_data+i 05b
+[145388] EP  BURST DATA fe905f70 at ADDR 005c  sep_or_data+i 05c
+[145388] EP  BURST DATA a6f1cd26 at ADDR 005d  sep_or_data+i 05d
+[145388] EP  BURST DATA 88b598a6 at ADDR 005e  sep_or_data+i 05e
+[145388] EP  BURST DATA d081f8b6 at ADDR 005f  sep_or_data+i 05f
+[145388] EP  BURST DATA 5f51f851 at ADDR 0060  sep_or_data+i 060
+[145388] EP  BURST DATA 389efade at ADDR 0061  sep_or_data+i 061
+[145388] EP  BURST DATA 0136207e at ADDR 0062  sep_or_data+i 062
+[145388] EP  BURST DATA 30edf655 at ADDR 0063  sep_or_data+i 063
+[145388] EP  BURST DATA 5facce93 at ADDR 0064  sep_or_data+i 064
+[145388] EP  BURST DATA f2dacfeb at ADDR 0065  sep_or_data+i 065
+[145388] EP  BURST DATA 8e245edb at ADDR 0066  sep_or_data+i 066
+[145388] EP  BURST DATA 4cc90952 at ADDR 0067  sep_or_data+i 067
+[145388] EP  BURST DATA 528fc605 at ADDR 0068  sep_or_data+i 068
+[145388] EP  BURST DATA 3b08f695 at ADDR 0069  sep_or_data+i 069
+[145388] EP  BURST DATA 8b48cd10 at ADDR 006a  sep_or_data+i 06a
+[145388] EP  BURST DATA 308df076 at ADDR 006b  sep_or_data+i 06b
+[145388] EP  BURST DATA a5c20873 at ADDR 006c  sep_or_data+i 06c
+[145388] EP  BURST DATA 0cdc1396 at ADDR 006d  sep_or_data+i 06d
+[145396] Preparing the 32 bit MEM Packet Header hdw0: 00000004  hdw1: 000000ff hdw2: 12345050 
+
+[145460] RC TX BEGIN, PKT WITH DIRECT DATA rc_tx_pkt_index 18 
+[145484] RC TX END, PKT WITH DIRECT DATA rc_tx_pkt_index 18 
+[145492] RC  Initializing rc_tx_pkt_len_array single index 18 => hlen 3 dlen 0 hlen+dlen 3
+[145492] RC  Loading RC Tx Mem  index 18 addr 138 hdw0 4 
+[145492] RC  Loading RC Tx Mem  index 18 addr 139 hdw1 ff 
+[145492] RC  Loading RC Tx Mem  index 18 addr 13a hdw2 12345050 
+[145500] Preparing the CPL  Packet Header hdw0: 4a000004 hdw1: 01000010 hdw2: 00000000 
+
+[145500] Loading RC TX MEM at addr 0bf Data a6d59bd6 to EP TX MEM addr 071 
+
+[145500] Loading RC TX MEM at addr 0c0 Data 0431a6e3 to EP TX MEM addr 072 
+
+[145500] Loading RC TX MEM at addr 0c1 Data 8d26d4f5 to EP TX MEM addr 073 
+
+[145500] Loading RC TX MEM at addr 0c2 Data 6efd7fa7 to EP TX MEM addr 074 
+
+[145500] EP  Initializing ep_tx_pkt_len_array burst index a => hlen 3 dlen 4 hlen+dlen 7
+[145500] EP  BURST DATA a6d59bd6 at ADDR 0071  sep_or_data+i 071
+[145500] EP  BURST DATA 0431a6e3 at ADDR 0072  sep_or_data+i 072
+[145500] EP  BURST DATA 8d26d4f5 at ADDR 0073  sep_or_data+i 073
+[145500] EP  BURST DATA 6efd7fa7 at ADDR 0074  sep_or_data+i 074
+[153508] Preparing the 32 bit MEM Packet Header hdw0: 40000018  hdw1: 000000ff hdw2: 12345000 
+
+[153508] Loading RC TX MEM at addr 13e Data 21c5deee 
+
+[153508] Loading RC TX MEM at addr 13f Data 5b137294 
+
+[153508] Loading RC TX MEM at addr 140 Data 4fb4c599 
+
+[153508] Loading RC TX MEM at addr 141 Data a76f59e5 
+
+[153508] Loading RC TX MEM at addr 142 Data e47a1ed2 
+
+[153508] Loading RC TX MEM at addr 143 Data a33667e9 
+
+[153508] Loading RC TX MEM at addr 144 Data 174e1441 
+
+[153508] Loading RC TX MEM at addr 145 Data b99ca630 
+
+[153508] Loading RC TX MEM at addr 146 Data 6dd070d7 
+
+[153508] Loading RC TX MEM at addr 147 Data 03273be9 
+
+[153508] Loading RC TX MEM at addr 148 Data 97aa5fc0 
+
+[153508] Loading RC TX MEM at addr 149 Data 76b3dd71 
+
+[153508] Loading RC TX MEM at addr 14a Data 4f8e4ab4 
+
+[153508] Loading RC TX MEM at addr 14b Data b96670d9 
+
+[153508] Loading RC TX MEM at addr 14c Data b3a68edc 
+
+[153508] Loading RC TX MEM at addr 14d Data a60fefce 
+
+[153508] Loading RC TX MEM at addr 14e Data e0190d38 
+
+[153508] Loading RC TX MEM at addr 14f Data 857eb856 
+
+[153508] Loading RC TX MEM at addr 150 Data 24f32aa8 
+
+[153508] Loading RC TX MEM at addr 151 Data 896cec2c 
+
+[153508] Loading RC TX MEM at addr 152 Data 25220483 
+
+[153508] Loading RC TX MEM at addr 153 Data 8daf9331 
+
+[153508] Loading RC TX MEM at addr 154 Data 9ae483e1 
+
+[153508] Loading RC TX MEM at addr 155 Data 75e79cba 
+
+[153572] RC TX BEGIN, PKT WITH DATA FROM MEM rc_tx_pkt_index 19 
+[153788] RC TX END, PKT WITH DATA FROM MEM rc_tx_pkt_index 19 
+[153796] RC  Initializing rc_tx_pkt_len_array burst index 19 => hlen 3 dlen 18 hlen+dlen 1b
+[153796] RC  BURST DATA 21c5deee at ADDR 013d  src_or_data+i 13e
+[153796] RC  BURST DATA 5b137294 at ADDR 013e  src_or_data+i 13f
+[153796] RC  BURST DATA 4fb4c599 at ADDR 013f  src_or_data+i 140
+[153796] RC  BURST DATA a76f59e5 at ADDR 0140  src_or_data+i 141
+[153796] RC  BURST DATA e47a1ed2 at ADDR 0141  src_or_data+i 142
+[153796] RC  BURST DATA a33667e9 at ADDR 0142  src_or_data+i 143
+[153796] RC  BURST DATA 174e1441 at ADDR 0143  src_or_data+i 144
+[153796] RC  BURST DATA b99ca630 at ADDR 0144  src_or_data+i 145
+[153796] RC  BURST DATA 6dd070d7 at ADDR 0145  src_or_data+i 146
+[153796] RC  BURST DATA 03273be9 at ADDR 0146  src_or_data+i 147
+[153796] RC  BURST DATA 97aa5fc0 at ADDR 0147  src_or_data+i 148
+[153796] RC  BURST DATA 76b3dd71 at ADDR 0148  src_or_data+i 149
+[153796] RC  BURST DATA 4f8e4ab4 at ADDR 0149  src_or_data+i 14a
+[153796] RC  BURST DATA b96670d9 at ADDR 014a  src_or_data+i 14b
+[153796] RC  BURST DATA b3a68edc at ADDR 014b  src_or_data+i 14c
+[153796] RC  BURST DATA a60fefce at ADDR 014c  src_or_data+i 14d
+[153796] RC  BURST DATA e0190d38 at ADDR 014d  src_or_data+i 14e
+[153796] RC  BURST DATA 857eb856 at ADDR 014e  src_or_data+i 14f
+[153796] RC  BURST DATA 24f32aa8 at ADDR 014f  src_or_data+i 150
+[153796] RC  BURST DATA 896cec2c at ADDR 0150  src_or_data+i 151
+[153796] RC  BURST DATA 25220483 at ADDR 0151  src_or_data+i 152
+[153796] RC  BURST DATA 8daf9331 at ADDR 0152  src_or_data+i 153
+[153796] RC  BURST DATA 9ae483e1 at ADDR 0153  src_or_data+i 154
+[153796] RC  BURST DATA 75e79cba at ADDR 0154  src_or_data+i 155
+[161804] Preparing the 32 bit MEM Packet Header hdw0: 00000018  hdw1: 000000ff hdw2: 12345000 
+
+[161868] RC TX BEGIN, PKT WITH DIRECT DATA rc_tx_pkt_index 1a 
+[161892] RC TX END, PKT WITH DIRECT DATA rc_tx_pkt_index 1a 
+[161900] RC  Initializing rc_tx_pkt_len_array single index 1a => hlen 3 dlen 0 hlen+dlen 3
+[161900] RC  Loading RC Tx Mem  index 1a addr 156 hdw0 18 
+[161900] RC  Loading RC Tx Mem  index 1a addr 157 hdw1 ff 
+[161900] RC  Loading RC Tx Mem  index 1a addr 158 hdw2 12345000 
+[161908] Preparing the CPL  Packet Header hdw0: 4a000018 hdw1: 01000060 hdw2: 00000000 
+
+[161908] Loading RC TX MEM at addr 13e Data 21c5deee to EP TX MEM addr 078 
+
+[161908] Loading RC TX MEM at addr 13f Data 5b137294 to EP TX MEM addr 079 
+
+[161908] Loading RC TX MEM at addr 140 Data 4fb4c599 to EP TX MEM addr 07a 
+
+[161908] Loading RC TX MEM at addr 141 Data a76f59e5 to EP TX MEM addr 07b 
+
+[161908] Loading RC TX MEM at addr 142 Data e47a1ed2 to EP TX MEM addr 07c 
+
+[161908] Loading RC TX MEM at addr 143 Data a33667e9 to EP TX MEM addr 07d 
+
+[161908] Loading RC TX MEM at addr 144 Data 174e1441 to EP TX MEM addr 07e 
+
+[161908] Loading RC TX MEM at addr 145 Data b99ca630 to EP TX MEM addr 07f 
+
+[161908] Loading RC TX MEM at addr 146 Data 6dd070d7 to EP TX MEM addr 080 
+
+[161908] Loading RC TX MEM at addr 147 Data 03273be9 to EP TX MEM addr 081 
+
+[161908] Loading RC TX MEM at addr 148 Data 97aa5fc0 to EP TX MEM addr 082 
+
+[161908] Loading RC TX MEM at addr 149 Data 76b3dd71 to EP TX MEM addr 083 
+
+[161908] Loading RC TX MEM at addr 14a Data 4f8e4ab4 to EP TX MEM addr 084 
+
+[161908] Loading RC TX MEM at addr 14b Data b96670d9 to EP TX MEM addr 085 
+
+[161908] Loading RC TX MEM at addr 14c Data b3a68edc to EP TX MEM addr 086 
+
+[161908] Loading RC TX MEM at addr 14d Data a60fefce to EP TX MEM addr 087 
+
+[161908] Loading RC TX MEM at addr 14e Data e0190d38 to EP TX MEM addr 088 
+
+[161908] Loading RC TX MEM at addr 14f Data 857eb856 to EP TX MEM addr 089 
+
+[161908] Loading RC TX MEM at addr 150 Data 24f32aa8 to EP TX MEM addr 08a 
+
+[161908] Loading RC TX MEM at addr 151 Data 896cec2c to EP TX MEM addr 08b 
+
+[161908] Loading RC TX MEM at addr 152 Data 25220483 to EP TX MEM addr 08c 
+
+[161908] Loading RC TX MEM at addr 153 Data 8daf9331 to EP TX MEM addr 08d 
+
+[161908] Loading RC TX MEM at addr 154 Data 9ae483e1 to EP TX MEM addr 08e 
+
+[161908] Loading RC TX MEM at addr 155 Data 75e79cba to EP TX MEM addr 08f 
+
+[161908] EP  Initializing ep_tx_pkt_len_array burst index b => hlen 3 dlen 18 hlen+dlen 1b
+[161908] EP  BURST DATA 21c5deee at ADDR 0078  sep_or_data+i 078
+[161908] EP  BURST DATA 5b137294 at ADDR 0079  sep_or_data+i 079
+[161908] EP  BURST DATA 4fb4c599 at ADDR 007a  sep_or_data+i 07a
+[161908] EP  BURST DATA a76f59e5 at ADDR 007b  sep_or_data+i 07b
+[161908] EP  BURST DATA e47a1ed2 at ADDR 007c  sep_or_data+i 07c
+[161908] EP  BURST DATA a33667e9 at ADDR 007d  sep_or_data+i 07d
+[161908] EP  BURST DATA 174e1441 at ADDR 007e  sep_or_data+i 07e
+[161908] EP  BURST DATA b99ca630 at ADDR 007f  sep_or_data+i 07f
+[161908] EP  BURST DATA 6dd070d7 at ADDR 0080  sep_or_data+i 080
+[161908] EP  BURST DATA 03273be9 at ADDR 0081  sep_or_data+i 081
+[161908] EP  BURST DATA 97aa5fc0 at ADDR 0082  sep_or_data+i 082
+[161908] EP  BURST DATA 76b3dd71 at ADDR 0083  sep_or_data+i 083
+[161908] EP  BURST DATA 4f8e4ab4 at ADDR 0084  sep_or_data+i 084
+[161908] EP  BURST DATA b96670d9 at ADDR 0085  sep_or_data+i 085
+[161908] EP  BURST DATA b3a68edc at ADDR 0086  sep_or_data+i 086
+[161908] EP  BURST DATA a60fefce at ADDR 0087  sep_or_data+i 087
+[161908] EP  BURST DATA e0190d38 at ADDR 0088  sep_or_data+i 088
+[161908] EP  BURST DATA 857eb856 at ADDR 0089  sep_or_data+i 089
+[161908] EP  BURST DATA 24f32aa8 at ADDR 008a  sep_or_data+i 08a
+[161908] EP  BURST DATA 896cec2c at ADDR 008b  sep_or_data+i 08b
+[161908] EP  BURST DATA 25220483 at ADDR 008c  sep_or_data+i 08c
+[161908] EP  BURST DATA 8daf9331 at ADDR 008d  sep_or_data+i 08d
+[161908] EP  BURST DATA 9ae483e1 at ADDR 008e  sep_or_data+i 08e
+[161908] EP  BURST DATA 75e79cba at ADDR 008f  sep_or_data+i 08f
+[161916] Preparing the 32 bit MEM Packet Header hdw0: 00000004  hdw1: 000000ff hdw2: 12345060 
+
+[161980] RC TX BEGIN, PKT WITH DIRECT DATA rc_tx_pkt_index 1b 
+[162004] RC TX END, PKT WITH DIRECT DATA rc_tx_pkt_index 1b 
+[162012] RC  Initializing rc_tx_pkt_len_array single index 1b => hlen 3 dlen 0 hlen+dlen 3
+[162012] RC  Loading RC Tx Mem  index 1b addr 159 hdw0 4 
+[162012] RC  Loading RC Tx Mem  index 1b addr 15a hdw1 ff 
+[162012] RC  Loading RC Tx Mem  index 1b addr 15b hdw2 12345060 
+[162020] Preparing the CPL  Packet Header hdw0: 4a000004 hdw1: 01000010 hdw2: 00000000 
+
+[162020] Loading RC TX MEM at addr 0c3 Data c5c65aaa to EP TX MEM addr 093 
+
+[162020] Loading RC TX MEM at addr 0c4 Data 7e0ed7dc to EP TX MEM addr 094 
+
+[162020] Loading RC TX MEM at addr 0c5 Data 68a583d5 to EP TX MEM addr 095 
+
+[162020] Loading RC TX MEM at addr 0c6 Data dcdd889e to EP TX MEM addr 096 
+
+[162020] EP  Initializing ep_tx_pkt_len_array burst index c => hlen 3 dlen 4 hlen+dlen 7
+[162020] EP  BURST DATA c5c65aaa at ADDR 0093  sep_or_data+i 093
+[162020] EP  BURST DATA 7e0ed7dc at ADDR 0094  sep_or_data+i 094
+[162020] EP  BURST DATA 68a583d5 at ADDR 0095  sep_or_data+i 095
+[162020] EP  BURST DATA dcdd889e at ADDR 0096  sep_or_data+i 096
+[170028] Preparing the 32 bit MEM Packet Header hdw0: 4000001c  hdw1: 000000ff hdw2: 12345000 
+
+[170028] Loading RC TX MEM at addr 15f Data 7ebe6af9 
+
+[170028] Loading RC TX MEM at addr 160 Data 7de9bfae 
+
+[170028] Loading RC TX MEM at addr 161 Data 82675931 
+
+[170028] Loading RC TX MEM at addr 162 Data 398ccbe2 
+
+[170028] Loading RC TX MEM at addr 163 Data 9c52f4b7 
+
+[170028] Loading RC TX MEM at addr 164 Data effd6d55 
+
+[170028] Loading RC TX MEM at addr 165 Data 6fb99fe0 
+
+[170028] Loading RC TX MEM at addr 166 Data f04a0b30 
+
+[170028] Loading RC TX MEM at addr 167 Data 24a6c3cf 
+
+[170028] Loading RC TX MEM at addr 168 Data fa870471 
+
+[170028] Loading RC TX MEM at addr 169 Data 474520b6 
+
+[170028] Loading RC TX MEM at addr 16a Data 74757459 
+
+[170028] Loading RC TX MEM at addr 16b Data 3252e785 
+
+[170028] Loading RC TX MEM at addr 16c Data eaaa2c5f 
+
+[170028] Loading RC TX MEM at addr 16d Data c099db0a 
+
+[170028] Loading RC TX MEM at addr 16e Data 9dc7d0ff 
+
+[170028] Loading RC TX MEM at addr 16f Data a193206a 
+
+[170028] Loading RC TX MEM at addr 170 Data 6f80438b 
+
+[170028] Loading RC TX MEM at addr 171 Data d3ceef82 
+
+[170028] Loading RC TX MEM at addr 172 Data 6e54fc10 
+
+[170028] Loading RC TX MEM at addr 173 Data 23176c9f 
+
+[170028] Loading RC TX MEM at addr 174 Data a46bb23a 
+
+[170028] Loading RC TX MEM at addr 175 Data 3a054a57 
+
+[170028] Loading RC TX MEM at addr 176 Data e288cd49 
+
+[170028] Loading RC TX MEM at addr 177 Data e5b68ba0 
+
+[170028] Loading RC TX MEM at addr 178 Data 59ba1f2b 
+
+[170028] Loading RC TX MEM at addr 179 Data 7c0bfe09 
+
+[170028] Loading RC TX MEM at addr 17a Data 5121f3e4 
+
+[170092] RC TX BEGIN, PKT WITH DATA FROM MEM rc_tx_pkt_index 1c 
+[170340] RC TX END, PKT WITH DATA FROM MEM rc_tx_pkt_index 1c 
+[170348] RC  Initializing rc_tx_pkt_len_array burst index 1c => hlen 3 dlen 1c hlen+dlen 1f
+[170348] RC  BURST DATA 7ebe6af9 at ADDR 015e  src_or_data+i 15f
+[170348] RC  BURST DATA 7de9bfae at ADDR 015f  src_or_data+i 160
+[170348] RC  BURST DATA 82675931 at ADDR 0160  src_or_data+i 161
+[170348] RC  BURST DATA 398ccbe2 at ADDR 0161  src_or_data+i 162
+[170348] RC  BURST DATA 9c52f4b7 at ADDR 0162  src_or_data+i 163
+[170348] RC  BURST DATA effd6d55 at ADDR 0163  src_or_data+i 164
+[170348] RC  BURST DATA 6fb99fe0 at ADDR 0164  src_or_data+i 165
+[170348] RC  BURST DATA f04a0b30 at ADDR 0165  src_or_data+i 166
+[170348] RC  BURST DATA 24a6c3cf at ADDR 0166  src_or_data+i 167
+[170348] RC  BURST DATA fa870471 at ADDR 0167  src_or_data+i 168
+[170348] RC  BURST DATA 474520b6 at ADDR 0168  src_or_data+i 169
+[170348] RC  BURST DATA 74757459 at ADDR 0169  src_or_data+i 16a
+[170348] RC  BURST DATA 3252e785 at ADDR 016a  src_or_data+i 16b
+[170348] RC  BURST DATA eaaa2c5f at ADDR 016b  src_or_data+i 16c
+[170348] RC  BURST DATA c099db0a at ADDR 016c  src_or_data+i 16d
+[170348] RC  BURST DATA 9dc7d0ff at ADDR 016d  src_or_data+i 16e
+[170348] RC  BURST DATA a193206a at ADDR 016e  src_or_data+i 16f
+[170348] RC  BURST DATA 6f80438b at ADDR 016f  src_or_data+i 170
+[170348] RC  BURST DATA d3ceef82 at ADDR 0170  src_or_data+i 171
+[170348] RC  BURST DATA 6e54fc10 at ADDR 0171  src_or_data+i 172
+[170348] RC  BURST DATA 23176c9f at ADDR 0172  src_or_data+i 173
+[170348] RC  BURST DATA a46bb23a at ADDR 0173  src_or_data+i 174
+[170348] RC  BURST DATA 3a054a57 at ADDR 0174  src_or_data+i 175
+[170348] RC  BURST DATA e288cd49 at ADDR 0175  src_or_data+i 176
+[170348] RC  BURST DATA e5b68ba0 at ADDR 0176  src_or_data+i 177
+[170348] RC  BURST DATA 59ba1f2b at ADDR 0177  src_or_data+i 178
+[170348] RC  BURST DATA 7c0bfe09 at ADDR 0178  src_or_data+i 179
+[170348] RC  BURST DATA 5121f3e4 at ADDR 0179  src_or_data+i 17a
+[178356] Preparing the 32 bit MEM Packet Header hdw0: 0000001c  hdw1: 000000ff hdw2: 12345000 
+
+[178420] RC TX BEGIN, PKT WITH DIRECT DATA rc_tx_pkt_index 1d 
+[178444] RC TX END, PKT WITH DIRECT DATA rc_tx_pkt_index 1d 
+[178452] RC  Initializing rc_tx_pkt_len_array single index 1d => hlen 3 dlen 0 hlen+dlen 3
+[178452] RC  Loading RC Tx Mem  index 1d addr 17b hdw0 1c 
+[178452] RC  Loading RC Tx Mem  index 1d addr 17c hdw1 ff 
+[178452] RC  Loading RC Tx Mem  index 1d addr 17d hdw2 12345000 
+[178460] Preparing the CPL  Packet Header hdw0: 4a00001c hdw1: 01000070 hdw2: 00000000 
+
+[178460] Loading RC TX MEM at addr 15f Data 7ebe6af9 to EP TX MEM addr 09a 
+
+[178460] Loading RC TX MEM at addr 160 Data 7de9bfae to EP TX MEM addr 09b 
+
+[178460] Loading RC TX MEM at addr 161 Data 82675931 t

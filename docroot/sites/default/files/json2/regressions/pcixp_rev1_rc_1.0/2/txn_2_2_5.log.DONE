@@ -1,0 +1,53 @@
+
+
+
+
+
+
+		 PACKETS GOING FROM EP TO RC 
+ 
+
+
+
+[60036] Preparing the CPL  Packet Header hdw0: 4a008294 hdw1: 01000000 hdw2: 00000600 
+
+[60116] EP TX BEGIN, PKT WITH DIRECT DATA ep_tx_pkt_index 0 
+[60148] EP TX END, PKT WITH DIRECT DATA ep_tx_pkt_index 0 
+[60156] EP  Initializing ep_tx_pkt_len_array single index 0 => hlen 3 dlen 1 hlen+dlen 4
+[60156] EP  Loading EP Tx Mem  index 0 addr 0 hdw0 4a068e94 
+[60156] EP  Loading EP Tx Mem  index 0 addr 1 hdw1 1000000 
+[60156] EP  Loading EP Tx Mem  index 0 addr 2 hdw1 680 
+[60156] EP  Loading EP Tx Mem  index 0 addr 3 data 2e7 
+[60936] RC  RECEIVE PKT BEGIN  rc_rx_pkt_index 0
+60941: pex_tb.PEX_RC.rc_rx_cmd_mem MemWr 0x4a068e94 @Addr = 0x000
+60949: pex_tb.PEX_RC.rc_rx_cmd_mem MemWr 0x01000000 @Addr = 0x001
+60957: pex_tb.PEX_RC.rc_rx_cmd_mem MemWr 0x00000680 @Addr = 0x002
+[60960] RC  RECEIVE PKT END  rc_rx_pkt_index 0
+
+
+
+[60964] Preparing the CPL  Packet Header hdw0: 4b008005 hdw1: 01000000 hdw2: 00000600 
+
+60965: pex_tb.PEX_RC.rc_rx_cmd_mem MemWr 0x000002e7 @Addr = 0x003
+[60968] INFO:  EP -> RC Packet 0 Data Compare Start! RC MEM SADR : 00000000 RC PKTLEN 00000004 
+
+[60968] EP -> RC Packet 000 Data Compare passed! 
+
+[61028] EP TX BEGIN, PKT WITH DIRECT DATA ep_tx_pkt_index 1 
+[61060] EP TX END, PKT WITH DIRECT DATA ep_tx_pkt_index 1 
+[61068] EP  Initializing ep_tx_pkt_len_array single index 1 => hlen 3 dlen 1 hlen+dlen 4
+[61068] EP  Loading EP Tx Mem  index 1 addr 4 hdw0 cb8c8005 
+[61068] EP  Loading EP Tx Mem  index 1 addr 5 hdw1 1000000 
+[61068] EP  Loading EP Tx Mem  index 1 addr 6 hdw1 600 
+[61068] EP  Loading EP Tx Mem  index 1 addr 7 data eb8 
+[61840] RC  RECEIVE PKT BEGIN  rc_rx_pkt_index 1
+61845: pex_tb.PEX_RC.rc_rx_cmd_mem MemWr 0xcb8c8005 @Addr = 0x004
+61853: pex_tb.PEX_RC.rc_rx_cmd_mem MemWr 0x01000000 @Addr = 0x005
+61861: pex_tb.PEX_RC.rc_rx_cmd_mem MemWr 0x00000600 @Addr = 0x006
+[61864] RC  RECEIVE PKT END  rc_rx_pkt_index 1
+61869: pex_tb.PEX_RC.rc_rx_cmd_mem MemWr 0x00000eb8 @Addr = 0x007
+[61872] INFO:  EP -> RC Packet 1 Data Compare Start! RC MEM SADR : 00000004 RC PKTLEN 00000004 
+
+[61872] EP -> RC Packet 001 Data Compare passed! 
+
+[261092] Global timer expired. TEST FAILED 

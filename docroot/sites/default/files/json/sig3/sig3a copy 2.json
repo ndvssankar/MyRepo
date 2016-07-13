@@ -1,0 +1,11 @@
+{
+	"field_test_name": "basic_rd_wr_test",
+	"field_full_signature": "UVM_ERROR Read request Timedout",
+	"field_configuration": "1024x2054",
+	"field_build_seed": "abcdef12345jjjjjj",
+	"field_simulation_seed": "87653256",
+	"field_simulation_time": "200009876ns",
+	"field_error_module": "L2",
+	"field_bugzilla": "123445",
+	"pm_status": "FAILED"
+}

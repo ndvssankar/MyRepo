@@ -1,0 +1,345 @@
+# vsim -do vsim.do -l verilog.log -c -suppress 4029 -novopt pex_tb 
+# //  QuestaSim 6.3a Jun 25 2007 Linux 2.4.18-3smp
+# //
+# //  Copyright 1991-2007 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pex_tb
+# Loading work.pex_tb
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.PexRc
+# Loading work.PexRc
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pcixp_rc
+# Loading work.pcixp_rc
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pcixp_tl
+# Loading work.pcixp_tl
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.tlrx
+# Loading work.tlrx
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.sfMxN
+# Loading work.sfMxN
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.xpmem
+# Loading work.xpmem
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.tltx_arb
+# Loading work.tltx_arb
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.tltx_top
+# Loading work.tltx_top
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.tltx_bridge
+# Loading work.tltx_bridge
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.tltx_router
+# Loading work.tltx_router
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.tltx_tcm
+# Loading work.tltx_tcm
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.tltx_tc
+# Loading work.tltx_tc
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.tltx_vc2tcmap
+# Loading work.tltx_vc2tcmap
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.tltx_fcm
+# Loading work.tltx_fcm
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.tltx_fc
+# Loading work.tltx_fc
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.tltx_assembler
+# Loading work.tltx_assembler
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.lcrc32
+# Loading work.lcrc32
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pcixp_dll
+# Loading work.pcixp_dll
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.dltx_assembler
+# Loading work.dltx_assembler
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.crc16
+# Loading work.crc16
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.dltx_scheduler
+# Loading work.dltx_scheduler
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.dltx_rty
+# Loading work.dltx_rty
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.dltx_retire
+# Loading work.dltx_retire
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.dltx_tlp
+# Loading work.dltx_tlp
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.dltx_dllp
+# Loading work.dltx_dllp
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.dltx_cntr
+# Loading work.dltx_cntr
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.dlrx_tlp
+# Loading work.dlrx_tlp
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.dlrx_dllp
+# Loading work.dlrx_dllp
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.dlcmsm
+# Loading work.dlcmsm
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.fcinit
+# Loading work.fcinit
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pcixp_pl
+# Loading work.pcixp_pl
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pl_ltssm
+# Loading work.pl_ltssm
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pl_det_ssm
+# Loading work.pl_det_ssm
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pl_pol_ssm
+# Loading work.pl_pol_ssm
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pl_l1_ssm
+# Loading work.pl_l1_ssm
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pl_l0s_ssm
+# Loading work.pl_l0s_ssm
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pl_dsb_ssm
+# Loading work.pl_dsb_ssm
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pl_lpbk_ssm
+# Loading work.pl_lpbk_ssm
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pl_hrst_ssm
+# Loading work.pl_hrst_ssm
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pl_cfg_ssm
+# Loading work.pl_cfg_ssm
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pl_rec_ssm
+# Loading work.pl_rec_ssm
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pl_framer
+# Loading work.pl_framer
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pl_scrm
+# Loading work.pl_scrm
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pl_descrm
+# Loading work.pl_descrm
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pl_deframer
+# Loading work.pl_deframer
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pl_data_deframer
+# Loading work.pl_data_deframer
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pl_os_deframer
+# Loading work.pl_os_deframer
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pi_cfg
+# Loading work.pi_cfg
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pi_arbiter
+# Loading work.pi_arbiter
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pipe8or16
+# Loading work.pipe8or16
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.interface_monitor
+# Loading work.interface_monitor
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pm_disp
+# Loading work.pm_disp
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.mem_model
+# Loading work.mem_model
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.PexEp
+# Loading work.PexEp
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pcixp_ep
+# Loading work.pcixp_ep
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pex_mem_agent
+# Loading work.pex_mem_agent
+# do vsim.do 
+# resume
+#  
+# 
+#  Time = @[60452] The value of din at Address = 4000  of reg_set ( RC -> EP ) = 00800000 
+#  
+# 
+#  Time = @[60876] The value of din at Address = 4000  of reg_set ( RC -> EP ) = 00000000 
+#  
+# 
+#  Time = @[69212] The value of din at Address = 5800  of reg_set ( EP -> RC ) = 00000000 
+#  
+# 
+#  Time = @[69636] The value of din at Address = 5800  of reg_set ( RC -> EP ) = 00000000 
+[69636] Preparing the 32 bit MEM Packet Header hdw0: 40000010  hdw1: 000000ff hdw2: 97865000 
+# 
+[69636] Loading EP TX MEM at addr 003 Data 3cc1f579 
+# 
+[69636] Loading EP TX MEM at addr 004 Data 729f1fe5 
+# 
+[69636] Loading EP TX MEM at addr 005 Data faaf96f5 
+# 
+[69636] Loading EP TX MEM at addr 006 Data 3dec177b 
+# 
+[69636] Loading EP TX MEM at addr 007 Data a8123a50 
+# 
+[69636] Loading EP TX MEM at addr 008 Data bcb15879 
+# 
+[69636] Loading EP TX MEM at addr 009 Data 727945e4 
+# 
+[69636] Loading EP TX MEM at addr 00a Data 164f132c 
+# 
+[69636] Loading EP TX MEM at addr 00b Data f1b8a2e3 
+# 
+[69636] Loading EP TX MEM at addr 00c Data 92258c24 
+# 
+[69636] Loading EP TX MEM at addr 00d Data 7b26b1f6 
+# 
+[69636] Loading EP TX MEM at addr 00e Data 44818d89 
+# 
+[69636] Loading EP TX MEM at addr 00f Data fbc516f7 
+# 
+[69636] Loading EP TX MEM at addr 010 Data b4b7b669 
+# 
+[69636] Loading EP TX MEM at addr 011 Data c00ca880 
+# 
+[69636] Loading EP TX MEM at addr 012 Data 15c6e52b 
+# 
+[69636] Preparing the 32 bit MEM Packet Header hdw0: 40000010  hdw1: 010000ff hdw2: 12345000 
+# 
+[69636] Loading RC TX MEM at addr 003 Data 6cd445d9 
+# 
+[69636] Loading RC TX MEM at addr 004 Data 30999361 
+# 
+[69636] Loading RC TX MEM at addr 005 Data 478ab78f 
+# 
+[69636] Loading RC TX MEM at addr 006 Data 0abe3315 
+# 
+[69636] Loading RC TX MEM at addr 007 Data 74bb97e9 
+# 
+[69636] Loading RC TX MEM at addr 008 Data 962e9a2c 
+# 
+[69636] Loading RC TX MEM at addr 009 Data 3a972975 
+# 
+[69636] Loading RC TX MEM at addr 00a Data be7e567c 
+# 
+[69636] Loading RC TX MEM at addr 00b Data 49f53b93 
+# 
+[69636] Loading RC TX MEM at addr 00c Data e5880ecb 
+# 
+[69636] Loading RC TX MEM at addr 00d Data c30b0886 
+# 
+[69636] Loading RC TX MEM at addr 00e Data c571e88a 
+# 
+[69636] Loading RC TX MEM at addr 00f Data cbcc1897 
+# 
+[69636] Loading RC TX MEM at addr 010 Data a7a0e64f 
+# 
+[69636] Loading RC TX MEM at addr 011 Data 4cae2399 
+# 
+[69636] Loading RC TX MEM at addr 012 Data 5ff347bf 
+# 
+[69716] RC TX BEGIN, PKT WITH DATA FROM MEM rc_tx_pkt_index 0 
+[69716] EP TX BEGIN, PKT WITH DATA FROM MEM ep_tx_pkt_index 0 
+[69868] RC TX END, PKT WITH DATA FROM MEM rc_tx_pkt_index 0 
+[69868] EP TX END, PKT WITH DATA FROM MEM ep_tx_pkt_index 0 
+[69876] RC  Initializing rc_tx_pkt_len_array burst index 0 => hlen 3 dlen 10 hlen+dlen 13
+[69876] RC  BURST DATA 6cd445d9 at ADDR 00000003  src_or_data+i 003
+[69876] RC  BURST DATA 30999361 at ADDR 00000004  src_or_data+i 004
+[69876] RC  BURST DATA 478ab78f at ADDR 00000005  src_or_data+i 005
+[69876] RC  BURST DATA 0abe3315 at ADDR 00000006  src_or_data+i 006
+[69876] RC  BURST DATA 74bb97e9 at ADDR 00000007  src_or_data+i 007
+[69876] RC  BURST DATA 962e9a2c at ADDR 00000008  src_or_data+i 008
+[69876] RC  BURST DATA 3a972975 at ADDR 00000009  src_or_data+i 009
+[69876] RC  BURST DATA be7e567c at ADDR 0000000a  src_or_data+i 00a
+[69876] RC  BURST DATA 49f53b93 at ADDR 0000000b  src_or_data+i 00b
+[69876] RC  BURST DATA e5880ecb at ADDR 0000000c  src_or_data+i 00c
+[69876] RC  BURST DATA c30b0886 at ADDR 0000000d  src_or_data+i 00d
+[69876] RC  BURST DATA c571e88a at ADDR 0000000e  src_or_data+i 00e
+[69876] RC  BURST DATA cbcc1897 at ADDR 0000000f  src_or_data+i 00f
+[69876] RC  BURST DATA a7a0e64f at ADDR 00000010  src_or_data+i 010
+[69876] RC  BURST DATA 4cae2399 at ADDR 00000011  src_or_data+i 011
+[69876] RC  BURST DATA 5ff347bf at ADDR 00000012  src_or_data+i 012
+[69876] EP  Initializing ep_tx_pkt_len_array burst index 0 => hlen 3 dlen 10 hlen+dlen 13
+[69876] EP  BURST DATA 3cc1f579 at ADDR 00000003  sep_or_data+i 003
+[69876] EP  BURST DATA 729f1fe5 at ADDR 00000004  sep_or_data+i 004
+[69876] EP  BURST DATA faaf96f5 at ADDR 00000005  sep_or_data+i 005
+[69876] EP  BURST DATA 3dec177b at ADDR 00000006  sep_or_data+i 006
+[69876] EP  BURST DATA a8123a50 at ADDR 00000007  sep_or_data+i 007
+[69876] EP  BURST DATA bcb15879 at ADDR 00000008  sep_or_data+i 008
+[69876] EP  BURST DATA 727945e4 at ADDR 00000009  sep_or_data+i 009
+[69876] EP  BURST DATA 164f132c at ADDR 0000000a  sep_or_data+i 00a
+[69876] EP  BURST DATA f1b8a2e3 at ADDR 0000000b  sep_or_data+i 00b
+[69876] EP  BURST DATA 92258c24 at ADDR 0000000c  sep_or_data+i 00c
+[69876] EP  BURST DATA 7b26b1f6 at ADDR 0000000d  sep_or_data+i 00d
+[69876] EP  BURST DATA 44818d89 at ADDR 0000000e  sep_or_data+i 00e
+[69876] EP  BURST DATA fbc516f7 at ADDR 0000000f  sep_or_data+i 00f
+[69876] EP  BURST DATA b4b7b669 at ADDR 00000010  sep_or_data+i 010
+[69876] EP  BURST DATA c00ca880 at ADDR 00000011  sep_or_data+i 011
+[69876] EP  BURST DATA 15c6e52b at ADDR 00000012  sep_or_data+i 012
+[71536] RC  RECEIVE PKT BEGIN  rc_rx_pkt_index 0
+# 71541: pex_tb.PEX_RC.rc_rx_cmd_mem MemWr 0x40000010 @Addr = 0x000
+# 71549: pex_tb.PEX_RC.rc_rx_cmd_mem MemWr 0x000000ff @Addr = 0x001
+# 71557: pex_tb.PEX_RC.rc_rx_cmd_mem MemWr 0x97865000 @Addr = 0x002
+# 71565: pex_tb.PEX_RC.rc_rx_cmd_mem MemWr 0x3cc1f579 @Addr = 0x003
+# 71573: pex_tb.PEX_RC.rc_rx_cmd_mem MemWr 0x729f1fe5 @Addr = 0x004
+# 71581: pex_tb.PEX_RC.rc_rx_cmd_mem MemWr 0xfaaf96f5 @Addr = 0x005
+[71584] EP  RECEIVE PKT BEGIN  ep_rx_pkt_index 0
+# 71589: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x40000010 @Addr = 0x000
+# 71589: pex_tb.PEX_RC.rc_rx_cmd_mem MemWr 0x3dec177b @Addr = 0x006
+# 71597: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x010000ff @Addr = 0x001
+# 71597: pex_tb.PEX_RC.rc_rx_cmd_mem MemWr 0xa8123a50 @Addr = 0x007
+# 71605: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x12345000 @Addr = 0x002
+# 71605: pex_tb.PEX_RC.rc_rx_cmd_mem MemWr 0xbcb15879 @Addr = 0x008
+# 71613: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x6cd445d9 @Addr = 0x003
+# 71613: pex_tb.PEX_RC.rc_rx_cmd_mem MemWr 0x727945e4 @Addr = 0x009
+# 71621: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x30999361 @Addr = 0x004
+# 71621: pex_tb.PEX_RC.rc_rx_cmd_mem MemWr 0x164f132c @Addr = 0x00a
+# 71629: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x478ab78f @Addr = 0x005
+# 71629: pex_tb.PEX_RC.rc_rx_cmd_mem MemWr 0xf1b8a2e3 @Addr = 0x00b
+# 71637: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x0abe3315 @Addr = 0x006
+# 71637: pex_tb.PEX_RC.rc_rx_cmd_mem MemWr 0x92258c24 @Addr = 0x00c
+# 71645: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x74bb97e9 @Addr = 0x007
+# 71645: pex_tb.PEX_RC.rc_rx_cmd_mem MemWr 0x7b26b1f6 @Addr = 0x00d
+# 71653: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x962e9a2c @Addr = 0x008
+# 71653: pex_tb.PEX_RC.rc_rx_cmd_mem MemWr 0x44818d89 @Addr = 0x00e
+# 71661: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x3a972975 @Addr = 0x009
+# 71661: pex_tb.PEX_RC.rc_rx_cmd_mem MemWr 0xfbc516f7 @Addr = 0x00f
+# 71669: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0xbe7e567c @Addr = 0x00a
+# 71669: pex_tb.PEX_RC.rc_rx_cmd_mem MemWr 0xb4b7b669 @Addr = 0x010
+# 71677: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x49f53b93 @Addr = 0x00b
+# 71677: pex_tb.PEX_RC.rc_rx_cmd_mem MemWr 0xc00ca880 @Addr = 0x011
+[71680] RC  RECEIVE PKT END  rc_rx_pkt_index 0
+# 71685: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0xe5880ecb @Addr = 0x00c
+# 71685: pex_tb.PEX_RC.rc_rx_cmd_mem MemWr 0x15c6e52b @Addr = 0x012
+[71688] INFO:  EP -> RC Packet 0 Data Compare Start! RC MEM SADR : 00000000 RC PKTLEN 00000013 
+# 
+# PKT_DIFF (RC) : HdrLen = 4
+# PKT_DIFF (RC) : Hdr[0] => Rx = 40000010, Exp = 40000010
+# PKT_DIFF (RC) : Hdr[1] => Rx = 000000ff, Exp = 000000ff
+# PKT_DIFF (RC) : Hdr[2] => Rx = 97865000, Exp = 97865000
+# PKT_DIFF (RC) : Header Matched
+# PKT_DIFF (RC) : PktLen => Rx = 19, Tx = 19
+# PKT_DIFF (RC) : Payload[4] => Rx = 729f1fe5, Tx = 729f1fe5
+# PKT_DIFF (RC) : Payload[5] => Rx = faaf96f5, Tx = faaf96f5
+# PKT_DIFF (RC) : Payload[6] => Rx = 3dec177b, Tx = 3dec177b
+# PKT_DIFF (RC) : Payload[7] => Rx = a8123a50, Tx = a8123a50
+# PKT_DIFF (RC) : Payload[8] => Rx = bcb15879, Tx = bcb15879
+# PKT_DIFF (RC) : Payload[9] => Rx = 727945e4, Tx = 727945e4
+# PKT_DIFF (RC) : Payload[10] => Rx = 164f132c, Tx = 164f132c
+# PKT_DIFF (RC) : Payload[11] => Rx = f1b8a2e3, Tx = f1b8a2e3
+# PKT_DIFF (RC) : Payload[12] => Rx = 92258c24, Tx = 92258c24
+# PKT_DIFF (RC) : Payload[13] => Rx = 7b26b1f6, Tx = 7b26b1f6
+# PKT_DIFF (RC) : Payload[14] => Rx = 44818d89, Tx = 44818d89
+# PKT_DIFF (RC) : Payload[15] => Rx = fbc516f7, Tx = fbc516f7
+# PKT_DIFF (RC) : Payload[16] => Rx = b4b7b669, Tx = b4b7b669
+# PKT_DIFF (RC) : Payload[17] => Rx = c00ca880, Tx = c00ca880
+[71688] EP -> RC Packet 00000000 Data Compare passed! 
+# 
+# PKT_DIFF (RC) : Matched = 1, Passed = 1
+# 71693: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0xc30b0886 @Addr = 0x00d
+# 71701: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0xc571e88a @Addr = 0x00e
+# 71709: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0xcbcc1897 @Addr = 0x00f
+# 71717: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0xa7a0e64f @Addr = 0x010
+# 71725: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x4cae2399 @Addr = 0x011
+[71728] EP  RECEIVE PKT END  ep_rx_pkt_index 0
+# 71733: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x5ff347bf @Addr = 0x012
+[71736] INFO:  RC -> EP Packet 0 Data Compare Start! EP MEM SADR : 00000000 EP PKTLEN 00000013 
+# 
+# PKT_DIFF (EP) : HdrLen = 3
+# PKT_DIFF (EP) : Hdr[0] => Rx = 40000010, Exp = 40000010
+# PKT_DIFF (EP) : Hdr[1] => Rx = 010000ff, Exp = 010000ff
+# PKT_DIFF (EP) : Header Matched
+# PKT_DIFF (EP) : PktLen => Rx = 19, Tx = 19
+# PKT_DIFF (EP) : Payload[3] => Rx = 6cd445d9, Tx = 6cd445d9
+# PKT_DIFF (EP) : Payload[4] => Rx = 30999361, Tx = 30999361
+# PKT_DIFF (EP) : Payload[5] => Rx = 478ab78f, Tx = 478ab78f
+# PKT_DIFF (EP) : Payload[6] => Rx = 0abe3315, Tx = 0abe3315
+# PKT_DIFF (EP) : Payload[7] => Rx = 74bb97e9, Tx = 74bb97e9
+# PKT_DIFF (EP) : Payload[8] => Rx = 962e9a2c, Tx = 962e9a2c
+# PKT_DIFF (EP) : Payload[9] => Rx = 3a972975, Tx = 3a972975
+# PKT_DIFF (EP) : Payload[10] => Rx = be7e567c, Tx = be7e567c
+# PKT_DIFF (EP) : Payload[11] => Rx = 49f53b93, Tx = 49f53b93
+# PKT_DIFF (EP) : Payload[12] => Rx = e5880ecb, Tx = e5880ecb
+# PKT_DIFF (EP) : Payload[13] => Rx = c30b0886, Tx = c30b0886
+# PKT_DIFF (EP) : Payload[14] => Rx = c571e88a, Tx = c571e88a
+# PKT_DIFF (EP) : Payload[15] => Rx = cbcc1897, Tx = cbcc1897
+# PKT_DIFF (EP) : Payload[16] => Rx = a7a0e64f, Tx = a7a0e64f
+# PKT_DIFF (EP) : Payload[17] => Rx = 4cae2399, Tx = 4cae2399
+[71736] RC -> EP Packet 00000000 Data Compare passed! 
+# 
+# PKT_DIFF (EP) : Matched = 1, Passed = 1
+# Checking for Left over packets in TX array 
+# 
+[73084] TEST PASSED 
+# 
+[113084] Simulation DONE
+# 
+# ** Note: $finish    : ./../tb/pex_tb.v(634)
+#    Time: 114684 ns  Iteration: 0  Instance: /pex_tb

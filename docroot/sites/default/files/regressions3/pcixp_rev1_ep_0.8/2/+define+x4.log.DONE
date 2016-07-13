@@ -1,0 +1,3 @@
+# vsim -do vsim.do -l verilog.log -c -suppress 4029 -novopt top 
+# ** Error: (vsim-3170) Could not find '/home/chandra/pcixp08/pcixp/SysVlogSim/run/work.top'.
+ERror loading design

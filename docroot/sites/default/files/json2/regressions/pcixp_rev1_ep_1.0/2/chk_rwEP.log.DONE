@@ -1,0 +1,98 @@
+
+
+
+
+		   DATA FROM EP -> RC 
+
+
+ 
+
+ Time= @[60460] The  value of din  at Address = 4  of cfg_set ( EP -> RC ) = 000007f4 
+ Time = @[60500] The value of dout at Address = 0004  of cfg_get ( EP -> RC ) 
+ Actual Data :  00100544 
+ Read/Write passed 
+ 
+
+ Time= @[60924] The  value of din  at Address = 40  of cfg_set ( EP -> RC ) = abcdefab 
+ Time = @[60964] The value of dout at Address = 0040  of cfg_get ( EP -> RC ) 
+ Actual Data :  abcd4801 
+ Read/Write passed 
+ 
+
+ Time= @[61388] The  value of din  at Address = 44  of cfg_set ( EP -> RC ) = 5555aaaa 
+ Time = @[61428] The value of dout at Address = 0044  of cfg_get ( EP -> RC ) 
+ Actual Data :  feedbeef 
+ Read/Write passed 
+ 
+
+ Time= @[61852] The  value of din  at Address = 48  of cfg_set ( EP -> RC ) = eeeeffff 
+ Time = @[61892] The value of dout at Address = 0048  of cfg_get ( EP -> RC ) 
+ Actual Data :  00016c10 
+ Read/Write passed 
+ 
+
+ Time= @[62316] The  value of din  at Address = 4c  of cfg_set ( EP -> RC ) = abcdef12 
+ Time = @[62356] The value of dout at Address = 004c  of cfg_get ( EP -> RC ) 
+ Actual Data :  5e6f780d 
+ Read/Write passed 
+ 
+
+ Time= @[62780] The  value of din  at Address = 50  of cfg_set ( EP -> RC ) = 000057af 
+ Time = @[62820] The value of dout at Address = 0050  of cfg_get ( EP -> RC ) 
+ Actual Data :  000057af 
+ Read/Write passed 
+ 
+
+ Time= @[63244] The  value of din  at Address = 54  of cfg_set ( EP -> RC ) = 12345678 
+ Time = @[63284] The value of dout at Address = 0054  of cfg_get ( EP -> RC ) 
+ Actual Data :  00000601 
+ Read/Write passed 
+ 
+
+ Time= @[63708] The  value of din  at Address = 58  of cfg_set ( EP -> RC ) = 000000fb 
+ Time = @[63748] The value of dout at Address = 0058  of cfg_get ( EP -> RC ) 
+ Actual Data :  001100fb 
+ Read/Write passed 
+ 
+
+ Time= @[64172] The  value of din  at Address = 5c  of cfg_set ( EP -> RC ) = ab23cd56 
+ Time = @[64212] The value of dout at Address = 005c  of cfg_get ( EP -> RC ) 
+ Actual Data :  12345678 
+ Read/Write passed 
+ 
+
+ Time= @[64636] The  value of din  at Address = 60  of cfg_set ( EP -> RC ) = 000007ff 
+ Time = @[64676] The value of dout at Address = 0060  of cfg_get ( EP -> RC ) 
+ Actual Data :  000007ff 
+ Read/Write passed 
+ 
+
+ Time= @[65100] The  value of din  at Address = 64  of cfg_set ( EP -> RC ) = 0000000f 
+ Time = @[65140] The value of dout at Address = 0064  of cfg_get ( EP -> RC ) 
+ Actual Data :  0000000f 
+ Read/Write passed 
+ 
+
+ Time= @[65564] The  value of din  at Address = 6c  of cfg_set ( EP -> RC ) = 1a2b3c4d 
+ Time = @[65604] The value of dout at Address = 006c  of cfg_get ( EP -> RC ) 
+ Actual Data :  00010002 
+ Read/Write passed 
+ 
+
+ Time= @[66028] The  value of din  at Address = 70  of cfg_set ( EP -> RC ) = 5555eeee 
+ Time = @[66068] The value of dout at Address = 0070  of cfg_get ( EP -> RC ) 
+ Actual Data :  00000007 
+ Read/Write passed 
+ 
+
+ Total Registers = 13 	 Read/Write Passed = 13 
+
+ Endpoint READ/WRITE 
+
+
+Checking for Left over packets in TX array 
+
+[66068] TEST PASSED 
+
+[106068] Simulation DONE
+

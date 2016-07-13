@@ -1,0 +1,9 @@
+{
+	"field_test_name": "burst_rd_test",
+	"field_error": "TIMEOUT",
+	"pm_category": "TIMEOUT",
+	"field_configuration": "1024x2054",
+	"field_build_seed": "abcdef12345jjjjjj123",
+	"field_simulation_seed": "87653256",
+	"field_simulation_time": "123678666656456789"
+}

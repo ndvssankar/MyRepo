@@ -1,0 +1,216 @@
+# vsim -do vsim.do -l verilog.log -c -suppress 4029 -novopt top 
+# //  QuestaSim 6.3a Jun 25 2007 Linux 2.4.18-3smp
+# //
+# //  Copyright 1991-2007 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading sv_std.std
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.avm_pkg
+# Loading work.avm_pkg
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pex_tr_pkg
+# Loading work.pex_tr_pkg
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pex_transactor_pkg
+# Loading work.pex_transactor_pkg
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.tb_env_pkg
+# Loading work.tb_env_pkg
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.top
+# Loading work.top
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.clk_rst_if
+# Loading work.clk_rst_if
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.clock_reset
+# Loading work.clock_reset
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.bfm_if
+# Loading work.bfm_if
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pipe_if
+# Loading work.pipe_if
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.PexEp
+# Loading work.PexEp
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pcixp_ep
+# Loading work.pcixp_ep
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pcixp_tl
+# Loading work.pcixp_tl
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.tlrx
+# Loading work.tlrx
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.sfMxN
+# Loading work.sfMxN
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.xpmem
+# Loading work.xpmem
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.tltx_arb
+# Loading work.tltx_arb
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.tltx_top
+# Loading work.tltx_top
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.tltx_bridge
+# Loading work.tltx_bridge
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.tltx_router
+# Loading work.tltx_router
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.tltx_tcm
+# Loading work.tltx_tcm
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.tltx_tc
+# Loading work.tltx_tc
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.tltx_vc2tcmap
+# Loading work.tltx_vc2tcmap
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.tltx_fcm
+# Loading work.tltx_fcm
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.tltx_fc
+# Loading work.tltx_fc
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.tltx_assembler
+# Loading work.tltx_assembler
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.lcrc32
+# Loading work.lcrc32
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pcixp_dll
+# Loading work.pcixp_dll
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.dltx_assembler
+# Loading work.dltx_assembler
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.crc16
+# Loading work.crc16
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.dltx_scheduler
+# Loading work.dltx_scheduler
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.dltx_rty
+# Loading work.dltx_rty
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.dltx_retire
+# Loading work.dltx_retire
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.dltx_tlp
+# Loading work.dltx_tlp
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.dltx_dllp
+# Loading work.dltx_dllp
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.dltx_cntr
+# Loading work.dltx_cntr
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.dlrx_tlp
+# Loading work.dlrx_tlp
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.dlrx_dllp
+# Loading work.dlrx_dllp
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.dlcmsm
+# Loading work.dlcmsm
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.fcinit
+# Loading work.fcinit
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pcixp_pl
+# Loading work.pcixp_pl
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pl_ltssm
+# Loading work.pl_ltssm
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pl_det_ssm
+# Loading work.pl_det_ssm
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pl_pol_ssm
+# Loading work.pl_pol_ssm
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pl_l0s_ssm
+# Loading work.pl_l0s_ssm
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pl_dsb_ssm
+# Loading work.pl_dsb_ssm
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pl_hrst_ssm
+# Loading work.pl_hrst_ssm
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pl_cfg_ssm
+# Loading work.pl_cfg_ssm
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pl_rec_ssm
+# Loading work.pl_rec_ssm
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pl_framer
+# Loading work.pl_framer
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pl_scrm
+# Loading work.pl_scrm
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pl_descrm
+# Loading work.pl_descrm
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pl_deframer
+# Loading work.pl_deframer
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pl_data_deframer
+# Loading work.pl_data_deframer
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pl_os_deframer
+# Loading work.pl_os_deframer
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pi_cfg
+# Loading work.pi_cfg
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pi_arbiter
+# Loading work.pi_arbiter
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pipe8or16
+# Loading work.pipe8or16
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.interface_monitor
+# Loading work.interface_monitor
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pm_disp
+# Loading work.pm_disp
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pex_mem_agent
+# Loading work.pex_mem_agent
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.PexRc
+# Loading work.PexRc
+# ** Warning: (vsim-3764) ./../../../../../../tools/linux/tools.lnx86/avm/libraries/systemverilog/avm/tlm/tlm_fifos.svh(199): Stand-alone call to function 'try_put' treated as implicit void cast.
+#         Region: /avm_pkg::analysis_fifo::analysis_fifo__1
+# do vsim.do 
+# resume
+# MESSAGE @ 0: env.ep_stimulus  [avm_stimulus] rand state is MS00000069cd861dac473c3de8268579
+# MESSAGE @ 0: env.rc_stimulus  [avm_stimulus] rand state is MS0000007b7cd74d5b98764d39609729
+# ----------------------------------------------------------------
+# AVM-3.0-update-1  (C) 2005-2007 Mentor Graphics Corporation
+# ----------------------------------------------------------------
+#  
+# 
+#  Time = @[500] The value of din at Address = 5800  of reg_set ( EP -> RC ) = 00000001 
+#  
+# 
+#  Time = @[924] The value of din at Address = 5800  of reg_set ( EP -> RC ) = 00000001 
+# MESSAGE @ 924: env.ep_scoreboard [Pushing EXP Packet: ] Transaction type = MRDLK64 , pkt length =   13 , hdw0 = 2100b00d hdw1 = ff, hdw2 = abcd1234
+# MESSAGE @ 924: env.rc_scoreboard [Pushing EXP Packet: ] Transaction type = MRD32 , pkt length =    9 , hdw0 = 20b009 hdw1 = 100000f, hdw2 = 97865980
+# MESSAGE @ 48276: env.rc_scoreboard [Pushing EXP Packet: ] Transaction type = MWR32 , pkt length =   16 , hdw0 = 40308010 hdw1 = 100010f, hdw2 = 97865a54
+# MESSAGE @ 48284: env.ep_scoreboard [Pushing EXP Packet: ] Transaction type = MWR32 , pkt length =    7 , hdw0 = 40408007 hdw1 = 10f, hdw2 = 123453b8
+# MESSAGE @ 48508: env.ep_scoreboard [Pushing EXP Packet: ] Transaction type = MRDLK64 , pkt length =    0 , hdw0 = 21007000 hdw1 = 2ff, hdw2 = abcd1234
+# MESSAGE @ 48572: env.rc_scoreboard [Pushing EXP Packet: ] Transaction type = MRDLK64 , pkt length =   18 , hdw0 = 21007012 hdw1 = 10002ff, hdw2 = abcd1234
+# MESSAGE @ 48684: env.ep_scoreboard [Pushing EXP Packet: ] Transaction type = MRDLK32 , pkt length =    4 , hdw0 = 1608004 hdw1 = 30f, hdw2 = 12345ad0
+# MESSAGE @ 48748: env.rc_scoreboard [Pushing EXP Packet: ] Transaction type = MWR32 , pkt length =   19 , hdw0 = 4050b013 hdw1 = 100030f, hdw2 = 97865088
+# MESSAGE @ 48852: env.ep_scoreboard [Pushing EXP Packet: ] Transaction type = CPLD , pkt length =    4 , hdw0 = 4a204004 hdw1 = 0, hdw2 = 1000400
+# MESSAGE @ 49052: env.ep_scoreboard [Pushing EXP Packet: ] Transaction type = MWR64 , pkt length =   28 , hdw0 = 6060f01c hdw1 = 5ff, hdw2 = abcd1234
+# MESSAGE @ 49068: env.rc_scoreboard [Pushing EXP Packet: ] Transaction type = MRD64 , pkt length =   29 , hdw0 = 2030701d hdw1 = 10004ff, hdw2 = abcd1234
+# MESSAGE @ 49244: env.rc_scoreboard [Pushing EXP Packet: ] Transaction type = CPLLK , pkt length =    0 , hdw0 = b303000 hdw1 = 1000000, hdw2 = 500
+# MESSAGE @ 49376: env.ep_scoreboard [Received ACT Packet: ] Transaction type = MRDLK64 , pkt length =   13 , hdw0 = 2100b00d hdw1 = ff, hdw2 = abcd1234
+# MESSAGE @ 49376: env.ep_scoreboard [Transaction type = MRDLK64 , pkt length =   13 , hdw0 = 2100b00d hdw1 = ff, hdw2 = abcd1234] pkt trans_id matched in the queue 
+# MESSAGE @ 49376: env.ep_scoreboard [Deleting Packet at Index = : ] sb_index =           5 , match =           1
+# MESSAGE @ 49412: env.rc_scoreboard [Pushing EXP Packet: ] Transaction type = MSGD , pkt length =   26 , hdw0 = 7460001a hdw1 = 1000620, hdw2 = 0
+# MESSAGE @ 49452: env.ep_scoreboard [Pushing EXP Packet: ] Transaction type = MRD32 , pkt length =    2 , hdw0 = b002 hdw1 = 60f, hdw2 = 12345754
+# MESSAGE @ 49528: env.rc_scoreboard [Received ACT Packet: ] Transaction type = MRD32 , pkt length =    9 , hdw0 = 20b009 hdw1 = 100000f, hdw2 = 97865980
+# MESSAGE @ 49528: env.rc_scoreboard [Transaction type = MRD32 , pkt length =    9 , hdw0 = 20b009 hdw1 = 100000f, hdw2 = 97865980] pkt trans_id matched in the queue 
+# MESSAGE @ 49528: env.rc_scoreboard [Deleting Packet at Index = : ] sb_index =           6 , match =           1
+# MESSAGE @ 49620: env.ep_scoreboard [Pushing EXP Packet: ] Transaction type = MRD32 , pkt length =   13 , hdw0 = e00d hdw1 = 70f, hdw2 = 12345564
+# MESSAGE @ 49788: env.ep_scoreboard [Pushing EXP Packet: ] Transaction type = MRD64 , pkt length =    8 , hdw0 = 20604008 hdw1 = 8ff, hdw2 = abcd1234
+# MESSAGE @ 49796: env.rc_scoreboard [Pushing EXP Packet: ] Transaction type = MWR32 , pkt length =   17 , hdw0 = 4070b011 hdw1 = 100070f, hdw2 = 978651b4
+# MESSAGE @ 49964: env.ep_scoreboard [Pushing EXP Packet: ] Transaction type = CPDLK , pkt length =    7 , hdw0 = 4b70b007 hdw1 = 0, hdw2 = 1000900
+# MESSAGE @ 50100: env.rc_scoreboard [Pushing EXP Packet: ] Transaction type = MRDLK32 , pkt length =    3 , hdw0 = 1501003 hdw1 = 100080f, hdw2 = 97865e20
+# MESSAGE @ 50144: env.ep_scoreboard [Received ACT Packet: ] Transaction type = MWR32 , pkt length =    7 , hdw0 = 40408007 hdw1 = 10f, hdw2 = 123453b8
+# MESSAGE @ 50144: env.ep_scoreboard [Transaction type = MWR32 , pkt length =    7 , hdw0 = 40408007 hdw1 = 10f, hdw2 = 123453b8] pkt trans_id matched in the queue 
+# MESSAGE @ 50144: env.ep_scoreboard [Deleting Packet at Index = : ] sb_index =           8 , match =           1
+# MESSAGE @ 50188: env.ep_scoreboard [Pushing EXP Packet: ] Transaction type = CPDLK , pkt length =    5 , hdw0 = 4b00b005 hdw1 = 0, hdw2 = 1000a00
+# MESSAGE @ 50268: env.rc_scoreboard [Pushing EXP Packet: ] Transaction type = MRDLK64 , pkt length =   20 , hdw0 = 21001014 hdw1 = 10009ff, hdw2 = abcd1234
+# MESSAGE @ 50344: env.ep_scoreboard [Received ACT Packet: ] Transaction type = MRDLK32 , pkt length =    4 , hdw0 = 1608004 hdw1 = 30f, hdw2 = 12345ad0
+# MESSAGE @ 50344: env.ep_scoreboard [Transaction type = MRDLK32 , pkt length =    4 , hdw0 = 1608004 hdw1 = 30f, hdw2 = 12345ad0] pkt trans_id matched in the queue 
+# MESSAGE @ 50344: env.ep_scoreboard [Deleting Packet at Index = : ] sb_index =           7 , match =           1
+# MESSAGE @ 50396: env.ep_scoreboard [Pushing EXP Packet: ] Transaction type = MRD32 , pkt length =    1 , hdw0 = 1 hdw1 = b0f, hdw2 = 12345d48
+# MESSAGE @ 50444: env.rc_scoreboard [Pushing EXP Packet: ] Transaction type = CPLD , pkt length =    5 , hdw0 = 4a50e005 hdw1 = 1000000, hdw2 = a00
+# MESSAGE @ 50464: env.rc_scoreboard [Received ACT Packet: ] Transaction type = MWR32 , pkt length =   16 , hdw0 = 40308010 hdw1 = 100010f, hdw2 = 97865a54
+# MESSAGE @ 50464: env.rc_scoreboard [Transaction type = MWR32 , pkt length =   16 , hdw0 = 40308010 hdw1 = 100010f, hdw2 = 97865a54] pkt trans_id matched in the queue 
+# MESSAGE @ 50464: env.rc_scoreboard [Deleting Packet at Index = : ] sb_index =           9 , match =           1
+# MESSAGE @ 50564: env.ep_scoreboard [Pushing EXP Packet: ] Transaction type = CPDLK , pkt length =   11 , hdw0 = 4b20600b hdw1 = 0, hdw2 = 1000c00
+# MESSAGE @ 50648: env.ep_scoreboard [Received ACT Packet: ] Transaction type = MRDLK64 , pkt length =    0 , hdw0 = 21007000 hdw1 = 2ff, hdw2 = abcd1234
+# MESSAGE @ 50648: env.ep_scoreboard [Transaction type = MRDLK64 , pkt length =    0 , hdw0 = 21007000 hdw1 = 2ff, hdw2 = abcd1234] pkt trans_id matched in the queue 
+# MESSAGE @ 50648: env.ep_scoreboard [Deleting Packet at Index = : ] sb_index =           9 , match =           1
+# MESSAGE @ 50652: env.rc_scoreboard [Pushing EXP Packet: ] Transaction type = CPDLK , pkt length =   21 , hdw0 = 4b20c015 hdw1 = 1000000, hdw2 = b00
+# MESSAGE @ 50820: env.ep_scoreboard [Pushing EXP Packet: ] Transaction type = CPLD , pkt length =    3 , hdw0 = 4a000003 hdw1 = 0, hdw2 = 1000d00
+# MESSAGE @ 50988: env.rc_scoreboard [Pushing EXP Packet: ] Transaction type = MRDLK64 , pkt length =   23 , hdw0 = 21600017 hdw1 = 1000cff, hdw2 = abcd1234
+# MESSAGE @ 51012: env.ep_scoreboard [Pushing EXP Packet: ] Transaction type = CPLLK , pkt length =    3 , hdw0 = b60f003 hdw1 = 0, hdw2 = 1000e00
+# MESSAGE @ 51164: env.rc_scoreboard [Pushing EXP Packet: ] Transaction type = CPDLK , pkt length =    3 , hdw0 = 4b301003 hdw1 = 1000000, hdw2 = d00
+# MESSAGE @ 51180: env.ep_scoreboard [Pushing EXP Packet: ] Transaction type = CPLD , pkt length =    4 , hdw0 = 4a60f004 hdw1 = 0, hdw2 = 1000f00
+# MESSAGE @ 51352: env.rc_scoreboard [Received ACT Packet: ] Transaction type = MWR32 , pkt length =   19 , hdw0 = 4050b013 hdw1 = 100030f, hdw2 = 97865088
+# MESSAGE @ 51352: env.rc_scoreboard [Transaction type = MWR32 , pkt length =   19 , hdw0 = 4050b013 hdw1 = 100030f, hdw2 = 97865088] pkt trans_id matched in the queue 
+# MESSAGE @ 51352: env.rc_scoreboard [Deleting Packet at Index = : ] sb_index =          10 , match =           1
+# MESSAGE @ 51356: env.rc_scoreboard [Pushing EXP Packet: ] Transaction type = MWR64 , pkt length =   31 , hdw0 = 6040a01f hdw1 = 1000eff, hdw2 = abcd1234
+# MESSAGE @ 51380: env.ep_scoreboard [Pushing EXP Packet: ] Transaction type = CPDLK , pkt length =   11 , hdw0 = 4b50f00b hdw1 = 0, hdw2 = 1001000
+# MESSAGE @ 51504: env.rc_scoreboard [Received ACT Packet: ] Transaction type = MRDLK64 , pkt length =   18 , hdw0 = 21007012 hdw1 = 10002ff, hdw2 = abcd1234
+# MESSAGE @ 51504: env.rc_scoreboard [Transaction type = MRDLK64 , pkt length =   18 , hdw0 = 21007012 hdw1 = 10002ff, hdw2 = abcd1234] pkt trans_id matched in the queue 
+# MESSAGE @ 51504: env.rc_scoreboard [Deleting Packet at Index = : ] sb_index =          11 , match =           1
+# MESSAGE @ 51636: env.ep_scoreboard [Pushing EXP Packet: ] Transaction type = MRDLK32 , pkt length =   32 , hdw0 = 1305020 hdw1 = 110f, hdw2 = 123451a8
+# MESSAGE @ 51780: env.rc_scoreboard [Pushing EXP Packet: ] Transaction type = MWR64 , pkt length =   20 , hdw0 = 6030f014 hdw1 = 1000fff, hdw2 = abcd1234
+# MESSAGE @ 51804: env.ep_scoreboard [Pushing EXP Packet: ] Transaction type = MRD32 , pkt length =    0 , hdw0 = 50e000 hdw1 = 120f, hdw2 = 12345f74
+# MESSAGE @ 51972: env.ep_scoreboard [Pushing EXP Packet: ] Transaction type = MRD32 , pkt length =    8 , hdw0 = 102008 hdw1 = 130f, hdw2 = 12345480
+# MESSAGE @ 52116: env.rc_scoreboard [Pushing EXP Packet: ] Transaction type = CPLD , pkt length =   30 , hdw0 = 4a60801e hdw1 = 1000000, hdw2 = 1000
+# MESSAGE @ 52524: env.rc_scoreboard [Pushing EXP Packet: ] Transaction type = CPLD , pkt length =   28 , hdw0 = 4a70b01c hdw1 = 1000000, hdw2 = 1100
+# MESSAGE @ 52916: env.rc_scoreboard [Pushing EXP Packet: ] Transaction type = MRD32 , pkt length =   15 , hdw0 = 50a00f hdw1 = 100120f, hdw2 = 9786543c
+# MESSAGE @ 53084: env.rc_scoreboard [Pushing EXP Packet: ] Transaction type = MRD64 , pkt length =    9 , hdw0 = 20000009 hdw1 = 10013ff, hdw2 = abcd1234
+# MESSAGE @ 200924: env [terminate_when_timedout] 
+# ** Note: $finish    : ./../tb/tb_env.sv(100)
+#    Time: 200924 ns  Iteration: 0  Instance: /tb_env_pkg::tb_env::run

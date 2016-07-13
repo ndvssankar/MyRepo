@@ -1,0 +1,172 @@
+# vsim -do vsim.do -l verilog.log -c -suppress 4029 -novopt pex_tb 
+# //  QuestaSim 6.3a Jun 25 2007 Linux 2.4.18-3smp
+# //
+# //  Copyright 1991-2007 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.pex_tb
+# Loading work.pex_tb
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.PexRc
+# Loading work.PexRc
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.pcixp_rc
+# Loading work.pcixp_rc
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.pcixp_tl
+# Loading work.pcixp_tl
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.tlrx
+# Loading work.tlrx
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.sfMxN
+# Loading work.sfMxN
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.xpmem
+# Loading work.xpmem
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.tltx_arb
+# Loading work.tltx_arb
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.tltx_top
+# Loading work.tltx_top
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.tltx_bridge
+# Loading work.tltx_bridge
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.tltx_router
+# Loading work.tltx_router
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.tltx_tcm
+# Loading work.tltx_tcm
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.tltx_tc
+# Loading work.tltx_tc
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.tltx_vc2tcmap
+# Loading work.tltx_vc2tcmap
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.tltx_fcm
+# Loading work.tltx_fcm
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.tltx_fc
+# Loading work.tltx_fc
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.tltx_assembler
+# Loading work.tltx_assembler
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.lcrc32
+# Loading work.lcrc32
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.pcixp_dll
+# Loading work.pcixp_dll
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.dltx_assembler
+# Loading work.dltx_assembler
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.crc16
+# Loading work.crc16
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.dltx_scheduler
+# Loading work.dltx_scheduler
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.dltx_rty
+# Loading work.dltx_rty
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.dltx_retire
+# Loading work.dltx_retire
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.dltx_tlp
+# Loading work.dltx_tlp
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.dltx_dllp
+# Loading work.dltx_dllp
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.dltx_cntr
+# Loading work.dltx_cntr
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.dlrx_tlp
+# Loading work.dlrx_tlp
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.dlrx_dllp
+# Loading work.dlrx_dllp
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.dlcmsm
+# Loading work.dlcmsm
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.fcinit
+# Loading work.fcinit
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.pcixp_pl
+# Loading work.pcixp_pl
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.pl_ltssm
+# Loading work.pl_ltssm
+# Loading work.pl_det_ssm
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.pl_pol_ssm
+# Loading work.pl_pol_ssm
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.pl_l0s_ssm
+# Loading work.pl_l0s_ssm
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.pl_dsb_ssm
+# Loading work.pl_dsb_ssm
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.pl_hrst_ssm
+# Loading work.pl_hrst_ssm
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.pl_cfg_ssm
+# Loading work.pl_cfg_ssm
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.pl_rec_ssm
+# Loading work.pl_rec_ssm
+# Loading work.pl_framer
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.pl_scrm
+# Loading work.pl_scrm
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.pl_descrm
+# Loading work.pl_descrm
+# Loading work.pl_deframer
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.pl_data_deframer
+# Loading work.pl_data_deframer
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.pl_os_deframer
+# Loading work.pl_os_deframer
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.pi_cfg
+# Loading work.pi_cfg
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.pi_arbiter
+# Loading work.pi_arbiter
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.pipe8or16
+# Loading work.pipe8or16
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.interface_monitor
+# Loading work.interface_monitor
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.pm_disp
+# Loading work.pm_disp
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.mem_model
+# Loading work.mem_model
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.PexEp
+# Loading work.PexEp
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.pcixp_ep
+# Loading work.pcixp_ep
+# Refreshing /home/shankar/pcixp/pcixp_rev1.gold/VlogSim/run/work.pex_mem_agent
+# Loading work.pex_mem_agent
+# ** Warning: (vsim-3017) ../../rtl/top/pcixp_pl.v(1049): [TFMPC] - Too few port connections. Expected 12, found 9.
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DET_SSM
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1049): [TFMPC] - Missing connection for port 'rx_eidle'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1049): [TFMPC] - Missing connection for port 'rx_status'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1049): [TFMPC] - Missing connection for port 'set_tx_eidle'.
+# ** Warning: (vsim-3017) ../../rtl/top/pcixp_pl.v(1087): [TFMPC] - Too few port connections. Expected 24, found 23.
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_POL_SSM
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1087): [TFMPC] - Missing connection for port 'rx_eidle'.
+# ** Warning: (vsim-3017) ../../rtl/top/pcixp_pl.v(1119): [TFMPC] - Too few port connections. Expected 18, found 17.
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_L0S_SSM
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1119): [TFMPC] - Missing connection for port 'rx_eidle'.
+# ** Warning: (vsim-3017) ../../rtl/top/pcixp_pl.v(1154): [TFMPC] - Too few port connections. Expected 24, found 23.
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DSB_SSM
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1154): [TFMPC] - Missing connection for port 'rx_eidle'.
+# ** Warning: (vsim-3017) ../../rtl/top/pcixp_pl.v(1049): [TFMPC] - Too few port connections. Expected 12, found 9.
+#         Region: /pex_tb/PEX_EP_0/PCIXP_EP/PCIXP_PL/PL_DET_SSM
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1049): [TFMPC] - Missing connection for port 'rx_eidle'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1049): [TFMPC] - Missing connection for port 'rx_status'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1049): [TFMPC] - Missing connection for port 'set_tx_eidle'.
+# ** Warning: (vsim-3017) ../../rtl/top/pcixp_pl.v(1087): [TFMPC] - Too few port connections. Expected 24, found 23.
+#         Region: /pex_tb/PEX_EP_0/PCIXP_EP/PCIXP_PL/PL_POL_SSM
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1087): [TFMPC] - Missing connection for port 'rx_eidle'.
+# ** Warning: (vsim-3017) ../../rtl/top/pcixp_pl.v(1119): [TFMPC] - Too few port connections. Expected 18, found 17.
+#         Region: /pex_tb/PEX_EP_0/PCIXP_EP/PCIXP_PL/PL_L0S_SSM
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1119): [TFMPC] - Missing connection for port 'rx_eidle'.
+# ** Warning: (vsim-3017) ../../rtl/top/pcixp_pl.v(1154): [TFMPC] - Too few port connections. Expected 24, found 23.
+#         Region: /pex_tb/PEX_EP_0/PCIXP_EP/PCIXP_PL/PL_DSB_SSM
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1154): [TFMPC] - Missing connection for port 'rx_eidle'.
+# do vsim.do 
+# resume
+#  
+# 
+#  Time = @[60452] The value of din at Address = 5800  of reg_set ( EP -> RC ) = 00000000 
+#  
+# 
+#  Time = @[60876] The value of din at Address = 5800  of reg_set ( RC -> EP ) = 00000000 
+# 
+# 
+# 
+# 
+# 
+# 
+# 		 PACKETS GOING FROM EP TO RC 
+#  
+# 
+# 
+# 
+# [60876] Preparing the 32 bit MEM Packet Header hdw0: 00000001  hdw1: 0100000f hdw2: 97865000 
+# 
+# Break in Module xpmem at ../../rtl/link/link_rx/xpmem.v line 39
+# Stopped at ../../rtl/link/link_rx/xpmem.v line 39 
+# Control-C interrupt
+# 
+# MACRO ./vsim.do PAUSED at line 4

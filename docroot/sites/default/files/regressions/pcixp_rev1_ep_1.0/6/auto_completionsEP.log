@@ -1,0 +1,349 @@
+ncverilog: 04.10-p002: (c) Copyright 1995-2002 Cadence Design Systems, Inc.
+TOOL:	ncverilog	04.10-p002: Started on Apr 05, 2008 at 23:43:27
+ncverilog
+	+incdir+./../../VlogSim/include
+	+incdir+./../../include
+	+access+r
+	+define+FAST_TIMEOUTS+SINGLE_TEST+PIPE8
+	-f flist
+		../../rtl/config/pi_arbiter.v
+		../../rtl/config/pi_cfg.v
+		../../rtl/tl/tlrx.v
+		../../rtl/tl/tltx_top.v
+		../../rtl/tl/tltx_arb.v
+		../../rtl/tl/tltx_bridge.v
+		../../rtl/tl/tltx_router.v
+		../../rtl/tl/tltx_tcm.v
+		../../rtl/tl/tltx_tc.v
+		../../rtl/tl/tltx_vc2tcmap.v
+		../../rtl/tl/tltx_fcm.v
+		../../rtl/tl/tltx_fc.v
+		../../rtl/tl/tltx_assembler.v
+		../../rtl/link/link_tx/dltx_tlp.v
+		../../rtl/link/link_tx/dltx_dllp.v
+		../../rtl/link/link_tx/dltx_rty.v
+		../../rtl/link/link_tx/dltx_retire.v
+		../../rtl/link/link_tx/dltx_scheduler.v
+		../../rtl/link/link_tx/dltx_assembler.v
+		../../rtl/link/link_tx/dltx_cntr.v
+		../../rtl/link/link_rx/dlrx_dllp.v
+		../../rtl/link/link_rx/dlcmsm.v
+		../../rtl/link/link_rx/dlrx_tlp.v
+		../../rtl/link/link_rx/lcrc32.v
+		../../rtl/link/link_rx/crc16.v
+		../../rtl/link/link_rx/sfMxN.v
+		../../rtl/link/link_rx/fcinit.v
+		../../rtl/link/link_rx/xpmem.v
+		../../rtl/phy/pl_scrm.v
+		../../rtl/phy/pl_descrm.v
+		../../rtl/phy/pl_framer.v
+		../../rtl/phy/pl_data_deframer.v
+		../../rtl/phy/pl_os_deframer.v
+		../../rtl/phy/pl_deframer.v
+		../../rtl/phy/pl_det_ssm.v
+		../../rtl/phy/pl_dsb_ssm.v
+		../../rtl/phy/pl_pol_ssm.v
+		../../rtl/phy/pl_cfg_ssm.v
+		../../rtl/phy/pl_rec_ssm.v
+		../../rtl/phy/pl_hrst_ssm.v
+		../../rtl/phy/pl_l0s_ssm.v
+		../../rtl/phy/pl_ltssm.v
+		../../rtl/top/pcixp_tl.v
+		../../rtl/top/pcixp_dll.v
+		../../rtl/top/pipe8or16.v
+		../../rtl/top/pcixp_pl.v
+		../../rtl/top/pcixp_ep.v
+		../../rtl/top/pcixp_rc.v
+		../../rtl/pm/pm_interface.v
+		../../rtl/pm/pm_disp.v
+		./../tb/mem_model.v
+		./../tb/pex_mem_agent.v
+		./../tb/pex_ep.v
+		./../tb/pex_rc.v
+		./../tb/pex_tb.v
+	-l
+	verilog.log
+file: ../../rtl/config/pi_arbiter.v
+	module worklib.pi_arbiter:v (up-to-date)
+		errors: 0, warnings: 0
+file: ../../rtl/config/pi_cfg.v
+	module worklib.pi_cfg:v (up-to-date)
+		errors: 0, warnings: 0
+file: ../../rtl/tl/tlrx.v
+	module worklib.tlrx:v
+		errors: 0, warnings: 0
+file: ../../rtl/tl/tltx_top.v
+	module worklib.tltx_top:v
+		errors: 0, warnings: 0
+file: ../../rtl/tl/tltx_arb.v
+	module worklib.tltx_arb:v (up-to-date)
+		errors: 0, warnings: 0
+file: ../../rtl/tl/tltx_bridge.v
+	module worklib.tltx_bridge:v
+		errors: 0, warnings: 0
+file: ../../rtl/tl/tltx_router.v
+	module worklib.tltx_router:v
+		errors: 0, warnings: 0
+file: ../../rtl/tl/tltx_tcm.v
+	module worklib.tltx_tcm:v
+		errors: 0, warnings: 0
+file: ../../rtl/tl/tltx_tc.v
+	module worklib.tltx_tc:v
+		errors: 0, warnings: 0
+file: ../../rtl/tl/tltx_vc2tcmap.v
+	module worklib.tltx_vc2tcmap:v
+		errors: 0, warnings: 0
+file: ../../rtl/tl/tltx_fcm.v
+	module worklib.tltx_fcm:v
+		errors: 0, warnings: 0
+file: ../../rtl/tl/tltx_fc.v
+	module worklib.tltx_fc:v
+		errors: 0, warnings: 0
+file: ../../rtl/tl/tltx_assembler.v
+	module worklib.tltx_assembler:v
+		errors: 0, warnings: 0
+file: ../../rtl/link/link_tx/dltx_tlp.v
+	module worklib.dltx_tlp:v
+		errors: 0, warnings: 0
+file: ../../rtl/link/link_tx/dltx_dllp.v
+	module worklib.dltx_dllp:v (up-to-date)
+		errors: 0, warnings: 0
+file: ../../rtl/link/link_tx/dltx_rty.v
+	module worklib.dltx_rty:v
+		errors: 0, warnings: 0
+file: ../../rtl/link/link_tx/dltx_retire.v
+	module worklib.dltx_retire:v (up-to-date)
+		errors: 0, warnings: 0
+file: ../../rtl/link/link_tx/dltx_scheduler.v
+	module worklib.dltx_scheduler:v (up-to-date)
+		errors: 0, warnings: 0
+file: ../../rtl/link/link_tx/dltx_assembler.v
+	module worklib.dltx_assembler:v (up-to-date)
+		errors: 0, warnings: 0
+file: ../../rtl/link/link_tx/dltx_cntr.v
+	module worklib.dltx_cntr:v
+		errors: 0, warnings: 0
+file: ../../rtl/link/link_rx/dlrx_dllp.v
+	module worklib.dlrx_dllp:v (up-to-date)
+		errors: 0, warnings: 0
+file: ../../rtl/link/link_rx/dlcmsm.v
+	module worklib.dlcmsm:v (up-to-date)
+		errors: 0, warnings: 0
+file: ../../rtl/link/link_rx/dlrx_tlp.v
+	module worklib.dlrx_tlp:v (up-to-date)
+		errors: 0, warnings: 0
+file: ../../rtl/link/link_rx/lcrc32.v
+	module worklib.lcrc32:v (up-to-date)
+		errors: 0, warnings: 0
+file: ../../rtl/link/link_rx/crc16.v
+	module worklib.crc16:v (up-to-date)
+		errors: 0, warnings: 0
+file: ../../rtl/link/link_rx/sfMxN.v
+	module worklib.sfMxN:v (up-to-date)
+		errors: 0, warnings: 0
+file: ../../rtl/link/link_rx/fcinit.v
+	module worklib.fcinit:v (up-to-date)
+		errors: 0, warnings: 0
+file: ../../rtl/link/link_rx/xpmem.v
+	module worklib.xpmem:v (up-to-date)
+		errors: 0, warnings: 0
+file: ../../rtl/phy/pl_scrm.v
+`define  PAD   8'hF7
+                    |
+ncvlog: *W,MACRDF (./../../include/pl_defines.vh,11|20): text macro 'PAD' redefined - replaced with new definition.
+(`include file: ./../../include/pl_defines.vh line 11, file: ../../rtl/phy/pl_scrm.v line 14)
+	module worklib.pl_scrm:v (up-to-date)
+		errors: 0, warnings: 0
+file: ../../rtl/phy/pl_descrm.v
+	module worklib.pl_descrm:v (up-to-date)
+		errors: 0, warnings: 0
+file: ../../rtl/phy/pl_framer.v
+    if (fr_cur_state == FR_LIDLE and tx_pkt_first) begin
+                                   |
+ncvlog: *E,EXPRPA (../../rtl/phy/pl_framer.v,169|35): expecting a right parenthesis (')') [9.4(IEEE)].
+    if (fr_cur_state == FR_LIDLE and tx_pkt_first) begin
+                                                 |
+ncvlog: *E,EXPLPA (../../rtl/phy/pl_framer.v,169|49): expecting a left parenthesis ('(') [7.1(IEEE)].
+    if (fr_cur_state == FR_LIDLE and tx_pkt_first) begin
+                                                       |
+ncvlog: *E,EXPSMC (../../rtl/phy/pl_framer.v,169|55): expecting a semicolon (';') [7.1(IEEE)].
+      cnt <= 1;
+           |
+ncvlog: *E,EXPLPA (../../rtl/phy/pl_framer.v,170|11): expecting a left parenthesis ('(') [7.1(IEEE)].
+    end else
+      |
+ncvlog: *E,EXPENM (../../rtl/phy/pl_framer.v,171|6): expecting the keyword 'endmodule' [12.1(IEEE)].
+	module worklib.pl_framer:v
+		errors: 5, warnings: 0
+file: ../../rtl/phy/pl_data_deframer.v
+	module worklib.pl_data_deframer:v
+		errors: 0, warnings: 0
+file: ../../rtl/phy/pl_os_deframer.v
+	module worklib.pl_os_deframer:v (up-to-date)
+		errors: 0, warnings: 0
+file: ../../rtl/phy/pl_deframer.v
+            );
+            |
+ncvlog: *E,ILLPRI (../../rtl/phy/pl_deframer.v,1387|12): illegal expression primary [4.2(IEEE)].
+            );
+            |
+ncvlog: *E,EXPSMC (../../rtl/phy/pl_deframer.v,1387|12): expecting a semicolon (';') [6.1(IEEE)].
+            );
+            |
+ncvlog: *E,ILLPRI (../../rtl/phy/pl_deframer.v,1443|12): illegal expression primary [4.2(IEEE)].
+            );
+            |
+ncvlog: *E,EXPSMC (../../rtl/phy/pl_deframer.v,1443|12): expecting a semicolon (';') [6.1(IEEE)].
+            );
+            |
+ncvlog: *E,ILLPRI (../../rtl/phy/pl_deframer.v,1471|12): illegal expression primary [4.2(IEEE)].
+            );
+            |
+ncvlog: *E,EXPSMC (../../rtl/phy/pl_deframer.v,1471|12): expecting a semicolon (';') [6.1(IEEE)].
+            );
+            |
+ncvlog: *E,ILLPRI (../../rtl/phy/pl_deframer.v,1499|12): illegal expression primary [4.2(IEEE)].
+            );
+            |
+ncvlog: *E,EXPSMC (../../rtl/phy/pl_deframer.v,1499|12): expecting a semicolon (';') [6.1(IEEE)].
+            );
+            |
+ncvlog: *E,ILLPRI (../../rtl/phy/pl_deframer.v,1516|12): illegal expression primary [4.2(IEEE)].
+            );
+            |
+ncvlog: *E,EXPSMC (../../rtl/phy/pl_deframer.v,1516|12): expecting a semicolon (';') [6.1(IEEE)].
+            );
+            |
+ncvlog: *E,ILLPRI (../../rtl/phy/pl_deframer.v,1533|12): illegal expression primary [4.2(IEEE)].
+            );
+            |
+ncvlog: *E,EXPSMC (../../rtl/phy/pl_deframer.v,1533|12): expecting a semicolon (';') [6.1(IEEE)].
+            );
+            |
+ncvlog: *E,ILLPRI (../../rtl/phy/pl_deframer.v,1550|12): illegal expression primary [4.2(IEEE)].
+            );
+            |
+ncvlog: *E,EXPSMC (../../rtl/phy/pl_deframer.v,1550|12): expecting a semicolon (';') [6.1(IEEE)].
+            );
+            |
+ncvlog: *E,ILLPRI (../../rtl/phy/pl_deframer.v,1578|12): illegal expression primary [4.2(IEEE)].
+            );
+            |
+ncvlog: *E,EXPSMC (../../rtl/phy/pl_deframer.v,1578|12): expecting a semicolon (';') [6.1(IEEE)].
+            );
+            |
+ncvlog: *E,ILLPRI (../../rtl/phy/pl_deframer.v,1606|12): illegal expression primary [4.2(IEEE)].
+            );
+            |
+ncvlog: *E,EXPSMC (../../rtl/phy/pl_deframer.v,1606|12): expecting a semicolon (';') [6.1(IEEE)].
+            );
+            |
+ncvlog: *E,ILLPRI (../../rtl/phy/pl_deframer.v,1623|12): illegal expression primary [4.2(IEEE)].
+            );
+            |
+ncvlog: *E,EXPSMC (../../rtl/phy/pl_deframer.v,1623|12): expecting a semicolon (';') [6.1(IEEE)].
+            );
+            |
+ncvlog: *E,ILLPRI (../../rtl/phy/pl_deframer.v,1651|12): illegal expression primary [4.2(IEEE)].
+            );
+            |
+ncvlog: *E,EXPSMC (../../rtl/phy/pl_deframer.v,1651|12): expecting a semicolon (';') [6.1(IEEE)].
+            );
+            |
+ncvlog: *E,ILLPRI (../../rtl/phy/pl_deframer.v,1679|12): illegal expression primary [4.2(IEEE)].
+            );
+            |
+ncvlog: *E,EXPSMC (../../rtl/phy/pl_deframer.v,1679|12): expecting a semicolon (';') [6.1(IEEE)].
+            );
+            |
+ncvlog: *E,ILLPRI (../../rtl/phy/pl_deframer.v,1707|12): illegal expression primary [4.2(IEEE)].
+            );
+            |
+ncvlog: *E,EXPSMC (../../rtl/phy/pl_deframer.v,1707|12): expecting a semicolon (';') [6.1(IEEE)].
+	module worklib.pl_deframer:v
+		errors: 26, warnings: 0
+file: ../../rtl/phy/pl_det_ssm.v
+  input [(`LINK_WIDTH-1):0]    rx_eidle;  /* link receiver in electrical idle */
+                    |
+ncvlog: *E,NOTDIR (../../rtl/phy/pl_det_ssm.v,38|20): `LINK_WIDTH: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+  input [(`LINK_WIDTH*3-1):0]   rx_status;                /* from phy serdes */
+                    |
+ncvlog: *E,NOTDIR (../../rtl/phy/pl_det_ssm.v,41|20): `LINK_WIDTH: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+  input [(`LINK_WIDTH*3-1):0]   rx_status;                /* from phy serdes */
+                     |
+ncvlog: *E,ILLPRI (../../rtl/phy/pl_det_ssm.v,41|21): illegal expression primary [4.2(IEEE)].
+  output [(`LINK_WIDTH-1):0]  set_tx_eidle;                  /* set transmitter electrical idle on lanes */
+                     |
+ncvlog: *E,NOTDIR (../../rtl/phy/pl_det_ssm.v,43|21): `LINK_WIDTH: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+  reg  [(`LINK_WIDTH-1):0]	   set_tx_eidle;
+                   |
+ncvlog: *E,NOTDIR (../../rtl/phy/pl_det_ssm.v,50|19): `LINK_WIDTH: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+  reg  	   [(`LINK_WIDTH-1):0] nxt_set_tx_eidle;
+       	               |
+ncvlog: *E,NOTDIR (../../rtl/phy/pl_det_ssm.v,62|23): `LINK_WIDTH: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+	module worklib.pl_det_ssm:v
+		errors: 6, warnings: 0
+file: ../../rtl/phy/pl_dsb_ssm.v
+	module worklib.pl_dsb_ssm:v (up-to-date)
+		errors: 0, warnings: 0
+file: ../../rtl/phy/pl_pol_ssm.v
+	module worklib.pl_pol_ssm:v (up-to-date)
+		errors: 0, warnings: 0
+file: ../../rtl/phy/pl_cfg_ssm.v
+	module worklib.pl_cfg_ssm:v
+		errors: 0, warnings: 0
+file: ../../rtl/phy/pl_rec_ssm.v
+	module worklib.pl_rec_ssm:v
+		errors: 0, warnings: 0
+file: ../../rtl/phy/pl_hrst_ssm.v
+	module worklib.pl_hrst_ssm:v (up-to-date)
+		errors: 0, warnings: 0
+file: ../../rtl/phy/pl_l0s_ssm.v
+	module worklib.pl_l0s_ssm:v (up-to-date)
+		errors: 0, warnings: 0
+file: ../../rtl/phy/pl_ltssm.v
+	module worklib.pl_ltssm:v (up-to-date)
+		errors: 0, warnings: 0
+file: ../../rtl/top/pcixp_tl.v
+	module worklib.pcixp_tl:v
+		errors: 0, warnings: 0
+file: ../../rtl/top/pcixp_dll.v
+	module worklib.pcixp_dll:v
+		errors: 0, warnings: 0
+file: ../../rtl/top/pipe8or16.v
+	module worklib.pipe8or16:v (up-to-date)
+		errors: 0, warnings: 0
+file: ../../rtl/top/pcixp_pl.v
+	module worklib.pcixp_pl:v
+		errors: 0, warnings: 0
+file: ../../rtl/top/pcixp_ep.v
+	module worklib.pcixp_ep:v
+		errors: 0, warnings: 0
+file: ../../rtl/top/pcixp_rc.v
+	module worklib.pcixp_rc:v
+		errors: 0, warnings: 0
+file: ../../rtl/pm/pm_interface.v
+	module worklib.interface_monitor:v
+		errors: 0, warnings: 0
+file: ../../rtl/pm/pm_disp.v
+	module worklib.pm_disp:v
+		errors: 0, warnings: 0
+file: ./../tb/mem_model.v
+	module worklib.mem_model:v (up-to-date)
+		errors: 0, warnings: 0
+file: ./../tb/pex_mem_agent.v
+	module worklib.pex_mem_agent:v (up-to-date)
+		errors: 0, warnings: 0
+file: ./../tb/pex_ep.v
+	module worklib.PexEp:v
+		errors: 0, warnings: 0
+file: ./../tb/pex_rc.v
+	module worklib.PexRc:v
+		errors: 0, warnings: 0
+file: ./../tb/pex_tb.v
+	module worklib.pex_tb:v
+		errors: 0, warnings: 0
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+ncverilog: *E,VLGERR: Error during parsing (status 1), exiting.
+TOOL:	ncverilog	04.10-p002: Exiting on Apr 05, 2008 at 23:43:27  (total: 00:00:00)

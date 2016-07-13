@@ -1,0 +1,12 @@
+ 
+
+ Time= @[460] The  value of din  at Address = 0058  of cfg_set ( RC -> EP ) = 00000010 
+ 
+
+ Time= @[19132] The  value of din  at Address = 0058  of cfg_set ( RC -> EP ) = 00000000 
+Checking for Left over packets in TX array 
+
+[60036] TEST PASSED 
+
+[100036] Simulation DONE
+

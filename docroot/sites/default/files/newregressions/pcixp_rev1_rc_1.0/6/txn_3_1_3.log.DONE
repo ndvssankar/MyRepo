@@ -1,0 +1,245 @@
+# vsim -do vsim.do -l verilog.log -c -suppress 4029 -novopt pex_tb 
+# //  QuestaSim 6.3a Jun 25 2007 Linux 2.4.18-3smp
+# //
+# //  Copyright 1991-2007 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.pex_tb
+# Loading work.pex_tb
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.PexRc
+# Loading work.PexRc
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.pcixp_rc
+# Loading work.pcixp_rc
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.pcixp_tl
+# Loading work.pcixp_tl
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.tlrx
+# Loading work.tlrx
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.sfMxN
+# Loading work.sfMxN
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.xpmem
+# Loading work.xpmem
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.tltx_arb
+# Loading work.tltx_arb
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.tltx_top
+# Loading work.tltx_top
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.tltx_bridge
+# Loading work.tltx_bridge
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.tltx_router
+# Loading work.tltx_router
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.tltx_tcm
+# Loading work.tltx_tcm
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.tltx_tc
+# Loading work.tltx_tc
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.tltx_vc2tcmap
+# Loading work.tltx_vc2tcmap
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.tltx_fcm
+# Loading work.tltx_fcm
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.tltx_fc
+# Loading work.tltx_fc
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.tltx_assembler
+# Loading work.tltx_assembler
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.lcrc32
+# Loading work.lcrc32
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.pcixp_dll
+# Loading work.pcixp_dll
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.dltx_assembler
+# Loading work.dltx_assembler
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.crc16
+# Loading work.crc16
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.dltx_scheduler
+# Loading work.dltx_scheduler
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.dltx_rty
+# Loading work.dltx_rty
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.dltx_retire
+# Loading work.dltx_retire
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.dltx_tlp
+# Loading work.dltx_tlp
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.dltx_dllp
+# Loading work.dltx_dllp
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.dltx_cntr
+# Loading work.dltx_cntr
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.dlrx_tlp
+# Loading work.dlrx_tlp
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.dlrx_dllp
+# Loading work.dlrx_dllp
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.dlcmsm
+# Loading work.dlcmsm
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.fcinit
+# Loading work.fcinit
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.pcixp_pl
+# Loading work.pcixp_pl
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.pl_ltssm
+# Loading work.pl_ltssm
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.pl_det_ssm
+# Loading work.pl_det_ssm
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.pl_pol_ssm
+# Loading work.pl_pol_ssm
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.pl_l0s_ssm
+# Loading work.pl_l0s_ssm
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.pl_dsb_ssm
+# Loading work.pl_dsb_ssm
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.pl_hrst_ssm
+# Loading work.pl_hrst_ssm
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.pl_cfg_ssm
+# Loading work.pl_cfg_ssm
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.pl_rec_ssm
+# Loading work.pl_rec_ssm
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.pl_framer
+# Loading work.pl_framer
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.pl_scrm
+# Loading work.pl_scrm
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.pl_descrm
+# Loading work.pl_descrm
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.pl_deframer
+# Loading work.pl_deframer
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.pl_data_deframer
+# Loading work.pl_data_deframer
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.pl_os_deframer
+# Loading work.pl_os_deframer
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.pi_cfg
+# Loading work.pi_cfg
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.pi_arbiter
+# Loading work.pi_arbiter
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.pipe8or16
+# Loading work.pipe8or16
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.interface_monitor
+# Loading work.interface_monitor
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.pm_disp
+# Loading work.pm_disp
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.mem_model
+# Loading work.mem_model
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.PexEp
+# Loading work.PexEp
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.pcixp_ep
+# Loading work.pcixp_ep
+# Refreshing /home/anand/pcixp/pcixp_rev1/VlogSim/run/work.pex_mem_agent
+# Loading work.pex_mem_agent
+# do vsim.do 
+# resume
+# 
+# 
+# 
+# 
+# 
+# 
+# 		 PACKETS GOING FROM EP TO RC 
+#  
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+[60036] Preparing the MSG  Packet Header hdw0: 30000000 hdw1: 00000128 hdw2: 00000000 hdw3: 00000000 
+# 
+[60036] EP -> RC MSG INTA Packet 14: 00 Sending hdw0: 30000000 hdw1: 00000128 hdw2: 00000000 hdw3: 00000000  
+# 
+[60108] EP TX BEGIN, PKT WITH DIRECT DATA ep_tx_pkt_index 0 
+[60140] EP TX END, PKT WITH DIRECT DATA ep_tx_pkt_index 0 
+[60148] EP  Initializing ep_tx_pkt_len_array single index 0 => hlen 4 dlen 0 hlen+dlen 4
+[60148] EP  Loading EP Tx Mem  index 0 addr 0 hdw0 30000000 
+[60148] EP  Loading EP Tx Mem  index 0 addr 1 hdw1 128 
+[60148] EP  Loading EP Tx Mem  index 0 addr 2 hdw1 0 
+[60148] EP  Loading EP Tx Mem  index 0 addr 3 hdw3 0 
+[60156] Preparing the CPL  Packet Header hdw0: 0a000001 hdw1: 00002004 hdw2: 00000000 
+# 
+[60156] RC  Initializing rc_tx_pkt_len_array single index 0 => hlen 3 dlen 0 hlen+dlen 3
+[60156] RC  Loading RC Tx Mem  index 0 addr 0 hdw0 a000001 
+[60156] RC  Loading RC Tx Mem  index 0 addr 1 hdw1 2004 
+[60156] RC  Loading RC Tx Mem  index 0 addr 2 hdw1 0 
+# 
+# 
+# 
+[60164] Preparing the MSG  Packet Header hdw0: 70000001 hdw1: 00000553 hdw2: 00000000 hdw3: 00000000 
+# 
+[60164] EP -> RC MSGD SET SLOT POWER LIMIT  Packet 18: 00 Sending hdw0: 70000001 hdw1: 00000553 hdw2: 00000000 hdw3: 00000000 data: 3cc1f579  
+# 
+[60228] EP TX BEGIN, PKT WITH DIRECT DATA ep_tx_pkt_index 1 
+[60268] EP TX END, PKT WITH DIRECT DATA ep_tx_pkt_index 1 
+[60276] EP  Initializing ep_tx_pkt_len_array single index 1 => hlen 4 dlen 1 hlen+dlen 5
+[60276] EP  Loading EP Tx Mem  index 1 addr 4 hdw0 70000001 
+[60276] EP  Loading EP Tx Mem  index 1 addr 5 hdw1 553 
+[60276] EP  Loading EP Tx Mem  index 1 addr 6 hdw1 0 
+[60276] EP  Loading EP Tx Mem  index 1 addr 7 hdw3 0 
+[60276] EP  Loading EP Tx Mem  index 1 addr 8 data 579 
+[60284] Preparing the CPL  Packet Header hdw0: 0a000001 hdw1: 00002004 hdw2: 00000000 
+# 
+[60284] RC  Initializing rc_tx_pkt_len_array single index 1 => hlen 3 dlen 0 hlen+dlen 3
+[60284] RC  Loading RC Tx Mem  index 1 addr 3 hdw0 a000001 
+[60284] RC  Loading RC Tx Mem  index 1 addr 4 hdw1 2004 
+[60284] RC  Loading RC Tx Mem  index 1 addr 5 hdw1 0 
+[60944] RC  RECEIVE PKT BEGIN  rc_rx_pkt_index 0
+# 60949: pex_tb.PEX_RC.rc_rx_cmd_mem MemWr 0x30000000 @Addr = 0x000
+# 60957: pex_tb.PEX_RC.rc_rx_cmd_mem MemWr 0x00000128 @Addr = 0x001
+# 60965: pex_tb.PEX_RC.rc_rx_cmd_mem MemWr 0x00000000 @Addr = 0x002
+[60968] RC  RECEIVE PKT END  rc_rx_pkt_index 0
+# 60973: pex_tb.PEX_RC.rc_rx_cmd_mem MemWr 0x00000000 @Addr = 0x003
+[60976] INFO:  EP -> RC Packet 0 Data Compare Start! RC MEM SADR : 00000000 RC PKTLEN 00000004 
+# 
+# PKT_DIFF (RC) : HdrLen = 4
+# PKT_DIFF (RC) : Hdr[0] => Rx = 30000000, Exp = 30000000
+# PKT_DIFF (RC) : Hdr[1] => Rx = 00000128, Exp = 00000128
+# PKT_DIFF (RC) : Hdr[2] => Rx = 00000000, Exp = 00000000
+# PKT_DIFF (RC) : Header Matched
+# PKT_DIFF (RC) : PktLen => Rx = 4, Tx = 4
+[60976] EP -> RC Packet 00000000 Data Compare passed! 
+# 
+# PKT_DIFF (RC) : Matched = 1, Passed = 1
+[61888] RC  RECEIVE PKT BEGIN  rc_rx_pkt_index 1
+# 61893: pex_tb.PEX_RC.rc_rx_cmd_mem MemWr 0x70000001 @Addr = 0x004
+# 61901: pex_tb.PEX_RC.rc_rx_cmd_mem MemWr 0x00000553 @Addr = 0x005
+# 61909: pex_tb.PEX_RC.rc_rx_cmd_mem MemWr 0x00000000 @Addr = 0x006
+# 61917: pex_tb.PEX_RC.rc_rx_cmd_mem MemWr 0x00000000 @Addr = 0x007
+[61920] RC  RECEIVE PKT END  rc_rx_pkt_index 1
+# 61925: pex_tb.PEX_RC.rc_rx_cmd_mem MemWr 0x00000579 @Addr = 0x008
+[61928] INFO:  EP -> RC Packet 1 Data Compare Start! RC MEM SADR : 00000004 RC PKTLEN 00000005 
+# 
+# PKT_DIFF (RC) : HdrLen = 3
+# PKT_DIFF (RC) : Hdr[0] => Rx = 70000001, Exp = 70000001
+# PKT_DIFF (RC) : Hdr[1] => Rx = 00000553, Exp = 00000553
+# PKT_DIFF (RC) : Header Matched
+# PKT_DIFF (RC) : PktLen => Rx = 5, Tx = 5
+# PKT_DIFF (RC) : Payload[3] => Rx = 00000000, Tx = 00000000
+[61928] EP -> RC Packet 00000001 Data Compare passed! 
+# 
+# PKT_DIFF (RC) : Matched = 1, Passed = 1
+[92292] Pkt Count Mismatch RC Transmitted = 0x2  EP Received = 0x0  
+# 
+# Checking for Left over packets in TX array 
+# 
+ERROR:  RC PKT 0 NOT MATCHED 
+# 
+# INFO:  RC PKT saddr 0 pkt_len 3 
+# 
+[92292] RC Packet Length 3 
+# 
+[92292] RC Packet Header[0] = a000001 
+# 
+[92292] RC Packet Header[1] = 2004 
+# 
+[92292] RC Packet Header[2] = 0 
+# 
+ERROR:  RC PKT 1 NOT MATCHED 
+# 
+# INFO:  RC PKT saddr 3 pkt_len 3 
+# 
+[92292] RC Packet Length 3 
+# 
+[92292] RC Packet Header[0] = a000001 
+# 
+[92292] RC Packet Header[1] = 2004 
+# 
+[92292] RC Packet Header[2] = 0 
+# 
+[92292] TEST FAILED 
+# 
+[132292] Simulation DONE
+# 
+# ** Note: $finish    : ./../tb/pex_tb.v(634)
+#    Time: 133892 ns  Iteration: 0  Instance: /pex_tb

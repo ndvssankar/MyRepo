@@ -1,0 +1,177 @@
+ 
+
+ Time = @[60460] The value of din at Address = 5800  of reg_set ( EP -> RC ) = 00000001 
+ 
+
+ Time = @[60884] The value of din at Address = 5800  of reg_set ( RC -> EP ) = 00000001 
+
+		 EP Compliance Test TXN.2.2#6b 
+ 
+[60884] Preparing the 32 bit MEM Packet Header hdw0: 40000003  hdw1: 0100000f hdw2: 12345000 
+
+[60884] Loading RC TX MEM at addr 003 Data 0dad72e7 
+
+[60884] Loading RC TX MEM at addr 004 Data c749ccec 
+
+[60884] Loading RC TX MEM at addr 005 Data b7834294 
+
+[60964] RC TX BEGIN, PKT WITH DATA FROM MEM rc_tx_pkt_index 0 
+[61012] RC TX END, PKT WITH DATA FROM MEM rc_tx_pkt_index 0 
+[61020] RC  Initializing rc_tx_pkt_len_array burst index 0 => hlen 3 dlen 3 hlen+dlen 6
+[61020] RC  BURST DATA 0dad72e7 at ADDR 0002  src_or_data+i 003
+[61020] RC  BURST DATA c749ccec at ADDR 0003  src_or_data+i 004
+[61020] RC  BURST DATA b7834294 at ADDR 0004  src_or_data+i 005
+[61028] Preparing the 32 bit MEM Packet Header hdw0: 40000003  hdw1: 0100000f hdw2: 12345000 
+
+[61028] Loading RC TX MEM at addr 003 Data 7e467ecf 
+
+[61028] Loading RC TX MEM at addr 004 Data a43185b3 
+
+[61028] Loading RC TX MEM at addr 005 Data 5ddb6eb8 
+
+[61028] Loading RC TX MEM at addr 006 Data fb1438b3 
+
+[61028] Loading RC TX MEM at addr 007 Data 89bc512c 
+
+[61028] Loading RC TX MEM at addr 008 Data 3226f170 
+
+[61028] Loading RC TX MEM at addr 009 Data 564c0724 
+
+[61028] Loading RC TX MEM at addr 00a Data bf3baf4c 
+
+[61028] Loading RC TX MEM at addr 00b Data 3107150d 
+
+[61092] RC TX BEGIN, PKT WITH DATA FROM MEM rc_tx_pkt_index 1 
+[61140] RC TX END, PKT WITH DATA FROM MEM rc_tx_pkt_index 1 
+[61148] RC  Initializing rc_tx_pkt_len_array burst index 1 => hlen 3 dlen 3 hlen+dlen 6
+[61148] RC  BURST DATA 564c0724 at ADDR 0008  src_or_data+i 009
+[61148] RC  BURST DATA bf3baf4c at ADDR 0009  src_or_data+i 00a
+[61148] RC  BURST DATA 3107150d at ADDR 000a  src_or_data+i 00b
+[61156] Preparing the 32 bit MEM Packet Header hdw0: 00000003  hdw1: 010000ff hdw2: 12345000 
+
+[61156] RC -> EP MRD32 Packet 1: 00 Sending hdw0 :00000003 hdw1 :010000ff hdw2 :12345000  
+[61220] RC TX BEGIN, PKT WITH DIRECT DATA rc_tx_pkt_index 2 
+[61244] RC TX END, PKT WITH DIRECT DATA rc_tx_pkt_index 2 
+[61252] RC  Initializing rc_tx_pkt_len_array single index 2 => hlen 3 dlen 0 hlen+dlen 3
+[61252] RC  Loading RC Tx Mem  index 2 addr c hdw0 3 
+[61252] RC  Loading RC Tx Mem  index 2 addr d hdw1 10000ff 
+[61252] RC  Loading RC Tx Mem  index 2 addr e hdw2 12345000 
+[61260] Preparing the CPL  Packet Header hdw0: 4a000003 hdw1: 0100000c hdw2: 01000000 
+
+[61260] EP  Initializing ep_tx_pkt_len_array burst index 0 => hlen 3 dlen 3 hlen+dlen 6
+[61260] EP  BURST DATA 7e467ecf at ADDR 0003  sep_or_data+i 003
+[61260] EP  BURST DATA a43185b3 at ADDR 0004  sep_or_data+i 004
+[61260] EP  BURST DATA 5ddb6eb8 at ADDR 0005  sep_or_data+i 005
+
+
+
+
+
+
+
+[61332] RC TX BEGIN, PKT WITH DIRECT DATA rc_tx_pkt_index 3 
+[61356] RC TX END, PKT WITH DIRECT DATA rc_tx_pkt_index 3 
+[61364] RC  Initializing rc_tx_pkt_len_array single index 3 => hlen 3 dlen 0 hlen+dlen 3
+[61364] RC  Loading RC Tx Mem  index 3 addr f hdw0 604 
+[61364] RC  Loading RC Tx Mem  index 3 addr 10 hdw1 f 
+[61364] RC  Loading RC Tx Mem  index 3 addr 11 hdw2 40000 
+[61848] EP  RECEIVE PKT BEGIN  ep_rx_pkt_index 0
+61853: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x40000003 @Addr = 0x000
+61861: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x0100000f @Addr = 0x001
+61869: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x12345000 @Addr = 0x002
+61877: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x0dad72e7 @Addr = 0x003
+61885: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0xc749ccec @Addr = 0x004
+[61888] EP  RECEIVE PKT END  ep_rx_pkt_index 0
+61893: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0xb7834294 @Addr = 0x005
+[61896] INFO:  RC -> EP Packet 0 Data Compare Start! EP MEM SADR : 00000000 EP PKTLEN 00000006 
+
+[61896] ERROR: RC -> EP Packet DATA Mismatch! EP index: 003  ACT:  0dad72e7 RC index: 003 EXP: 7e467ecf 
+
+[61896] ERROR: RC -> EP Packet DATA Mismatch! EP index: 004  ACT:  c749ccec RC index: 004 EXP: a43185b3 
+
+[61896] ERROR:  EP Received Packet 0 Not MATCHED.  
+
+[61896] INFO:  EP Packet 0 MEM SADR : 00000000 PKTLEN 00000006 
+
+[61896] EP Packet Length 6 
+
+[61896] EP Packet Header[0] = 40000003 
+
+[61896] EP Packet Header[1] = 100000f 
+
+[61896] EP Packet Header[2] = 12345000 
+
+[61896] EP Packet DATA[0] = dad72e7 
+
+[61896] EP Packet DATA[1] = c749ccec 
+
+[61896] EP Packet DATA[2] = b7834294 
+
+[62768] EP  RECEIVE PKT BEGIN  ep_rx_pkt_index 1
+62773: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x40000001 @Addr = 0x006
+62781: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x0100000f @Addr = 0x007
+62789: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x12345000 @Addr = 0x008
+62797: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x564c0724 @Addr = 0x009
+62805: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0xbf3baf4c @Addr = 0x00a
+[62808] EP  RECEIVE PKT END  ep_rx_pkt_index 1
+62813: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x3107150d @Addr = 0x00b
+[62816] INFO:  RC -> EP Packet 1 Data Compare Start! EP MEM SADR : 00000006 EP PKTLEN 00000006 
+
+[63568] EP  RECEIVE PKT BEGIN  ep_rx_pkt_index 2
+63573: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x00000003 @Addr = 0x00c
+63581: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x010000ff @Addr = 0x00d
+[63584] EP  RECEIVE PKT END  ep_rx_pkt_index 2
+63589: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x12345000 @Addr = 0x00e
+[63592] INFO:  RC -> EP Packet 2 Data Compare Start! EP MEM SADR : 0000000c EP PKTLEN 00000003 
+
+[64464] EP  RECEIVE PKT BEGIN  ep_rx_pkt_index 3
+64469: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x00000604 @Addr = 0x00f
+64477: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x0000000f @Addr = 0x010
+[64480] EP  RECEIVE PKT END  ep_rx_pkt_index 3
+64485: pex_tb.PEX_EP_0.ep_rx_cmd_mem MemWr 0x00040000 @Addr = 0x011
+[64488] INFO:  RC -> EP Packet 3 Data Compare Start! EP MEM SADR : 0000000f EP PKTLEN 00000003 
+
+[93372] Pkt Count Mismatch EP Transmitted = 0x1  RC Received = 0x0  
+
+Checking for Left over packets in TX array 
+
+ERROR:  RC PKT 0 NOT MATCHED 
+
+INFO:  RC PKT saddr 0 pkt_len 6 
+
+[93372] RC Packet Length 6 
+
+[93372] RC Packet Header[0] = 40000003 
+
+[93372] RC Packet Header[1] = 100000f 
+
+[93372] RC Packet Header[2] = 12345000 
+
+[93372] RC Packet DATA[0] = 7e467ecf 
+
+[93372] RC Packet DATA[1] = a43185b3 
+
+[93372] RC Packet DATA[2] = 5ddb6eb8 
+
+ERROR:  EP PKT 0 NOT MATCHED 
+
+INFO:  EP PKT saddr 0 pkt_len 6 
+
+[93372] EP Packet Length 6 
+
+[93372] EP Packet Header[0] = 4a000003 
+
+[93372] EP Packet Header[1] = 100000c 
+
+[93372] EP Packet Header[2] = 1000000 
+
+[93372] EP Packet DATA[0] = 7e467ecf 
+
+[93372] EP Packet DATA[1] = a43185b3 
+
+[93372] EP Packet DATA[2] = 5ddb6eb8 
+
+[93372] TEST FAILED 
+
+[133372] Simulation DONE
+

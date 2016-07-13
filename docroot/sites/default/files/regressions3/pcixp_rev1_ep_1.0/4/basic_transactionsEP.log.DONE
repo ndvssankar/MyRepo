@@ -1,0 +1,799 @@
+# vsim -do vsim.do -l verilog.log -c -suppress 4029 -novopt pex_tb 
+# //  QuestaSim 6.3a Jun 25 2007 Linux 2.4.18-3smp
+# //
+# //  Copyright 1991-2007 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pex_tb
+# Loading work.pex_tb
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.PexRc
+# Loading work.PexRc
+# Loading work.pcixp_rc
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pcixp_tl
+# Loading work.pcixp_tl
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.tlrx
+# Loading work.tlrx
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.sfMxN
+# Loading work.sfMxN
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.xpmem
+# Loading work.xpmem
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.tltx_arb
+# Loading work.tltx_arb
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.tltx_top
+# Loading work.tltx_top
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.tltx_bridge
+# Loading work.tltx_bridge
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.tltx_router
+# Loading work.tltx_router
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.tltx_tcm
+# Loading work.tltx_tcm
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.tltx_tc
+# Loading work.tltx_tc
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.tltx_vc2tcmap
+# Loading work.tltx_vc2tcmap
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.tltx_fcm
+# Loading work.tltx_fcm
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.tltx_fc
+# Loading work.tltx_fc
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.tltx_assembler
+# Loading work.tltx_assembler
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.lcrc32
+# Loading work.lcrc32
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pcixp_dll
+# Loading work.pcixp_dll
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.dltx_assembler
+# Loading work.dltx_assembler
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.crc16
+# Loading work.crc16
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.dltx_scheduler
+# Loading work.dltx_scheduler
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.dltx_rty
+# Loading work.dltx_rty
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.dltx_retire
+# Loading work.dltx_retire
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.dltx_tlp
+# Loading work.dltx_tlp
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.dltx_dllp
+# Loading work.dltx_dllp
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.dltx_cntr
+# Loading work.dltx_cntr
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.dlrx_tlp
+# Loading work.dlrx_tlp
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.dlrx_dllp
+# Loading work.dlrx_dllp
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.dlcmsm
+# Loading work.dlcmsm
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.fcinit
+# Loading work.fcinit
+# Loading work.pcixp_pl
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pl_ltssm
+# Loading work.pl_ltssm
+# Loading work.pl_det_ssm
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pl_pol_ssm
+# Loading work.pl_pol_ssm
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pl_l1_ssm
+# Loading work.pl_l1_ssm
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pl_l0s_ssm
+# Loading work.pl_l0s_ssm
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pl_dsb_ssm
+# Loading work.pl_dsb_ssm
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pl_lpbk_ssm
+# Loading work.pl_lpbk_ssm
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pl_hrst_ssm
+# Loading work.pl_hrst_ssm
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pl_cfg_ssm
+# Loading work.pl_cfg_ssm
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pl_rec_ssm
+# Loading work.pl_rec_ssm
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pl_framer
+# Loading work.pl_framer
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pl_scrm
+# Loading work.pl_scrm
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pl_descrm
+# Loading work.pl_descrm
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pl_deframer
+# Loading work.pl_deframer
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pl_data_deframer
+# Loading work.pl_data_deframer
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pl_os_deframer
+# Loading work.pl_os_deframer
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pi_cfg
+# Loading work.pi_cfg
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pi_arbiter
+# Loading work.pi_arbiter
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pipe8or16
+# Loading work.pipe8or16
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.interface_monitor
+# Loading work.interface_monitor
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pm_disp
+# Loading work.pm_disp
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.mem_model
+# Loading work.mem_model
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.PexEp
+# Loading work.PexEp
+# Loading work.pcixp_ep
+# Refreshing /home/chandra/pcixp/pcixp_rev1/VlogSim/run/work.pex_mem_agent
+# Loading work.pex_mem_agent
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5381): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5383): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5385): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5387): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5389): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5391): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5393): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5395): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5397): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5399): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5401): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5403): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5405): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5407): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5409): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5411): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5413): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5415): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5417): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5419): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5421): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5423): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5425): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5427): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5429): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5431): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5433): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5435): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5437): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5439): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5441): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5443): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5381): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_EP_0/PCIXP_EP/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5383): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_EP_0/PCIXP_EP/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5385): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_EP_0/PCIXP_EP/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5387): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_EP_0/PCIXP_EP/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5389): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_EP_0/PCIXP_EP/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5391): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_EP_0/PCIXP_EP/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5393): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_EP_0/PCIXP_EP/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5395): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_EP_0/PCIXP_EP/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5397): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_EP_0/PCIXP_EP/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5399): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_EP_0/PCIXP_EP/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5401): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_EP_0/PCIXP_EP/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5403): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_EP_0/PCIXP_EP/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5405): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_EP_0/PCIXP_EP/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5407): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_EP_0/PCIXP_EP/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5409): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_EP_0/PCIXP_EP/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5411): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_EP_0/PCIXP_EP/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5413): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_EP_0/PCIXP_EP/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5415): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_EP_0/PCIXP_EP/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5417): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_EP_0/PCIXP_EP/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5419): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_EP_0/PCIXP_EP/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5421): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_EP_0/PCIXP_EP/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5423): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_EP_0/PCIXP_EP/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5425): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_EP_0/PCIXP_EP/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5427): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_EP_0/PCIXP_EP/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5429): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_EP_0/PCIXP_EP/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5431): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_EP_0/PCIXP_EP/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5433): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_EP_0/PCIXP_EP/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5435): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_EP_0/PCIXP_EP/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5437): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_EP_0/PCIXP_EP/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5439): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_EP_0/PCIXP_EP/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5441): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_EP_0/PCIXP_EP/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-PLI-3003) ../../rtl/phy/pl_deframer.v.wrk(5443): [TOFD] - System task or function '$L' is not defined.
+#         Region: /pex_tb/PEX_EP_0/PCIXP_EP/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-3017) ../../rtl/top/pcixp_pl.v(1025): [TFMPC] - Too few port connections. Expected 40, found 23.
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_LTSSM
+# ** Warning: (vsim-3015) ../../rtl/top/pcixp_pl.v(1025): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'rx_eidle'.
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_LTSSM
+# ** Error: (vsim-3063) ../../rtl/top/pcixp_pl.v(1025): Port 'pl_retrain_link' not found in the connected module (11th connection).
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_LTSSM
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1025): [TFMPC] - Missing connection for port 'dl_active'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1025): [TFMPC] - Missing connection for port 'directed_speed_change'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1025): [TFMPC] - Missing connection for port 'hw_auto_width_dsb'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1025): [TFMPC] - Missing connection for port 'up_configure'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1025): [TFMPC] - Missing connection for port 'dn_configure'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1025): [TFMPC] - Missing connection for port 'upconfigure_capable'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1025): [TFMPC] - Missing connection for port 'speed_capable_5gb'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1025): [TFMPC] - Missing connection for port 'max_negotiated_link_width'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1025): [TFMPC] - Missing connection for port 'negotiated_link_width'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1025): [TFMPC] - Missing connection for port 'max_link_width'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1025): [TFMPC] - Missing connection for port 'rx_eidle_inferred'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1025): [TFMPC] - Missing connection for port 'pl_trgt_data_rate'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1025): [TFMPC] - Missing connection for port 'pl_rx_data_rate'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1025): [TFMPC] - Missing connection for port 'pl_link_retrain'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1025): [TFMPC] - Missing connection for port 'stp_sdp_rcvd'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1025): [TFMPC] - Missing connection for port 'idle_to_rlock_out'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1025): [TFMPC] - Missing connection for port 'set_idle_to_rlock_out'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1025): [TFMPC] - Missing connection for port 'autonomous_change'.
+# ** Warning: (vsim-3017) ../../rtl/top/pcixp_pl.v(1090): [TFMPC] - Too few port connections. Expected 35, found 24.
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_POL_SSM
+# ** Error: (vsim-3063) ../../rtl/top/pcixp_pl.v(1090): Port 'tx_eidle_in' not found in the connected module (5th connection).
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_POL_SSM
+# ** Error: (vsim-3063) ../../rtl/top/pcixp_pl.v(1090): Port 'pl_rx_data_rate' not found in the connected module (13th connection).
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_POL_SSM
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1090): [TFMPC] - Missing connection for port 'pl_tx_compliance'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1090): [TFMPC] - Missing connection for port 'pl_tx_de_emphasis'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1090): [TFMPC] - Missing connection for port 'pl_tx_margin_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1090): [TFMPC] - Missing connection for port 'pl_tx_margin_out'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1090): [TFMPC] - Missing connection for port 'set_pl_tx_margin_out'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1090): [TFMPC] - Missing connection for port 'tx_margin'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1090): [TFMPC] - Missing connection for port 'de_emphasis'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1090): [TFMPC] - Missing connection for port 'set_tx_margin'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1090): [TFMPC] - Missing connection for port 'bk2bk_ts1_os_cmpl_cnt_8_any'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1090): [TFMPC] - Missing connection for port 'pl_trgt_data_rate'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1090): [TFMPC] - Missing connection for port 'rcvd_ts_data_rate'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1090): [TFMPC] - Missing connection for port 'pl_tx_data_rate'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1090): [TFMPC] - Missing connection for port 'snd_os_on_lanes'.
+# ** Warning: (vsim-3017) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Too few port connections. Expected 165, found 52.
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_CFG_SSM
+# ** Error: (vsim-3063) ../../rtl/top/pcixp_pl.v(1350): Port 'bk2bk_ts1_os_dsb_cnt_2_all' not found in the connected module (6th connection).
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_CFG_SSM
+# ** Error: (vsim-3063) ../../rtl/top/pcixp_pl.v(1350): Port 'ln0_snd_ts_link_num' not found in the connected module (37th connection).
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_CFG_SSM
+# ** Error: (vsim-3063) ../../rtl/top/pcixp_pl.v(1350): Port 'ln0_snd_ts_lane_num' not found in the connected module (38th connection).
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_CFG_SSM
+# ** Error: (vsim-3063) ../../rtl/top/pcixp_pl.v(1350): Port 'ln0_rcvd_ts_nfts' not found in the connected module (44th connection).
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_CFG_SSM
+# ** Error: (vsim-3063) ../../rtl/top/pcixp_pl.v(1350): Port 'dsb_scrm' not found in the connected module (48th connection).
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_CFG_SSM
+# ** Error: (vsim-3063) ../../rtl/top/pcixp_pl.v(1350): Port 'en_dsb_scrm' not found in the connected module (49th connection).
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_CFG_SSM
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'upconfigure'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'device_upconfigure_capable'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'upconfigure_capable'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'speed_capable_5gb'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'rcvd_ts_data_rate'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'idle_to_rlock_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'lane_reversal_cap'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'lanes_reversed'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'pl_link_retrain'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'autonomous_change'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'lk_bw_mgmt_status'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'autonomous_bw_status'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'set_autonomous_bw_status'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'rx_eidle'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'snd_os_on_lanes'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'snd_lk_num_on_lanes'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'snd_ln_num_on_lanes'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'changed_speed_recovery_out'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'set_changed_speed_recovery_out'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'bk2bk_ts1_os_dsb_cnt_2_any'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln1_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln2_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln3_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln4_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln5_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln6_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln7_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln8_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln9_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln10_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln11_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln12_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln13_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln14_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln15_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln16_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln17_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln18_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln19_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln20_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln21_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln22_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln23_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln24_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln25_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln26_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln27_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln28_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln29_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln30_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln31_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln1_rcvd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln2_rcvd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln3_rcvd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln4_rcvd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln5_rcvd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln6_rcvd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln7_rcvd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln8_rcvd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln9_rcvd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln10_rcvd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln11_rcvd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln12_rcvd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln13_rcvd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln14_rcvd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln15_rcvd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln16_rcvd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln17_rcvd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln18_rcvd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln19_rcvd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln20_rcvd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln21_rcvd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln22_rcvd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln23_rcvd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln24_rcvd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln25_rcvd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln26_rcvd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln27_rcvd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln28_rcvd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln29_rcvd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln30_rcvd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln31_rcvd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln1_rcvd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln2_rcvd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln3_rcvd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln4_rcvd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln5_rcvd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln6_rcvd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln7_rcvd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln8_rcvd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln9_rcvd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln10_rcvd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln11_rcvd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln12_rcvd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln13_rcvd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln14_rcvd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln15_rcvd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln16_rcvd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln17_rcvd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln18_rcvd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln19_rcvd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln20_rcvd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln21_rcvd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln22_rcvd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln23_rcvd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln24_rcvd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln25_rcvd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln26_rcvd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln27_rcvd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln28_rcvd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln29_rcvd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln30_rcvd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'ln31_rcvd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'rcvd_ts_nfts'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'exit_to_recovery'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'snd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'snd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'pl_tx_dsb_scrm'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1350): [TFMPC] - Missing connection for port 'pl_rx_dsb_scrm'.
+# ** Warning: (vsim-3017) ../../rtl/top/pcixp_pl.v(1416): [TFMPC] - Too few port connections. Expected 79, found 45.
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_REC_SSM
+# ** Error: (vsim-3063) ../../rtl/top/pcixp_pl.v(1416): Port 'pl_rx_data_rate' not found in the connected module (18th connection).
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_REC_SSM
+# ** Error: (vsim-3063) ../../rtl/top/pcixp_pl.v(1416): Port 'tx_nfts' not found in the connected module (23rd connection).
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_REC_SSM
+# ** Error: (vsim-3063) ../../rtl/top/pcixp_pl.v(1416): Port 'ln0_rcvd_ts_nfts' not found in the connected module (42nd connection).
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_REC_SSM
+# ** Error: (vsim-3063) ../../rtl/top/pcixp_pl.v(1416): Port 'snd_idle_data' not found in the connected module (44th connection).
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_REC_SSM
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1416): [TFMPC] - Missing connection for port 'pl_link_retrain'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1416): [TFMPC] - Missing connection for port 'pl_rx_data_rate_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1416): [TFMPC] - Missing connection for port 'pl_rx_data_rate_out'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1416): [TFMPC] - Missing connection for port 'set_pl_rx_data_rate_out'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1416): [TFMPC] - Missing connection for port 'rcvd_ts_data_rate'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1416): [TFMPC] - Missing connection for port 'sel_lk_ctrl_reg_de_emphasis'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1416): [TFMPC] - Missing connection for port 'directed_speed_change'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1416): [TFMPC] - Missing connection for port 'rst_directed_speed_change'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1416): [TFMPC] - Missing connection for port 'changed_speed_recovery_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1416): [TFMPC] - Missing connection for port 'autonomous_change'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1416): [TFMPC] - Missing connection for port 'autonomous_bw_status'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1416): [TFMPC] - Missing connection for port 'set_autonomous_bw_status'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1416): [TFMPC] - Missing connection for port 'changed_speed_recovery_out'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1416): [TFMPC] - Missing connection for port 'set_changed_speed_recovery_out'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1416): [TFMPC] - Missing connection for port 'sel_de_emphasis_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1416): [TFMPC] - Missing connection for port 'sel_de_emphasis_out'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1416): [TFMPC] - Missing connection for port 'idle_to_rlock_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1416): [TFMPC] - Missing connection for port 'idle_to_rlock_out'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1416): [TFMPC] - Missing connection for port 'set_idle_to_rlock_out'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1416): [TFMPC] - Missing connection for port 'pl_tx_data_rate'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1416): [TFMPC] - Missing connection for port 'pl_tx_margin'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1416): [TFMPC] - Missing connection for port 'tx_margin'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1416): [TFMPC] - Missing connection for port 'set_tx_margin'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1416): [TFMPC] - Missing connection for port 'rx_eidle'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1416): [TFMPC] - Missing connection for port 'tx_eidle_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1416): [TFMPC] - Missing connection for port 'set_tx_eidle_out'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1416): [TFMPC] - Missing connection for port 'tx_eidle_out'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1416): [TFMPC] - Missing connection for port 'rcvd_eidle_os'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1416): [TFMPC] - Missing connection for port 'rcvd_ts1_os'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1416): [TFMPC] - Missing connection for port 'rcvd_ts2_os'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1416): [TFMPC] - Missing connection for port 'snd_eidle_os'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1416): [TFMPC] - Missing connection for port 'negotiated_link_width'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1416): [TFMPC] - Missing connection for port 'max_negotiated_link_width'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1416): [TFMPC] - Missing connection for port 'bk2bk_ts2_os_cnt_8_any'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1416): [TFMPC] - Missing connection for port 'tx_nfts_2_5gb'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1416): [TFMPC] - Missing connection for port 'tx_nfts_5gb'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1416): [TFMPC] - Missing connection for port 'lk_bw_mgmt_status'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1416): [TFMPC] - Missing connection for port 'rcvd_ts_nfts'.
+# ** Warning: (vsim-3017) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Too few port connections. Expected 319, found 68.
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Error: (vsim-3063) ../../rtl/top/pcixp_pl.v(1827): Port 'bk2bk_ts1_os_dsb_cnt_2_all' not found in the connected module (16th connection).
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Error: (vsim-3063) ../../rtl/top/pcixp_pl.v(1827): Port 'ln0_tx_datak_in' not found in the connected module (41st connection).
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Error: (vsim-3063) ../../rtl/top/pcixp_pl.v(1827): Port 'ln0_rx_datak_in' not found in the connected module (43rd connection).
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Error: (vsim-3063) ../../rtl/top/pcixp_pl.v(1827): Port 'ln0_rx_val_in' not found in the connected module (44th connection).
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Error: (vsim-3063) ../../rtl/top/pcixp_pl.v(1827): Port 'ln0_rx_eidle_in' not found in the connected module (46th connection).
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Error: (vsim-3063) ../../rtl/top/pcixp_pl.v(1827): Port 'ln0_rx_eidle_out' not found in the connected module (48th connection).
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Error: (vsim-3063) ../../rtl/top/pcixp_pl.v(1827): Port 'ln0_rcvd_ts1_os' not found in the connected module (49th connection).
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Error: (vsim-3063) ../../rtl/top/pcixp_pl.v(1827): Port 'ln0_rcvd_ts2_os' not found in the connected module (50th connection).
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Error: (vsim-3063) ../../rtl/top/pcixp_pl.v(1827): Port 'ln0_rcvd_eidle_os' not found in the connected module (51st connection).
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Error: (vsim-3063) ../../rtl/top/pcixp_pl.v(1827): Port 'ln0_rcvd_skp_os' not found in the connected module (52nd connection).
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Error: (vsim-3063) ../../rtl/top/pcixp_pl.v(1827): Port 'ln0_rcvd_fts_os' not found in the connected module (53rd connection).
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Error: (vsim-3063) ../../rtl/top/pcixp_pl.v(1827): Port 'ln0_rcvd_idle_data' not found in the connected module (54th connection).
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Error: (vsim-3063) ../../rtl/top/pcixp_pl.v(1827): Port 'ln0_rcvd_nfts_data' not found in the connected module (57th connection).
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Error: (vsim-3063) ../../rtl/top/pcixp_pl.v(1827): Port 'ln0_rcvd_data_rate' not found in the connected module (58th connection).
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Error: (vsim-3063) ../../rtl/top/pcixp_pl.v(1827): Port 'ln0_rcvd_training_ctrl' not found in the connected module (59th connection).
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'speed_change_on_any_lane'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'tx_datak_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'rx_eidle_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'rx_datak_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'rx_val_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'rx_eidle_out'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'rcvd_ts1_os'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'rcvd_ts2_os'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'rcvd_eidle_os'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'rcvd_skp_os'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'rcvd_fts_os'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'rcvd_idle_data'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'rcvd_nfts_data'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'rcvd_data_rate'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'rcvd_training_ctrl'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'snd_ts_data_rate'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln1_tx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln2_tx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln3_tx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln4_tx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln5_tx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln6_tx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln7_tx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln8_tx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln9_tx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln10_tx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln11_tx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln12_tx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln13_tx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln14_tx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln15_tx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln16_tx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln17_tx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln18_tx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln19_tx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln20_tx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln21_tx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln22_tx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln23_tx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln24_tx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln25_tx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln26_tx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln27_tx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln28_tx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln29_tx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln30_tx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln31_tx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln1_rx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln2_rx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln3_rx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln4_rx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln5_rx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln6_rx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln7_rx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln8_rx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln9_rx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln10_rx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln11_rx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln12_rx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln13_rx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln14_rx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln15_rx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln16_rx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln17_rx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln18_rx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln19_rx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln20_rx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln21_rx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln22_rx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln23_rx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln24_rx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln25_rx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln26_rx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln27_rx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln28_rx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln29_rx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln30_rx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln31_rx_data_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln1_rx_status_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln2_rx_status_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln3_rx_status_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln4_rx_status_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln5_rx_status_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln6_rx_status_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln7_rx_status_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln8_rx_status_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln9_rx_status_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln10_rx_status_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln11_rx_status_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln12_rx_status_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln13_rx_status_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln14_rx_status_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln15_rx_status_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln16_rx_status_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln17_rx_status_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln18_rx_status_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln19_rx_status_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln20_rx_status_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln21_rx_status_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln22_rx_status_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln23_rx_status_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln24_rx_status_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln25_rx_status_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln26_rx_status_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln27_rx_status_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln28_rx_status_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln29_rx_status_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln30_rx_status_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln31_rx_status_in'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln1_snd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln2_snd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln3_snd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln4_snd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln5_snd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln6_snd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln7_snd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln8_snd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln9_snd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln10_snd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln11_snd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln12_snd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln13_snd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln14_snd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln15_snd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln16_snd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln17_snd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln18_snd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln19_snd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln20_snd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln21_snd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln22_snd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln23_snd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln24_snd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln25_snd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln26_snd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln27_snd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln28_snd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln29_snd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln30_snd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln31_snd_ts_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln1_snd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln2_snd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln3_snd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln4_snd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln5_snd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln6_snd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln7_snd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln8_snd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln9_snd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln10_snd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln11_snd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln12_snd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln13_snd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln14_snd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln15_snd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln16_snd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln17_snd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln18_snd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln19_snd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln20_snd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln21_snd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln22_snd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln23_snd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln24_snd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln25_snd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln26_snd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln27_snd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln28_snd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln29_snd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln30_snd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln31_snd_ts_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln1_rcvd_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln2_rcvd_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln3_rcvd_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln4_rcvd_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln5_rcvd_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln6_rcvd_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln7_rcvd_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln8_rcvd_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln9_rcvd_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln10_rcvd_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln11_rcvd_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln12_rcvd_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln13_rcvd_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln14_rcvd_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln15_rcvd_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln16_rcvd_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln17_rcvd_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln18_rcvd_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln19_rcvd_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln20_rcvd_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln21_rcvd_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln22_rcvd_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln23_rcvd_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln24_rcvd_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln25_rcvd_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln26_rcvd_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln27_rcvd_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln28_rcvd_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln29_rcvd_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln30_rcvd_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln31_rcvd_link_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln1_rcvd_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln2_rcvd_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln3_rcvd_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln4_rcvd_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln5_rcvd_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln6_rcvd_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln7_rcvd_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln8_rcvd_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln9_rcvd_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln10_rcvd_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln11_rcvd_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln12_rcvd_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln13_rcvd_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln14_rcvd_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln15_rcvd_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln16_rcvd_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln17_rcvd_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln18_rcvd_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln19_rcvd_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln20_rcvd_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln21_rcvd_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln22_rcvd_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln23_rcvd_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln24_rcvd_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln25_rcvd_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln26_rcvd_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln27_rcvd_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln28_rcvd_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln29_rcvd_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln30_rcvd_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln31_rcvd_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln1_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln2_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln3_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln4_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln5_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln6_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln7_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln8_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln9_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln10_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln11_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln12_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln13_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln14_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln15_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln16_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln17_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln18_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln19_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln20_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln21_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln22_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln23_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln24_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln25_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln26_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln27_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln28_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln29_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln30_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'ln31_pl_rx_lane_num'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'bk2bk_ts1_os_cmpl_cnt_8_any'.
+# ** Warning: (vsim-3722) ../../rtl/top/pcixp_pl.v(1827): [TFMPC] - Missing connection for port 'bk2bk_ts1_os_dsb_cnt_2_any_ldr'.
+# ** Error: (vsim-3389) ../../rtl/phy/pl_deframer.v.wrk(2481): Port 'ln1_rx_data_in' not found in the connected module (10th connection).
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER/PL_DATA_DEFRAMER
+# ** Error: (vsim-3389) ../../rtl/phy/pl_deframer.v.wrk(2481): Port 'ln1_rx_datak_in' not found in the connected module (11th connection).
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER/PL_DATA_DEFRAMER
+# ** Error: (vsim-3389) ../../rtl/phy/pl_deframer.v.wrk(2481): Port 'ln1_rx_val_in' not found in the connected module (12th connection).
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER/PL_DATA_DEFRAMER
+# ** Error: (vsim-3389) ../../rtl/phy/pl_deframer.v.wrk(2481): Port 'ln1_rx_status_in' not found in the connected module (13th connection).
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER/PL_DATA_DEFRAMER
+# ** Error: (vsim-3389) ../../rtl/phy/pl_deframer.v.wrk(2481): Port 'ln2_rx_data_in' not found in the connected module (14th connection).
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER/PL_DATA_DEFRAMER
+# ** Error: (vsim-3389) ../../rtl/phy/pl_deframer.v.wrk(2481): Port 'ln2_rx_datak_in' not found in the connected module (15th connection).
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER/PL_DATA_DEFRAMER
+# ** Error: (vsim-3389) ../../rtl/phy/pl_deframer.v.wrk(2481): Port 'ln2_rx_val_in' not found in the connected module (16th connection).
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER/PL_DATA_DEFRAMER
+# ** Error: (vsim-3389) ../../rtl/phy/pl_deframer.v.wrk(2481): Port 'ln2_rx_status_in' not found in the connected module (17th connection).
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER/PL_DATA_DEFRAMER
+# ** Error: (vsim-3389) ../../rtl/phy/pl_deframer.v.wrk(2481): Port 'ln3_rx_data_in' not found in the connected module (18th connection).
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER/PL_DATA_DEFRAMER
+# ** Error: (vsim-3389) ../../rtl/phy/pl_deframer.v.wrk(2481): Port 'ln3_rx_datak_in' not found in the connected module (19th connection).
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER/PL_DATA_DEFRAMER
+# ** Error: (vsim-3389) ../../rtl/phy/pl_deframer.v.wrk(2481): Port 'ln3_rx_val_in' not found in the connected module (20th connection).
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER/PL_DATA_DEFRAMER
+# ** Error: (vsim-3389) ../../rtl/phy/pl_deframer.v.wrk(2481): Port 'ln3_rx_status_in' not found in the connected module (21st connection).
+#         Region: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER/PL_DATA_DEFRAMER
+# ** Fatal: (vsim-3365) ../../rtl/phy/pl_deframer.v.wrk(2481): Too many port connections. Expected 16, found 28.
+#    Time: 0 ns  Iteration: 0  Instance: /pex_tb/PEX_RC/PCIXP_RC/PCIXP_PL/PL_DEFRAMER/PL_DATA_DEFRAMER File: ../../rtl/phy/pl_data_deframer.v
+# FATAL ERROR while loading design
+ERror loading design

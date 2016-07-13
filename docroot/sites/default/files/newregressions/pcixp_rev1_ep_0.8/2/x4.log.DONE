@@ -1,0 +1,158 @@
+# vsim -do vsim.do -l verilog.log -c -suppress 4029 -novopt top 
+# //  QuestaSim 6.3a Jun 25 2007 Linux 2.4.18-3smp
+# //
+# //  Copyright 1991-2007 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading sv_std.std
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.avm_pkg
+# Loading work.avm_pkg
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pex_tr_pkg
+# Loading work.pex_tr_pkg
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pex_transactor_pkg
+# Loading work.pex_transactor_pkg
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.tb_env_pkg
+# Loading work.tb_env_pkg
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.top
+# Loading work.top
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.clk_rst_if
+# Loading work.clk_rst_if
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.clock_reset
+# Loading work.clock_reset
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.bfm_if
+# Loading work.bfm_if
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pipe_if
+# Loading work.pipe_if
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.PexEp
+# Loading work.PexEp
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pcixp_ep
+# Loading work.pcixp_ep
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pcixp_tl
+# Loading work.pcixp_tl
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.tlrx
+# Loading work.tlrx
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.sfMxN
+# Loading work.sfMxN
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.xpmem
+# Loading work.xpmem
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.tltx_arb
+# Loading work.tltx_arb
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.tltx_top
+# Loading work.tltx_top
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.tltx_bridge
+# Loading work.tltx_bridge
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.tltx_router
+# Loading work.tltx_router
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.tltx_tcm
+# Loading work.tltx_tcm
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.tltx_tc
+# Loading work.tltx_tc
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.tltx_vc2tcmap
+# Loading work.tltx_vc2tcmap
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.tltx_fcm
+# Loading work.tltx_fcm
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.tltx_fc
+# Loading work.tltx_fc
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.tltx_assembler
+# Loading work.tltx_assembler
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.lcrc32
+# Loading work.lcrc32
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pcixp_dll
+# Loading work.pcixp_dll
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.dltx_assembler
+# Loading work.dltx_assembler
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.crc16
+# Loading work.crc16
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.dltx_scheduler
+# Loading work.dltx_scheduler
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.dltx_rty
+# Loading work.dltx_rty
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.dltx_retire
+# Loading work.dltx_retire
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.dltx_tlp
+# Loading work.dltx_tlp
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.dltx_dllp
+# Loading work.dltx_dllp
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.dltx_cntr
+# Loading work.dltx_cntr
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.dlrx_tlp
+# Loading work.dlrx_tlp
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.dlrx_dllp
+# Loading work.dlrx_dllp
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.dlcmsm
+# Loading work.dlcmsm
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.fcinit
+# Loading work.fcinit
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pcixp_pl
+# Loading work.pcixp_pl
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pl_ltssm
+# Loading work.pl_ltssm
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pl_det_ssm
+# Loading work.pl_det_ssm
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pl_pol_ssm
+# Loading work.pl_pol_ssm
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pl_l0s_ssm
+# Loading work.pl_l0s_ssm
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pl_dsb_ssm
+# Loading work.pl_dsb_ssm
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pl_hrst_ssm
+# Loading work.pl_hrst_ssm
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pl_cfg_ssm
+# Loading work.pl_cfg_ssm
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pl_rec_ssm
+# Loading work.pl_rec_ssm
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pl_framer
+# Loading work.pl_framer
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pl_scrm
+# Loading work.pl_scrm
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pl_descrm
+# Loading work.pl_descrm
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pl_deframer
+# Loading work.pl_deframer
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pl_data_deframer
+# Loading work.pl_data_deframer
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pl_os_deframer
+# Loading work.pl_os_deframer
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pi_cfg
+# Loading work.pi_cfg
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pi_arbiter
+# Loading work.pi_arbiter
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pipe8or16
+# Loading work.pipe8or16
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.interface_monitor
+# Loading work.interface_monitor
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pm_disp
+# Loading work.pm_disp
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.pex_mem_agent
+# Loading work.pex_mem_agent
+# Refreshing /home/chandra/pcixp08/pcixp/SysVlogSim/run/work.PexRc
+# Loading work.PexRc
+# ** Warning: (vsim-3764) ./../../../../../../tools/linux/tools.lnx86/avm/libraries/systemverilog/avm/tlm/tlm_fifos.svh(199): Stand-alone call to function 'try_put' treated as implicit void cast.
+#         Region: /avm_pkg::analysis_fifo::analysis_fifo__1
+# do vsim.do 
+# resume
+# MESSAGE @ 0: env.ep_stimulus  [avm_stimulus] rand state is MS00000069cd861dac473c3de8268579
+# MESSAGE @ 0: env.rc_stimulus  [avm_stimulus] rand state is MS0000007b7cd74d5b98764d39609729
+# ----------------------------------------------------------------
+# AVM-3.0-update-1  (C) 2005-2007 Mentor Graphics Corporation
+# ----------------------------------------------------------------
+#  
+# 
+#  Time = @[500] The value of din at Address = 5800  of reg_set ( EP -> RC ) = 00000001 
+#  
+# 
+#  Time = @[924] The value of din at Address = 5800  of reg_set ( EP -> RC ) = 00000001 
+# MESSAGE @ 924: env.ep_scoreboard [Pushing EXP Packet: ] Transaction type = MRDLK64 , pkt length =   13 , hdw0 = 2100b00d hdw1 = ff, hdw2 = abcd1234
+# MESSAGE @ 924: env.rc_scoreboard [Pushing EXP Packet: ] Transaction type = MRD32 , pkt length =    9 , hdw0 = 20b009 hdw1 = 100000f, hdw2 = 97865980
+# Warning 8980: top.PEX_RC.PCIXP_RC.PCIXP_DLL.u_DLTX_DLLP.u_MISC_BUF POP when EMPTY
+# Warning 8980: top.PEX_EP0.PCIXP_EP.PCIXP_DLL.u_DLTX_DLLP.u_MISC_BUF POP when EMPTY
+# Warning 9084: top.PEX_RC.PCIXP_RC.PCIXP_DLL.u_DLTX_DLLP.u_MISC_BUF POP when EMPTY
+# Warning 9084: top.PEX_EP0.PCIXP_EP.PCIXP_DLL.u_DLTX_DLLP.u_MISC_BUF POP when EMPTY
+# MESSAGE @ 200924: env [terminate_when_timedout] 
+# ** Note: $finish    : ./../tb/tb_env.sv(100)
+#    Time: 200924 ns  Iteration: 0  Instance: /tb_env_pkg::tb_env::run
